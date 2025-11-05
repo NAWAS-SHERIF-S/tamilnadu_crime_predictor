@@ -1,0 +1,1001 @@
+district,area_type,latitude,longitude,crime_type,month,day_of_week,time_of_day,population_density,unemployment_rate,literacy_rate,poverty_index,police_station_count,cctv_density,past_crime_rate,weather,festival_period,age_group,gender_ratio,road_density,education_index,internet_penetration,alcohol_availability,transport_access,public_event
+Dindigul,Semi-Urban,8.5545,76.4057,Theft,2,Friday,Night,318,12.44,80.27,0.438,2,6,1.14,Rainy,0,46-60,0.992,3.81,0.803,37.55,0.22,0.864,0
+Krishnagiri,Semi-Urban,11.4671,78.0743,Assault,6,Friday,Evening,635,14.92,67.8,0.787,6,11,2.07,Cloudy,0,26-35,0.922,2.45,0.678,52.87,0.623,0.919,1
+Virudhunagar,Semi-Urban,8.8308,76.548,Traffic Violation,7,Saturday,Afternoon,719,11.07,77.5,0.162,7,12,3.52,Cloudy,0,36-45,1.074,4.8,0.775,43.03,0.669,0.653,0
+Tirunelveli,Rural,8.1423,76.9276,Domestic Violence,3,Thursday,Night,685,7.77,75.75,0.609,6,9,7.29,Cloudy,0,36-45,1.028,1.87,0.758,61.58,0.404,0.817,1
+Coimbatore,Semi-Urban,12.8003,77.9019,Vandalism,4,Friday,Evening,1883,7.54,91.9,0.254,19,21,1.64,Hot,1,36-45,1.049,2.27,0.919,88.4,0.8,0.443,0
+Madurai,Semi-Urban,11.0132,77.1555,Property Crime,7,Tuesday,Night,1163,5.87,92.48,0.504,8,37,6.74,Cloudy,0,36-45,0.959,3.27,0.925,77.21,0.478,0.621,1
+Sivaganga,Rural,8.8563,79.5353,Burglary,4,Friday,Morning,247,14.64,82.58,0.226,4,6,1.55,Rainy,1,36-45,0.996,3.49,0.826,37.05,0.441,0.872,0
+Chennai,Urban,11.7089,79.4887,Cybercrime,1,Saturday,Afternoon,1417,6.08,94.1,0.586,8,29,7.48,Cloudy,0,36-45,1.008,2.9,0.941,88.25,0.424,0.331,1
+Madurai,Urban,12.6891,79.6436,Assault,1,Saturday,Night,1033,5.23,85.31,0.267,19,40,3.82,Rainy,0,36-45,0.904,4.51,0.853,73.4,0.575,0.723,1
+Tirunelveli,Rural,8.5061,76.0247,Theft,12,Thursday,Afternoon,512,6.78,65.15,0.604,3,9,2.4,Cloudy,1,26-35,0.952,3.11,0.651,47.09,0.866,0.328,0
+Namakkal,Rural,8.3571,79.089,Cybercrime,1,Wednesday,Evening,517,7.6,71.67,0.616,8,14,5.41,Hot,0,60+,0.976,3.41,0.717,38.1,0.605,0.754,0
+Coimbatore,Urban,8.6639,79.9917,Fraud,5,Wednesday,Morning,942,3.8,86.33,0.326,11,30,6.36,Cloudy,0,36-45,0.935,1.62,0.863,71.75,0.41,0.858,0
+Vellore,Rural,12.8351,80.0489,Traffic Violation,8,Friday,Afternoon,628,6.74,68.36,0.305,4,7,7.7,Hot,0,46-60,1.024,0.83,0.684,66.27,0.371,0.406,0
+Thoothukudi,Semi-Urban,11.1081,79.6643,Fraud,4,Thursday,Afternoon,221,6.04,79.37,0.386,5,12,2.11,Sunny,1,46-60,0.938,1.5,0.794,47.94,0.398,0.338,1
+Karur,Rural,12.3529,79.0713,Theft,7,Thursday,Night,557,12.94,72.2,0.404,8,7,1.63,Rainy,0,18-25,1.021,0.67,0.722,62.7,0.334,0.426,0
+Dindigul,Semi-Urban,12.0424,79.2226,Theft,5,Sunday,Night,654,7.08,78.02,0.286,6,9,3.92,Hot,0,18-25,1.051,0.67,0.78,54.56,0.466,0.408,0
+Erode,Rural,8.2975,79.8835,Domestic Violence,2,Friday,Afternoon,512,13.14,69.12,0.268,7,10,4.21,Hot,0,46-60,0.973,3.2,0.691,38.33,0.58,0.869,1
+Sivaganga,Rural,13.1831,76.0974,Assault,2,Monday,Night,400,11.25,78.38,0.366,2,8,2.0,Rainy,0,46-60,0.944,3.31,0.784,36.33,0.448,0.497,1
+Krishnagiri,Urban,11.3853,76.7764,Cybercrime,2,Tuesday,Afternoon,703,7.43,75.17,0.315,3,6,4.99,Hot,0,60+,0.924,4.92,0.752,52.15,0.368,0.68,1
+Tirunelveli,Rural,12.2034,80.3353,Cybercrime,10,Thursday,Night,756,8.39,66.63,0.385,3,6,4.36,Hot,1,60+,0.916,2.55,0.666,63.31,0.377,0.311,1
+Tiruvannamalai,Rural,11.0069,79.8207,Cybercrime,12,Wednesday,Evening,351,7.97,74.2,0.224,2,7,3.99,Sunny,1,46-60,0.929,4.42,0.742,59.67,0.799,0.396,1
+Thoothukudi,Rural,11.711,77.0821,Assault,5,Sunday,Morning,383,9.19,79.45,0.312,8,4,1.9,Sunny,0,46-60,1.099,1.87,0.795,35.17,0.502,0.617,1
+Coimbatore,Semi-Urban,13.1388,79.489,Vandalism,8,Thursday,Morning,827,6.41,88.9,0.537,16,40,2.02,Cloudy,0,18-25,1.047,3.1,0.889,79.51,0.789,0.379,0
+Villupuram,Rural,9.6151,78.6215,Property Crime,2,Sunday,Afternoon,418,10.76,82.88,0.583,7,5,6.1,Rainy,0,36-45,0.962,1.83,0.829,30.53,0.613,0.597,0
+Tirunelveli,Rural,11.6677,77.0587,Assault,1,Saturday,Afternoon,717,9.16,78.78,0.716,6,11,2.04,Cloudy,0,18-25,1.028,1.27,0.788,67.55,0.761,0.909,1
+Namakkal,Semi-Urban,10.4859,79.8568,Fraud,7,Sunday,Morning,425,5.46,76.98,0.713,7,10,4.54,Hot,0,60+,0.95,1.61,0.77,61.83,0.463,0.682,1
+Krishnagiri,Rural,10.9846,76.7639,Domestic Violence,3,Sunday,Afternoon,337,9.89,73.35,0.729,3,9,1.44,Sunny,0,60+,0.977,1.91,0.733,66.58,0.764,0.422,0
+Thanjavur,Rural,8.0838,77.6239,Theft,4,Thursday,Afternoon,573,13.21,77.56,0.73,3,9,7.71,Sunny,1,18-25,0.962,3.19,0.776,60.95,0.757,0.611,0
+Krishnagiri,Rural,10.1967,76.2658,Property Crime,10,Tuesday,Afternoon,752,9.37,78.36,0.306,3,13,6.16,Hot,1,26-35,1.055,0.74,0.784,30.52,0.322,0.794,1
+Kanchipuram,Semi-Urban,10.2617,78.7793,Drug Offense,7,Wednesday,Evening,779,8.54,73.33,0.521,2,10,5.66,Sunny,0,26-35,1.082,2.05,0.733,59.75,0.61,0.882,0
+Sivaganga,Rural,8.1113,78.5104,Theft,5,Thursday,Morning,619,13.57,70.33,0.332,5,10,2.69,Sunny,0,46-60,0.943,2.95,0.703,51.64,0.373,0.334,1
+Tirunelveli,Rural,9.7267,79.298,Fraud,3,Friday,Afternoon,463,6.11,75.68,0.204,4,11,7.34,Sunny,0,18-25,0.981,4.75,0.757,68.19,0.297,0.787,0
+Virudhunagar,Rural,8.8409,77.217,Drug Offense,1,Saturday,Afternoon,634,7.81,73.57,0.495,8,4,7.87,Sunny,0,18-25,0.917,4.92,0.736,35.61,0.458,0.501,1
+Tiruvannamalai,Semi-Urban,10.1681,78.762,Burglary,3,Saturday,Night,355,13.3,71.97,0.742,8,3,4.14,Hot,0,60+,0.959,2.45,0.72,64.85,0.437,0.917,1
+Thoothukudi,Rural,12.0657,76.3693,Theft,7,Tuesday,Night,295,10.26,81.18,0.657,4,6,5.1,Sunny,0,60+,0.998,5.0,0.812,36.73,0.459,0.47,1
+Krishnagiri,Rural,10.7375,80.1899,Burglary,8,Saturday,Evening,668,5.09,68.58,0.392,4,4,6.09,Sunny,0,36-45,1.021,4.36,0.686,35.39,0.863,0.713,1
+Tiruvannamalai,Semi-Urban,8.985,80.0074,Fraud,9,Thursday,Evening,781,12.89,74.06,0.57,2,11,5.89,Cloudy,0,26-35,0.916,1.55,0.741,32.41,0.65,0.707,1
+Cuddalore,Rural,11.098,79.9017,Burglary,11,Saturday,Morning,644,9.62,76.28,0.569,2,9,2.93,Cloudy,1,46-60,0.916,3.97,0.763,37.01,0.773,0.732,0
+Dharmapuri,Rural,9.4397,77.7776,Theft,9,Friday,Afternoon,231,11.28,72.86,0.418,5,5,7.74,Rainy,0,46-60,1.033,2.71,0.729,30.06,0.849,0.884,1
+Vellore,Rural,9.1663,79.9785,Traffic Violation,11,Friday,Afternoon,270,9.79,72.13,0.286,5,9,4.97,Sunny,1,26-35,0.972,2.55,0.721,45.01,0.61,0.445,0
+Coimbatore,Semi-Urban,11.19,77.4469,Vandalism,3,Monday,Evening,1038,4.34,93.0,0.75,8,25,1.11,Hot,0,60+,0.961,1.42,0.93,79.27,0.621,0.447,1
+Vellore,Urban,11.7167,80.2288,Domestic Violence,11,Friday,Night,279,9.25,67.27,0.2,8,5,5.74,Hot,1,60+,0.99,3.04,0.673,51.22,0.859,0.582,1
+Virudhunagar,Rural,12.5072,79.8476,Drug Offense,5,Thursday,Morning,408,6.2,69.68,0.711,4,2,3.55,Sunny,0,26-35,0.96,3.75,0.697,66.01,0.716,0.723,0
+Virudhunagar,Rural,8.0479,77.8521,Property Crime,1,Monday,Evening,417,14.06,68.26,0.757,3,14,2.66,Hot,0,36-45,1.036,3.13,0.683,66.37,0.623,0.348,1
+Villupuram,Rural,10.8322,79.1401,Traffic Violation,3,Wednesday,Morning,594,10.12,70.29,0.335,7,7,4.35,Hot,0,36-45,1.001,2.24,0.703,64.18,0.393,0.41,1
+Chennai,Semi-Urban,11.083,76.9696,Traffic Violation,5,Thursday,Night,1714,6.59,89.05,0.279,15,30,7.49,Sunny,0,26-35,0.954,4.26,0.891,86.82,0.899,0.639,0
+Tirunelveli,Semi-Urban,12.568,76.2047,Traffic Violation,6,Saturday,Evening,576,5.96,84.78,0.571,6,14,3.15,Rainy,0,46-60,1.079,3.94,0.848,44.95,0.82,0.605,1
+Tirunelveli,Semi-Urban,11.8975,78.351,Burglary,7,Saturday,Night,460,9.82,75.18,0.458,6,14,4.55,Hot,0,18-25,0.926,1.6,0.752,45.26,0.331,0.801,1
+Kanchipuram,Rural,8.9119,76.0469,Assault,2,Thursday,Afternoon,775,5.26,81.97,0.168,5,10,0.61,Rainy,0,36-45,0.926,1.29,0.82,52.58,0.615,0.336,1
+Villupuram,Rural,8.115,77.404,Theft,12,Saturday,Night,275,9.63,78.21,0.716,2,2,4.5,Sunny,1,26-35,0.928,1.49,0.782,47.39,0.522,0.422,1
+Dindigul,Rural,13.3396,76.7106,Burglary,4,Monday,Night,397,7.5,84.66,0.595,7,7,4.46,Cloudy,1,60+,1.043,3.92,0.847,36.23,0.79,0.614,0
+Dharmapuri,Semi-Urban,8.4453,79.0406,Traffic Violation,10,Thursday,Night,502,6.72,79.99,0.292,2,13,1.3,Sunny,1,60+,1.011,1.6,0.8,40.13,0.22,0.433,1
+Tiruvannamalai,Rural,12.3326,78.6576,Burglary,1,Wednesday,Morning,755,7.29,67.38,0.731,6,9,1.42,Rainy,0,36-45,1.056,1.64,0.674,49.65,0.651,0.771,1
+Kanchipuram,Rural,11.9583,76.1789,Burglary,5,Saturday,Night,692,13.26,76.52,0.651,5,11,6.8,Hot,0,26-35,1.05,3.72,0.765,66.27,0.609,0.853,1
+Tirunelveli,Rural,13.2456,77.3045,Assault,12,Sunday,Morning,475,10.28,79.04,0.386,2,6,1.43,Sunny,1,60+,1.094,2.77,0.79,43.36,0.883,0.465,0
+Madurai,Urban,8.4304,77.1962,Fraud,9,Wednesday,Afternoon,1127,3.7,85.05,0.174,22,16,5.35,Rainy,0,26-35,1.051,3.74,0.85,79.44,0.331,0.644,0
+Kanchipuram,Rural,9.829,76.4096,Traffic Violation,12,Monday,Afternoon,402,12.44,69.8,0.616,6,14,3.5,Hot,1,60+,1.018,3.81,0.698,67.83,0.387,0.76,1
+Tiruvannamalai,Semi-Urban,11.4531,79.2325,Drug Offense,12,Saturday,Night,236,5.14,83.18,0.126,5,7,6.64,Cloudy,1,26-35,0.996,4.27,0.832,51.04,0.28,0.462,0
+Thoothukudi,Rural,10.8257,79.3007,Cybercrime,12,Tuesday,Night,504,11.3,77.79,0.228,4,13,5.0,Rainy,1,18-25,1.054,4.41,0.778,37.04,0.345,0.749,0
+Coimbatore,Urban,9.1336,77.0431,Cybercrime,3,Wednesday,Afternoon,1664,6.87,92.28,0.318,13,19,7.94,Cloudy,0,26-35,1.022,3.78,0.923,82.78,0.533,0.879,0
+Cuddalore,Rural,8.1888,78.8286,Domestic Violence,1,Saturday,Afternoon,601,6.82,84.38,0.599,5,14,3.4,Rainy,0,26-35,0.973,1.85,0.844,65.24,0.818,0.381,0
+Kanchipuram,Urban,11.1987,80.2369,Theft,5,Sunday,Morning,671,5.29,82.43,0.454,8,4,7.56,Rainy,0,18-25,1.093,1.05,0.824,41.98,0.467,0.418,0
+Karur,Rural,8.9022,78.6735,Burglary,1,Friday,Night,287,10.29,70.22,0.123,4,4,3.96,Rainy,0,46-60,1.029,3.26,0.702,33.8,0.526,0.713,1
+Cuddalore,Rural,11.0959,76.6321,Vandalism,8,Wednesday,Night,273,8.56,81.87,0.529,5,3,7.4,Hot,0,60+,1.02,3.6,0.819,45.77,0.756,0.885,0
+Sivaganga,Semi-Urban,9.1503,76.4765,Fraud,8,Sunday,Evening,232,6.1,68.27,0.752,6,14,7.84,Sunny,0,26-35,1.077,2.67,0.683,65.75,0.232,0.946,0
+Vellore,Semi-Urban,9.5265,79.449,Cybercrime,6,Tuesday,Evening,276,7.33,70.32,0.271,8,2,6.05,Hot,0,36-45,0.952,1.02,0.703,57.29,0.864,0.586,1
+Madurai,Semi-Urban,9.313,77.5448,Drug Offense,1,Saturday,Morning,977,7.23,91.51,0.678,21,33,3.48,Sunny,0,18-25,0.915,4.49,0.915,70.7,0.855,0.645,0
+Madurai,Urban,9.1941,78.0206,Drug Offense,1,Friday,Afternoon,1322,4.37,86.53,0.185,24,23,5.59,Cloudy,0,60+,1.006,1.77,0.865,76.7,0.548,0.898,1
+Thoothukudi,Semi-Urban,13.2692,77.3591,Theft,7,Thursday,Night,269,5.91,67.77,0.66,6,9,7.56,Cloudy,0,26-35,0.987,2.14,0.678,37.11,0.813,0.306,0
+Tiruvannamalai,Semi-Urban,10.5015,77.5794,Property Crime,3,Wednesday,Night,517,8.9,75.94,0.497,4,11,6.05,Sunny,0,36-45,0.949,0.79,0.759,42.12,0.422,0.764,0
+Namakkal,Semi-Urban,8.2627,76.9075,Fraud,3,Tuesday,Afternoon,748,15.0,81.44,0.382,6,14,5.11,Rainy,0,26-35,1.045,0.75,0.814,42.82,0.708,0.305,0
+Thoothukudi,Rural,9.6877,76.4473,Theft,12,Saturday,Evening,340,10.35,76.89,0.752,6,5,2.72,Hot,1,36-45,0.902,2.05,0.769,62.01,0.578,0.703,0
+Villupuram,Rural,9.2644,78.6237,Theft,2,Tuesday,Morning,617,8.24,84.83,0.329,3,13,7.95,Rainy,0,18-25,0.989,1.76,0.848,52.3,0.641,0.857,1
+Dharmapuri,Rural,8.542,78.8961,Theft,12,Wednesday,Night,425,12.35,67.91,0.416,3,4,4.95,Sunny,1,46-60,0.926,0.73,0.679,58.23,0.83,0.622,0
+Virudhunagar,Rural,8.8512,77.8884,Theft,4,Monday,Evening,649,12.16,71.92,0.331,2,11,1.74,Rainy,1,60+,0.966,3.95,0.719,36.94,0.441,0.669,0
+Erode,Rural,8.5338,76.3179,Assault,2,Sunday,Evening,415,9.76,76.51,0.349,5,7,2.92,Rainy,0,46-60,0.931,3.5,0.765,38.73,0.263,0.519,1
+Madurai,Urban,10.3839,76.3775,Burglary,6,Thursday,Evening,1732,4.39,93.97,0.272,24,25,4.62,Hot,0,26-35,0.921,1.64,0.94,81.38,0.42,0.823,1
+Sivaganga,Semi-Urban,11.4976,77.9223,Theft,6,Monday,Morning,227,8.95,72.78,0.385,8,13,1.25,Rainy,0,18-25,0.92,1.06,0.728,34.54,0.568,0.892,1
+Thanjavur,Rural,10.2484,77.716,Assault,5,Thursday,Morning,550,8.86,81.15,0.472,8,4,1.49,Cloudy,0,60+,1.078,1.62,0.811,32.01,0.869,0.802,0
+Cuddalore,Rural,12.9494,78.0181,Assault,7,Wednesday,Night,656,9.14,78.48,0.795,8,8,7.72,Hot,0,60+,0.996,4.52,0.785,50.73,0.527,0.424,1
+Cuddalore,Rural,10.6901,76.3358,Vandalism,9,Friday,Morning,400,12.25,82.23,0.402,4,13,5.62,Cloudy,0,60+,0.953,3.71,0.822,58.97,0.863,0.755,0
+Coimbatore,Urban,10.8168,76.1619,Burglary,10,Monday,Afternoon,1993,5.67,88.65,0.578,24,29,0.69,Rainy,1,60+,0.92,2.56,0.886,86.72,0.384,0.856,1
+Thoothukudi,Rural,8.459,80.1368,Property Crime,8,Wednesday,Night,544,9.58,75.42,0.57,7,14,4.42,Sunny,0,60+,0.904,1.17,0.754,44.28,0.217,0.449,0
+Kanchipuram,Urban,9.2943,80.3155,Theft,5,Friday,Night,268,11.87,82.17,0.418,8,10,3.93,Cloudy,0,46-60,1.091,2.02,0.822,49.06,0.53,0.892,0
+Virudhunagar,Rural,8.0489,76.6733,Assault,9,Thursday,Morning,681,9.57,70.64,0.32,3,2,2.08,Sunny,0,46-60,0.966,1.41,0.706,44.63,0.672,0.681,0
+Erode,Rural,9.2652,78.9629,Assault,8,Saturday,Afternoon,268,14.33,65.69,0.762,2,14,3.1,Cloudy,0,36-45,1.072,4.52,0.657,40.64,0.895,0.751,1
+Tiruchirappalli,Semi-Urban,12.5766,78.4383,Vandalism,6,Saturday,Night,593,9.59,67.96,0.724,6,7,2.89,Rainy,0,18-25,1.056,1.28,0.68,61.16,0.665,0.836,0
+Dharmapuri,Rural,8.1225,76.8836,Theft,6,Sunday,Night,245,11.05,77.63,0.517,7,15,5.24,Rainy,0,26-35,1.051,2.72,0.776,31.66,0.868,0.5,1
+Salem,Urban,10.5774,76.381,Burglary,3,Tuesday,Evening,379,13.68,75.39,0.251,7,13,4.05,Sunny,0,26-35,1.018,1.02,0.754,48.42,0.477,0.356,0
+Coimbatore,Urban,13.237,79.8578,Cybercrime,5,Thursday,Morning,1828,5.49,86.01,0.45,10,21,2.28,Cloudy,0,60+,0.949,2.03,0.86,72.97,0.81,0.635,1
+Madurai,Urban,9.3741,76.0142,Traffic Violation,6,Wednesday,Evening,1943,7.43,87.18,0.297,12,33,3.42,Sunny,0,60+,0.944,4.99,0.872,77.11,0.706,0.313,1
+Karur,Urban,9.5779,79.1316,Drug Offense,11,Monday,Evening,508,10.53,69.08,0.423,5,5,1.97,Rainy,1,26-35,1.063,3.77,0.691,49.74,0.398,0.401,1
+Krishnagiri,Urban,11.7326,78.8704,Drug Offense,6,Friday,Night,563,10.2,66.1,0.147,8,8,2.83,Sunny,0,18-25,0.951,4.52,0.661,48.7,0.232,0.696,1
+Salem,Rural,12.1316,77.5333,Property Crime,4,Tuesday,Evening,775,5.04,83.55,0.487,6,12,5.33,Rainy,1,46-60,1.009,3.74,0.835,51.77,0.383,0.464,0
+Sivaganga,Semi-Urban,13.2242,76.8341,Burglary,6,Sunday,Evening,639,5.26,65.46,0.475,2,11,1.1,Cloudy,0,46-60,1.027,2.21,0.655,51.08,0.224,0.775,1
+Krishnagiri,Semi-Urban,10.1483,77.5435,Burglary,2,Sunday,Evening,720,13.86,81.38,0.268,5,14,7.17,Cloudy,0,26-35,1.047,4.98,0.814,41.19,0.389,0.381,1
+Villupuram,Rural,12.9355,78.8656,Assault,11,Sunday,Night,492,8.9,69.06,0.789,3,8,2.2,Sunny,1,18-25,1.046,1.97,0.691,53.45,0.819,0.483,1
+Thoothukudi,Rural,12.6867,76.2033,Theft,11,Friday,Evening,507,12.19,74.43,0.266,2,5,5.34,Rainy,1,18-25,0.908,2.26,0.744,49.1,0.899,0.397,0
+Tirunelveli,Rural,9.4036,79.2731,Vandalism,10,Tuesday,Evening,647,6.66,74.47,0.532,6,11,6.33,Sunny,1,36-45,1.017,3.05,0.745,59.94,0.777,0.425,0
+Tiruvannamalai,Urban,13.4665,77.1003,Vandalism,9,Saturday,Evening,236,6.33,77.56,0.25,5,12,2.86,Rainy,0,36-45,0.96,3.44,0.776,44.6,0.544,0.434,0
+Dindigul,Rural,9.9604,77.454,Fraud,6,Friday,Night,682,5.71,70.28,0.687,2,15,2.02,Rainy,0,26-35,1.07,3.9,0.703,30.03,0.445,0.309,1
+Chennai,Urban,10.2917,79.9885,Domestic Violence,8,Friday,Afternoon,1970,5.87,92.96,0.276,25,27,3.25,Rainy,0,18-25,1.096,1.51,0.93,83.27,0.532,0.924,1
+Virudhunagar,Rural,8.1882,79.2446,Burglary,2,Tuesday,Morning,780,13.77,68.25,0.492,8,15,3.69,Cloudy,0,18-25,1.08,3.04,0.683,43.31,0.378,0.647,0
+Madurai,Urban,11.2491,77.3231,Cybercrime,6,Tuesday,Evening,1054,3.45,89.98,0.778,12,32,7.98,Sunny,0,46-60,0.941,0.74,0.9,89.82,0.24,0.544,0
+Sivaganga,Rural,11.1206,76.0057,Cybercrime,8,Monday,Night,721,11.13,78.01,0.45,8,14,1.75,Cloudy,0,46-60,1.039,2.14,0.78,57.13,0.526,0.898,1
+Krishnagiri,Rural,13.4287,79.8288,Domestic Violence,1,Thursday,Evening,311,12.92,79.48,0.754,8,2,4.15,Sunny,0,18-25,0.927,4.23,0.795,44.42,0.415,0.62,0
+Sivaganga,Urban,9.8467,77.5958,Property Crime,2,Sunday,Afternoon,505,11.24,76.41,0.402,5,13,2.73,Cloudy,0,18-25,0.938,4.55,0.764,65.47,0.727,0.726,1
+Kanchipuram,Urban,11.5495,79.7254,Burglary,2,Tuesday,Evening,412,12.47,82.19,0.655,3,15,4.41,Rainy,0,60+,0.974,1.82,0.822,65.6,0.59,0.37,1
+Erode,Rural,10.2057,78.1757,Cybercrime,8,Saturday,Afternoon,372,11.42,66.52,0.573,5,11,1.33,Hot,0,18-25,1.006,1.2,0.665,37.1,0.434,0.745,0
+Tiruvannamalai,Semi-Urban,9.1111,79.1876,Property Crime,6,Sunday,Afternoon,299,14.63,81.9,0.475,3,11,1.34,Rainy,0,26-35,1.082,1.54,0.819,54.77,0.818,0.354,0
+Karur,Rural,12.994,78.8398,Cybercrime,11,Thursday,Night,326,11.37,72.11,0.35,3,7,5.07,Rainy,1,26-35,1.099,1.28,0.721,38.58,0.443,0.599,1
+Thoothukudi,Rural,12.5587,79.5917,Vandalism,5,Sunday,Afternoon,479,12.44,79.47,0.486,5,10,6.14,Cloudy,0,18-25,1.08,2.54,0.795,49.99,0.46,0.334,0
+Vellore,Rural,10.6688,79.261,Assault,12,Thursday,Morning,525,5.15,75.36,0.45,8,2,3.97,Hot,1,60+,0.931,1.61,0.754,39.22,0.36,0.71,0
+Thanjavur,Rural,13.1151,76.8768,Traffic Violation,5,Monday,Night,357,7.11,67.0,0.426,2,10,4.42,Sunny,0,26-35,0.9,3.72,0.67,47.45,0.516,0.83,1
+Villupuram,Rural,8.6546,76.7391,Theft,7,Thursday,Evening,284,12.8,69.59,0.776,6,9,3.94,Rainy,0,60+,0.912,0.92,0.696,46.66,0.859,0.84,1
+Vellore,Urban,11.5,77.2649,Drug Offense,6,Tuesday,Afternoon,693,7.34,70.0,0.38,2,14,7.97,Rainy,0,46-60,1.034,1.69,0.7,59.62,0.657,0.508,1
+Tiruvannamalai,Semi-Urban,8.2804,79.2984,Burglary,2,Tuesday,Night,240,12.28,72.46,0.479,3,7,1.84,Cloudy,0,60+,1.05,4.04,0.725,40.09,0.387,0.393,0
+Tirunelveli,Rural,13.1352,76.068,Burglary,6,Tuesday,Morning,618,10.12,67.33,0.741,5,5,1.57,Sunny,0,36-45,1.045,2.95,0.673,65.86,0.605,0.305,1
+Namakkal,Urban,11.1635,78.1636,Theft,3,Thursday,Night,583,12.2,76.88,0.753,7,4,1.2,Cloudy,0,18-25,0.987,2.12,0.769,30.31,0.239,0.437,0
+Thanjavur,Rural,10.7606,77.3819,Property Crime,8,Monday,Morning,516,11.36,68.08,0.288,5,14,3.58,Rainy,0,46-60,0.91,4.63,0.681,54.25,0.533,0.417,0
+Ramanathapuram,Semi-Urban,12.4637,80.1626,Assault,9,Friday,Morning,466,13.43,67.7,0.613,6,13,7.27,Rainy,0,18-25,1.014,2.1,0.677,48.14,0.258,0.882,1
+Villupuram,Semi-Urban,9.8139,78.6179,Burglary,11,Thursday,Morning,282,5.83,84.63,0.194,8,8,5.33,Rainy,1,46-60,1.058,2.46,0.846,43.95,0.789,0.908,1
+Sivaganga,Urban,10.8644,77.2771,Domestic Violence,7,Friday,Night,753,11.04,66.13,0.354,8,10,6.18,Cloudy,0,36-45,0.963,2.28,0.661,59.94,0.729,0.686,0
+Tiruchirappalli,Rural,8.6531,79.7543,Theft,5,Sunday,Morning,498,5.5,75.12,0.709,6,11,1.23,Rainy,0,26-35,0.905,3.92,0.751,58.54,0.789,0.735,0
+Villupuram,Rural,12.078,76.8646,Domestic Violence,4,Sunday,Night,583,7.29,81.37,0.476,8,6,7.14,Rainy,1,18-25,0.954,0.94,0.814,64.44,0.244,0.423,1
+Madurai,Urban,11.9316,77.5996,Fraud,9,Tuesday,Night,1959,5.76,91.81,0.71,22,19,1.37,Sunny,0,26-35,1.075,0.63,0.918,70.6,0.648,0.683,1
+Tiruchirappalli,Rural,9.6533,76.3087,Vandalism,12,Wednesday,Morning,234,8.48,73.23,0.339,5,6,2.29,Sunny,1,46-60,1.055,2.72,0.732,60.89,0.666,0.323,0
+Thoothukudi,Rural,9.1664,79.942,Domestic Violence,6,Saturday,Night,228,6.3,76.03,0.709,5,15,7.53,Hot,0,36-45,0.906,1.48,0.76,63.88,0.211,0.502,1
+Thanjavur,Rural,10.558,76.1449,Assault,12,Friday,Evening,251,13.63,75.45,0.699,2,13,2.02,Rainy,1,60+,0.931,4.82,0.754,60.02,0.432,0.75,1
+Villupuram,Rural,9.5286,76.3028,Cybercrime,12,Wednesday,Night,637,9.77,73.68,0.678,3,14,6.48,Rainy,1,36-45,0.942,2.52,0.737,50.97,0.689,0.743,0
+Kanchipuram,Urban,12.869,79.4445,Theft,9,Friday,Afternoon,610,9.89,84.49,0.584,2,13,5.21,Sunny,0,26-35,1.057,2.63,0.845,55.16,0.818,0.573,1
+Chennai,Urban,13.475,79.6607,Vandalism,9,Tuesday,Afternoon,1212,5.05,90.39,0.547,12,31,4.6,Sunny,0,18-25,1.002,3.9,0.904,74.24,0.343,0.83,1
+Namakkal,Semi-Urban,10.3516,79.1003,Assault,4,Saturday,Morning,617,11.14,72.28,0.22,3,4,0.82,Sunny,1,36-45,1.098,2.5,0.723,44.83,0.562,0.36,0
+Tiruchirappalli,Semi-Urban,8.6676,79.5455,Assault,10,Sunday,Evening,772,14.62,66.32,0.118,7,15,3.15,Sunny,1,26-35,1.084,1.14,0.663,56.03,0.364,0.773,0
+Coimbatore,Semi-Urban,9.3204,79.6312,Theft,11,Thursday,Night,1353,7.77,88.63,0.228,20,22,3.05,Cloudy,1,60+,1.053,0.64,0.886,75.34,0.869,0.82,1
+Karur,Rural,11.8317,76.5224,Theft,7,Sunday,Night,408,8.28,65.12,0.773,6,6,7.34,Sunny,0,18-25,1.035,4.59,0.651,35.86,0.279,0.496,0
+Vellore,Semi-Urban,10.2168,78.8108,Theft,11,Saturday,Night,530,12.45,66.86,0.431,5,4,2.94,Rainy,1,36-45,0.994,0.95,0.669,38.67,0.463,0.735,0
+Dharmapuri,Urban,11.6734,76.6928,Vandalism,5,Saturday,Morning,545,5.99,77.05,0.31,5,14,4.67,Sunny,0,26-35,1.045,1.41,0.77,64.31,0.708,0.869,0
+Coimbatore,Urban,11.3415,79.1491,Fraud,2,Friday,Evening,1950,6.28,89.84,0.132,11,34,5.34,Hot,0,60+,1.009,0.76,0.898,74.77,0.502,0.644,0
+Villupuram,Rural,11.6798,76.3384,Fraud,7,Thursday,Afternoon,604,5.8,81.6,0.282,6,6,7.96,Hot,0,18-25,0.958,3.01,0.816,41.17,0.643,0.506,1
+Salem,Rural,8.454,80.4539,Fraud,8,Wednesday,Night,464,10.54,73.36,0.216,3,11,7.01,Rainy,0,26-35,0.936,1.19,0.734,39.68,0.327,0.913,0
+Chennai,Urban,10.2506,78.8669,Burglary,4,Friday,Evening,1725,5.78,90.33,0.25,9,29,3.73,Hot,1,18-25,0.922,1.11,0.903,85.74,0.819,0.805,0
+Virudhunagar,Urban,9.4654,76.853,Fraud,7,Friday,Evening,523,7.96,80.91,0.181,6,15,4.03,Cloudy,0,18-25,0.944,0.77,0.809,52.87,0.807,0.688,0
+Thoothukudi,Urban,13.0643,77.8065,Cybercrime,8,Thursday,Evening,636,9.63,77.01,0.284,7,9,1.82,Cloudy,0,36-45,1.056,2.51,0.77,68.84,0.73,0.34,1
+Dindigul,Urban,12.5209,79.9626,Theft,11,Monday,Night,315,13.81,75.58,0.782,6,11,3.47,Sunny,1,36-45,0.997,1.48,0.756,52.02,0.629,0.543,0
+Namakkal,Rural,8.545,78.6893,Theft,5,Sunday,Morning,428,7.07,84.84,0.66,8,7,4.37,Hot,0,36-45,1.036,1.97,0.848,37.22,0.545,0.38,0
+Ramanathapuram,Rural,8.4843,79.2743,Property Crime,3,Wednesday,Morning,248,8.75,84.08,0.34,8,2,6.36,Cloudy,0,46-60,0.928,3.44,0.841,32.77,0.813,0.656,1
+Madurai,Urban,10.0651,77.1134,Fraud,8,Tuesday,Morning,1274,3.01,87.5,0.502,21,26,7.62,Rainy,0,46-60,0.971,1.03,0.875,85.98,0.5,0.355,1
+Madurai,Urban,10.4872,76.4942,Burglary,8,Tuesday,Evening,1427,5.37,89.6,0.456,17,40,3.04,Cloudy,0,60+,1.077,1.39,0.896,72.25,0.761,0.75,0
+Villupuram,Semi-Urban,13.4563,76.0146,Fraud,10,Tuesday,Afternoon,394,14.17,70.68,0.424,3,8,5.67,Rainy,1,26-35,1.032,2.2,0.707,58.12,0.345,0.685,1
+Sivaganga,Semi-Urban,11.737,80.3216,Traffic Violation,12,Friday,Evening,360,9.76,78.11,0.55,2,14,4.97,Rainy,1,60+,0.912,3.2,0.781,61.41,0.876,0.936,1
+Kanchipuram,Rural,13.2461,79.4791,Cybercrime,4,Friday,Night,225,14.42,76.95,0.576,5,4,3.19,Sunny,1,18-25,1.016,2.6,0.769,30.91,0.348,0.496,0
+Thanjavur,Rural,10.0397,78.5822,Cybercrime,1,Tuesday,Evening,596,7.58,65.17,0.599,7,4,4.57,Rainy,0,60+,0.974,0.99,0.652,52.84,0.244,0.444,0
+Chennai,Urban,8.1891,78.4878,Traffic Violation,12,Monday,Evening,1661,7.56,92.39,0.353,12,39,2.84,Cloudy,1,26-35,1.062,4.26,0.924,76.25,0.666,0.396,1
+Ramanathapuram,Rural,10.6559,77.489,Assault,12,Tuesday,Morning,265,7.73,83.05,0.407,5,15,2.65,Cloudy,1,36-45,0.964,3.06,0.831,33.77,0.34,0.745,1
+Krishnagiri,Urban,8.7716,78.5871,Cybercrime,7,Thursday,Afternoon,561,8.69,72.54,0.106,4,11,3.23,Cloudy,0,18-25,0.968,1.12,0.725,37.61,0.6,0.651,1
+Villupuram,Rural,8.0557,79.0704,Assault,12,Monday,Afternoon,506,7.51,75.62,0.783,5,3,5.55,Hot,1,26-35,1.042,2.59,0.756,49.76,0.895,0.305,0
+Ramanathapuram,Rural,13.4825,76.6937,Domestic Violence,9,Sunday,Evening,405,6.24,70.84,0.633,8,11,5.59,Hot,0,36-45,1.045,3.77,0.708,58.52,0.883,0.327,1
+Salem,Urban,9.1193,78.6345,Property Crime,1,Monday,Morning,525,10.93,77.19,0.291,6,2,5.68,Sunny,0,26-35,1.089,2.76,0.772,55.67,0.82,0.631,1
+Karur,Urban,13.1427,80.411,Fraud,1,Saturday,Night,204,10.0,78.07,0.607,7,3,5.0,Hot,0,36-45,0.921,1.23,0.781,45.9,0.579,0.934,1
+Krishnagiri,Semi-Urban,8.1164,77.1498,Vandalism,5,Saturday,Evening,474,14.76,80.96,0.274,8,11,2.17,Cloudy,0,26-35,1.053,3.18,0.81,49.04,0.222,0.55,0
+Namakkal,Rural,10.7268,76.7938,Drug Offense,4,Monday,Morning,744,8.5,70.79,0.76,5,10,0.6,Sunny,1,26-35,1.063,4.95,0.708,51.79,0.381,0.325,1
+Tirunelveli,Rural,8.1706,78.6465,Traffic Violation,4,Tuesday,Night,213,6.89,69.4,0.746,3,3,6.81,Hot,1,46-60,1.036,3.83,0.694,52.01,0.533,0.557,0
+Krishnagiri,Rural,9.1652,80.1798,Assault,5,Sunday,Morning,753,13.3,84.41,0.764,4,15,7.44,Rainy,0,46-60,1.09,2.73,0.844,51.56,0.208,0.5,0
+Thoothukudi,Rural,8.4929,79.0533,Theft,12,Sunday,Night,448,8.78,74.21,0.21,6,2,1.3,Sunny,1,26-35,0.987,2.79,0.742,60.28,0.571,0.67,0
+Salem,Rural,9.8565,77.8201,Burglary,4,Thursday,Night,314,11.31,77.98,0.487,8,5,1.08,Cloudy,1,26-35,0.904,4.48,0.78,39.01,0.677,0.453,1
+Dharmapuri,Rural,9.587,79.9087,Domestic Violence,6,Sunday,Morning,687,10.86,67.49,0.245,8,7,5.81,Hot,0,60+,0.997,3.91,0.675,68.4,0.803,0.734,0
+Ramanathapuram,Semi-Urban,12.2374,78.9792,Property Crime,11,Monday,Night,201,9.38,72.4,0.343,3,8,7.39,Cloudy,1,26-35,0.938,3.15,0.724,43.15,0.516,0.408,1
+Erode,Urban,10.8137,76.7764,Property Crime,7,Wednesday,Night,581,13.36,81.9,0.173,5,5,0.56,Sunny,0,26-35,1.027,3.83,0.819,30.98,0.64,0.674,0
+Thoothukudi,Rural,9.9416,80.2698,Cybercrime,10,Monday,Evening,497,13.29,68.88,0.434,4,13,3.45,Cloudy,1,46-60,1.061,2.28,0.689,50.81,0.395,0.6,0
+Villupuram,Rural,8.9339,80.1783,Fraud,3,Thursday,Afternoon,577,9.82,82.47,0.751,2,4,3.87,Cloudy,0,18-25,1.037,3.91,0.825,56.35,0.627,0.674,0
+Virudhunagar,Semi-Urban,10.6606,79.2492,Drug Offense,9,Wednesday,Morning,262,7.31,80.74,0.219,3,15,5.99,Cloudy,0,46-60,1.014,1.2,0.807,61.06,0.61,0.379,1
+Kanchipuram,Semi-Urban,10.7872,80.2531,Theft,12,Wednesday,Morning,633,13.68,82.77,0.504,6,8,6.36,Sunny,1,18-25,0.924,4.55,0.828,65.26,0.776,0.586,0
+Karur,Semi-Urban,12.3277,80.3475,Cybercrime,12,Sunday,Evening,732,12.33,70.89,0.315,6,5,2.99,Hot,1,60+,0.941,2.13,0.709,34.73,0.756,0.478,0
+Virudhunagar,Rural,9.4481,79.3096,Burglary,3,Monday,Night,714,14.58,67.48,0.491,7,7,7.62,Sunny,0,18-25,0.914,3.58,0.675,46.42,0.872,0.422,1
+Thanjavur,Semi-Urban,10.3778,79.1209,Drug Offense,3,Monday,Night,222,12.8,73.04,0.164,4,6,2.81,Sunny,0,26-35,0.903,4.48,0.73,56.74,0.51,0.413,0
+Virudhunagar,Rural,8.4739,76.3809,Assault,4,Thursday,Evening,623,5.69,68.52,0.219,5,2,2.41,Hot,1,36-45,0.985,3.21,0.685,65.44,0.286,0.827,0
+Dindigul,Rural,13.2827,76.2036,Domestic Violence,9,Sunday,Night,348,10.94,80.11,0.166,3,14,7.08,Sunny,0,26-35,0.993,2.9,0.801,34.92,0.676,0.437,0
+Dindigul,Semi-Urban,10.925,78.6623,Property Crime,12,Thursday,Morning,230,9.94,74.85,0.192,5,15,4.03,Rainy,1,46-60,0.903,4.53,0.749,55.48,0.332,0.656,1
+Dharmapuri,Rural,10.2648,77.8956,Assault,5,Friday,Morning,566,13.56,78.28,0.464,6,13,1.47,Rainy,0,36-45,0.902,2.82,0.783,54.76,0.59,0.388,0
+Dharmapuri,Rural,11.898,77.8414,Drug Offense,9,Sunday,Evening,324,14.53,74.09,0.506,3,6,6.93,Rainy,0,26-35,0.973,3.22,0.741,41.36,0.715,0.796,1
+Salem,Semi-Urban,11.752,79.9978,Fraud,11,Saturday,Evening,792,8.25,84.25,0.243,6,4,2.04,Cloudy,1,60+,1.004,4.96,0.843,35.7,0.329,0.408,1
+Namakkal,Urban,11.6519,76.0067,Domestic Violence,7,Wednesday,Night,641,5.78,82.18,0.294,4,10,7.26,Sunny,0,60+,1.07,1.05,0.822,30.06,0.515,0.672,1
+Salem,Rural,13.0546,79.8642,Burglary,4,Friday,Afternoon,598,5.61,75.87,0.295,8,12,7.69,Hot,1,36-45,1.043,2.61,0.759,55.95,0.285,0.396,1
+Thoothukudi,Rural,11.4933,77.239,Drug Offense,9,Tuesday,Evening,268,13.98,72.13,0.383,4,9,6.45,Hot,0,26-35,1.059,3.25,0.721,31.61,0.822,0.496,1
+Ramanathapuram,Semi-Urban,8.6423,80.4844,Burglary,10,Friday,Night,518,13.5,82.61,0.297,3,13,1.26,Rainy,1,18-25,1.019,4.05,0.826,47.73,0.674,0.354,1
+Coimbatore,Urban,11.9202,79.6672,Cybercrime,12,Monday,Evening,1491,7.58,88.3,0.636,20,29,1.08,Hot,1,36-45,1.001,3.55,0.883,76.0,0.76,0.687,1
+Tirunelveli,Semi-Urban,9.3883,76.0079,Burglary,5,Thursday,Night,602,10.09,77.28,0.797,2,12,4.5,Rainy,0,18-25,0.903,4.87,0.773,43.22,0.741,0.948,0
+Cuddalore,Semi-Urban,11.6134,78.5726,Theft,5,Saturday,Night,270,14.49,70.64,0.174,2,3,5.11,Cloudy,0,46-60,1.088,0.52,0.706,43.64,0.625,0.807,0
+Cuddalore,Urban,8.2583,76.2656,Theft,2,Saturday,Evening,266,12.16,83.31,0.198,8,8,7.61,Cloudy,0,60+,1.068,2.43,0.833,57.61,0.442,0.559,0
+Namakkal,Rural,11.3711,77.7004,Theft,3,Saturday,Afternoon,572,11.6,84.27,0.572,6,6,1.77,Sunny,0,26-35,1.058,2.04,0.843,58.44,0.283,0.815,1
+Tiruchirappalli,Rural,12.2483,80.2133,Burglary,5,Friday,Night,631,13.39,80.26,0.592,2,3,4.26,Cloudy,0,26-35,0.956,2.14,0.803,49.27,0.337,0.809,0
+Erode,Semi-Urban,11.4337,79.4226,Theft,4,Sunday,Night,392,13.53,71.08,0.399,3,8,2.13,Rainy,1,60+,0.987,0.56,0.711,36.33,0.261,0.437,0
+Vellore,Rural,10.9585,77.0004,Burglary,1,Sunday,Night,248,12.36,67.76,0.708,7,2,2.23,Rainy,0,60+,1.06,4.89,0.678,44.35,0.203,0.524,0
+Krishnagiri,Rural,13.0514,76.8697,Vandalism,5,Sunday,Evening,491,7.55,68.78,0.59,7,10,6.6,Hot,0,18-25,1.088,0.75,0.688,53.73,0.502,0.649,1
+Karur,Semi-Urban,11.2567,77.4121,Property Crime,11,Thursday,Evening,718,9.48,66.82,0.501,2,9,6.75,Hot,1,46-60,0.907,2.68,0.668,59.01,0.796,0.581,0
+Salem,Rural,10.8989,76.8311,Assault,1,Wednesday,Evening,249,10.68,66.71,0.601,3,2,4.36,Hot,0,26-35,0.943,1.18,0.667,41.89,0.541,0.476,0
+Ramanathapuram,Semi-Urban,12.4733,78.524,Theft,1,Tuesday,Morning,778,5.73,78.76,0.499,6,4,5.44,Cloudy,0,18-25,1.074,1.83,0.788,44.56,0.357,0.636,1
+Coimbatore,Urban,12.8074,77.8153,Traffic Violation,3,Saturday,Afternoon,815,5.13,88.66,0.468,13,32,5.12,Rainy,0,60+,0.937,4.22,0.887,85.65,0.221,0.649,1
+Erode,Rural,13.0514,77.2316,Burglary,7,Saturday,Afternoon,559,10.09,79.98,0.79,5,11,4.39,Hot,0,36-45,1.077,0.99,0.8,30.57,0.524,0.665,1
+Ramanathapuram,Rural,11.3328,79.8719,Theft,7,Sunday,Night,370,13.31,83.77,0.43,2,2,4.93,Hot,0,18-25,0.925,3.51,0.838,66.02,0.709,0.881,1
+Virudhunagar,Semi-Urban,9.2712,77.9422,Cybercrime,11,Thursday,Evening,557,13.47,66.67,0.305,6,13,6.58,Sunny,1,26-35,0.975,4.79,0.667,57.97,0.625,0.355,1
+Madurai,Urban,11.6736,79.9007,Drug Offense,5,Friday,Morning,1715,5.31,88.51,0.672,16,39,2.47,Sunny,0,46-60,0.909,3.28,0.885,82.86,0.359,0.349,1
+Thanjavur,Rural,9.2407,77.0665,Domestic Violence,7,Sunday,Evening,503,5.96,79.34,0.45,5,10,3.69,Sunny,0,36-45,1.034,2.08,0.793,53.57,0.561,0.72,0
+Dharmapuri,Semi-Urban,10.9437,80.2206,Property Crime,7,Friday,Morning,263,6.45,73.63,0.544,6,8,7.43,Cloudy,0,26-35,1.089,4.83,0.736,61.6,0.308,0.896,0
+Villupuram,Rural,12.9485,78.4641,Traffic Violation,10,Tuesday,Evening,621,5.91,77.15,0.56,6,10,3.39,Sunny,1,26-35,0.982,2.89,0.772,55.67,0.277,0.601,1
+Namakkal,Urban,8.2956,77.9633,Drug Offense,10,Friday,Afternoon,621,13.34,83.98,0.338,6,11,7.67,Hot,1,26-35,1.055,2.56,0.84,59.16,0.857,0.519,0
+Chennai,Semi-Urban,13.3554,76.0151,Vandalism,4,Friday,Evening,1042,5.15,92.35,0.462,21,32,1.01,Rainy,1,18-25,0.906,1.52,0.923,82.59,0.599,0.305,1
+Cuddalore,Rural,9.9107,77.6851,Vandalism,6,Tuesday,Afternoon,237,11.2,77.72,0.706,5,11,7.23,Rainy,0,18-25,0.909,2.73,0.777,34.76,0.7,0.779,0
+Tirunelveli,Semi-Urban,8.9783,76.4318,Traffic Violation,4,Friday,Evening,352,5.7,71.99,0.636,6,13,2.38,Cloudy,1,60+,1.015,0.95,0.72,64.99,0.551,0.911,0
+Tirunelveli,Rural,12.5526,80.0089,Theft,2,Wednesday,Morning,624,14.9,78.07,0.129,3,10,6.28,Hot,0,60+,0.99,3.19,0.781,56.26,0.618,0.83,0
+Karur,Rural,8.4091,77.4593,Property Crime,10,Monday,Night,487,14.35,70.07,0.481,4,12,7.54,Sunny,1,36-45,1.098,3.4,0.701,34.25,0.364,0.772,1
+Erode,Rural,11.0309,79.3833,Theft,9,Saturday,Afternoon,468,11.69,78.47,0.572,2,6,4.51,Rainy,0,36-45,1.046,3.62,0.785,67.93,0.644,0.606,0
+Tiruchirappalli,Semi-Urban,8.7519,77.3192,Vandalism,10,Monday,Night,377,7.91,75.68,0.192,2,4,7.91,Rainy,1,60+,0.972,4.23,0.757,54.14,0.219,0.443,1
+Thoothukudi,Rural,11.9992,78.3443,Cybercrime,8,Monday,Afternoon,514,9.33,74.1,0.749,6,14,1.14,Rainy,0,46-60,0.924,2.99,0.741,55.32,0.683,0.53,0
+Salem,Rural,11.3008,79.2075,Theft,2,Monday,Afternoon,314,6.12,70.88,0.561,7,9,0.69,Hot,0,60+,1.033,1.81,0.709,43.57,0.286,0.461,0
+Vellore,Semi-Urban,13.1257,77.8919,Domestic Violence,7,Thursday,Night,398,6.63,80.15,0.412,4,5,7.91,Cloudy,0,36-45,1.004,0.58,0.801,52.72,0.89,0.866,0
+Tirunelveli,Rural,10.0281,77.7955,Burglary,11,Sunday,Evening,726,7.03,73.16,0.477,6,7,2.59,Sunny,1,26-35,1.047,3.01,0.732,65.12,0.401,0.742,0
+Dindigul,Rural,12.1267,76.3944,Traffic Violation,8,Thursday,Night,768,5.63,67.18,0.372,8,12,3.81,Cloudy,0,46-60,0.919,4.67,0.672,41.95,0.644,0.589,1
+Erode,Rural,11.1411,79.2328,Burglary,12,Monday,Afternoon,663,5.2,79.29,0.518,5,14,2.2,Hot,1,46-60,0.999,4.24,0.793,42.03,0.239,0.699,0
+Salem,Rural,8.7757,79.8144,Traffic Violation,1,Saturday,Afternoon,702,14.29,72.18,0.25,6,4,6.21,Hot,0,18-25,1.049,0.82,0.722,43.82,0.38,0.891,0
+Dindigul,Semi-Urban,12.9005,80.4351,Cybercrime,3,Thursday,Morning,433,9.95,78.31,0.295,3,2,1.1,Cloudy,0,18-25,1.02,0.74,0.783,44.37,0.475,0.542,1
+Madurai,Urban,11.2846,79.6395,Vandalism,6,Tuesday,Evening,1186,5.44,89.89,0.606,23,27,6.3,Sunny,0,26-35,0.96,3.71,0.899,85.99,0.664,0.67,0
+Tiruvannamalai,Rural,11.9228,79.008,Drug Offense,3,Monday,Evening,696,10.67,74.05,0.534,5,5,6.13,Rainy,0,46-60,1.076,4.46,0.741,31.4,0.803,0.664,0
+Namakkal,Urban,13.4502,76.3808,Burglary,2,Saturday,Night,625,12.07,75.95,0.288,3,6,6.82,Hot,0,46-60,1.064,2.28,0.76,48.69,0.399,0.74,0
+Ramanathapuram,Rural,11.1543,79.1406,Theft,1,Monday,Night,220,11.27,66.48,0.494,3,7,1.18,Rainy,0,46-60,1.071,1.01,0.665,60.04,0.652,0.627,1
+Tirunelveli,Rural,11.511,79.1841,Theft,11,Monday,Evening,535,10.35,65.92,0.193,4,5,5.94,Sunny,1,18-25,1.039,3.99,0.659,30.26,0.622,0.306,1
+Chennai,Semi-Urban,13.053,77.6117,Domestic Violence,3,Wednesday,Night,1589,6.64,94.47,0.461,14,35,7.45,Hot,0,18-25,1.003,1.97,0.945,82.96,0.604,0.487,1
+Karur,Rural,9.4958,77.5783,Theft,9,Tuesday,Afternoon,557,14.51,70.81,0.42,5,5,4.32,Rainy,0,26-35,0.939,3.4,0.708,52.18,0.74,0.858,0
+Erode,Rural,11.907,79.0348,Domestic Violence,1,Friday,Afternoon,696,9.19,80.15,0.549,7,9,5.05,Sunny,0,36-45,1.025,1.03,0.801,35.58,0.728,0.607,1
+Virudhunagar,Rural,12.7024,78.7783,Domestic Violence,9,Saturday,Morning,365,7.8,76.66,0.452,6,11,2.45,Rainy,0,46-60,0.943,0.83,0.767,59.15,0.333,0.325,1
+Vellore,Rural,8.8158,78.9354,Theft,10,Sunday,Night,796,8.78,67.87,0.104,2,13,6.5,Sunny,1,46-60,1.009,2.51,0.679,52.3,0.546,0.477,1
+Villupuram,Semi-Urban,8.9168,79.7265,Traffic Violation,1,Monday,Morning,697,5.27,70.39,0.118,2,2,5.97,Sunny,0,46-60,1.068,4.29,0.704,67.67,0.599,0.661,1
+Tiruchirappalli,Semi-Urban,9.8446,78.7156,Drug Offense,3,Friday,Afternoon,499,5.56,71.0,0.17,8,14,4.88,Rainy,0,46-60,1.096,4.57,0.71,63.57,0.232,0.696,1
+Dindigul,Rural,10.5331,80.14,Cybercrime,5,Thursday,Night,249,10.07,76.96,0.734,3,3,1.11,Cloudy,0,18-25,1.051,2.43,0.77,37.76,0.393,0.567,1
+Villupuram,Semi-Urban,9.6422,77.449,Assault,12,Thursday,Morning,553,14.36,76.78,0.158,3,8,6.35,Sunny,1,36-45,1.058,2.6,0.768,65.62,0.419,0.784,1
+Tirunelveli,Semi-Urban,8.5385,78.6188,Domestic Violence,10,Monday,Afternoon,545,12.52,66.35,0.39,3,2,2.37,Sunny,1,26-35,1.025,3.25,0.664,48.7,0.67,0.632,0
+Tiruvannamalai,Rural,10.7413,76.3148,Burglary,8,Monday,Night,799,10.25,78.21,0.763,4,6,7.25,Sunny,0,46-60,1.031,4.04,0.782,45.96,0.561,0.673,0
+Dharmapuri,Semi-Urban,8.9649,80.0211,Theft,9,Sunday,Afternoon,411,10.7,79.58,0.263,2,14,4.52,Cloudy,0,18-25,1.096,4.34,0.796,30.09,0.849,0.723,1
+Thoothukudi,Semi-Urban,13.2722,79.5361,Drug Offense,4,Saturday,Morning,303,12.5,74.01,0.355,3,7,0.84,Cloudy,1,36-45,1.074,3.15,0.74,40.22,0.65,0.871,1
+Tiruvannamalai,Rural,13.4531,76.7588,Traffic Violation,4,Wednesday,Evening,361,9.46,74.17,0.671,2,2,1.66,Sunny,1,36-45,0.959,1.03,0.742,55.69,0.784,0.627,1
+Madurai,Urban,9.9201,77.0724,Burglary,7,Wednesday,Night,1146,7.48,87.23,0.614,24,26,6.04,Rainy,0,26-35,0.942,3.66,0.872,89.22,0.679,0.9,0
+Thanjavur,Rural,10.0094,78.6923,Fraud,12,Wednesday,Night,375,14.94,70.93,0.649,8,10,6.33,Rainy,1,60+,0.987,3.21,0.709,67.39,0.481,0.575,1
+Cuddalore,Rural,13.3221,78.246,Drug Offense,7,Wednesday,Morning,486,5.03,65.48,0.23,3,2,5.72,Sunny,0,60+,0.934,4.74,0.655,32.65,0.788,0.656,1
+Ramanathapuram,Rural,12.4593,76.6185,Theft,3,Friday,Night,370,5.06,65.47,0.485,2,6,2.01,Hot,0,60+,0.931,4.19,0.655,39.44,0.75,0.604,0
+Chennai,Urban,8.4467,78.2781,Traffic Violation,10,Sunday,Morning,1554,4.87,91.51,0.623,20,40,2.8,Hot,1,36-45,1.032,2.67,0.915,80.07,0.634,0.926,1
+Virudhunagar,Semi-Urban,8.476,78.7807,Property Crime,10,Tuesday,Afternoon,381,10.7,77.61,0.758,8,4,6.5,Hot,1,36-45,1.076,1.35,0.776,63.76,0.224,0.776,0
+Madurai,Urban,13.0572,76.7399,Property Crime,1,Friday,Evening,1685,6.59,90.28,0.134,19,24,2.67,Rainy,0,60+,0.91,1.52,0.903,88.6,0.777,0.425,0
+Tiruchirappalli,Rural,11.3927,78.0455,Property Crime,11,Tuesday,Afternoon,479,5.66,67.42,0.677,4,10,1.34,Hot,1,26-35,0.982,3.43,0.674,38.79,0.496,0.898,0
+Ramanathapuram,Rural,11.0936,79.2597,Drug Offense,8,Monday,Evening,601,10.94,70.82,0.662,2,5,2.05,Hot,0,18-25,1.05,2.55,0.708,42.66,0.773,0.396,1
+Kanchipuram,Rural,11.6011,79.2496,Domestic Violence,4,Tuesday,Night,658,14.65,78.95,0.487,7,7,4.59,Hot,1,36-45,1.063,1.92,0.79,53.59,0.454,0.441,1
+Dharmapuri,Rural,13.2347,77.1855,Burglary,11,Sunday,Night,398,5.59,75.19,0.541,5,8,5.84,Sunny,1,18-25,1.004,2.43,0.752,43.73,0.608,0.307,1
+Tirunelveli,Rural,11.8806,76.2949,Domestic Violence,12,Monday,Night,397,5.79,65.4,0.479,6,2,3.28,Sunny,1,60+,1.075,1.03,0.654,62.09,0.571,0.531,1
+Tirunelveli,Rural,9.291,76.4875,Assault,7,Sunday,Morning,512,5.19,67.2,0.392,4,13,5.52,Rainy,0,26-35,1.018,4.97,0.672,40.63,0.373,0.584,1
+Thoothukudi,Urban,11.8153,78.0087,Theft,1,Tuesday,Night,552,9.41,84.97,0.414,3,8,6.95,Cloudy,0,46-60,1.097,3.07,0.85,64.36,0.329,0.517,0
+Tiruvannamalai,Rural,12.3375,78.6506,Property Crime,2,Friday,Morning,244,14.34,76.82,0.558,8,3,0.54,Hot,0,36-45,1.062,1.09,0.768,59.28,0.804,0.58,0
+Karur,Rural,8.9736,76.075,Theft,5,Monday,Afternoon,541,10.01,67.7,0.426,8,4,1.04,Rainy,0,26-35,0.941,3.03,0.677,66.72,0.481,0.333,1
+Tirunelveli,Rural,11.4228,78.7856,Domestic Violence,8,Friday,Morning,311,10.34,71.37,0.388,7,6,0.85,Cloudy,0,26-35,0.991,1.83,0.714,42.26,0.374,0.894,1
+Dindigul,Rural,11.655,76.5784,Burglary,4,Tuesday,Night,428,12.54,75.19,0.391,6,12,7.91,Sunny,1,46-60,0.909,3.89,0.752,55.32,0.859,0.683,0
+Erode,Rural,8.2344,79.5229,Burglary,1,Tuesday,Night,472,14.08,71.03,0.523,3,6,6.34,Sunny,0,26-35,0.969,2.49,0.71,42.72,0.419,0.44,0
+Ramanathapuram,Semi-Urban,10.0207,80.3089,Cybercrime,3,Tuesday,Night,731,6.16,71.92,0.613,6,10,5.54,Hot,0,46-60,0.988,1.24,0.719,53.62,0.489,0.351,1
+Thoothukudi,Rural,9.335,78.1589,Property Crime,11,Wednesday,Morning,637,6.69,75.63,0.481,7,10,6.6,Rainy,1,36-45,0.954,1.19,0.756,62.63,0.853,0.727,0
+Karur,Rural,12.9787,77.8417,Burglary,10,Thursday,Night,221,6.7,74.12,0.566,3,2,3.14,Sunny,1,36-45,0.941,3.96,0.741,68.86,0.415,0.52,0
+Ramanathapuram,Rural,12.7383,79.9015,Assault,11,Saturday,Evening,428,12.42,71.1,0.402,7,9,5.44,Cloudy,1,46-60,0.95,2.37,0.711,55.93,0.807,0.508,1
+Tiruvannamalai,Rural,9.2167,77.4188,Vandalism,12,Saturday,Night,304,9.05,73.42,0.357,6,11,6.37,Rainy,1,36-45,1.095,2.23,0.734,53.49,0.772,0.903,1
+Dharmapuri,Rural,13.3356,78.2535,Domestic Violence,4,Thursday,Night,502,10.14,74.49,0.432,4,6,4.87,Hot,1,60+,0.931,4.58,0.745,63.04,0.387,0.585,1
+Tiruchirappalli,Semi-Urban,11.5453,79.2889,Cybercrime,7,Sunday,Night,446,11.96,72.18,0.178,4,8,4.96,Sunny,0,60+,1.063,4.91,0.722,66.37,0.309,0.374,0
+Madurai,Urban,8.1213,77.5004,Property Crime,10,Tuesday,Evening,1913,4.85,89.49,0.405,13,18,2.51,Hot,1,36-45,0.926,3.23,0.895,88.06,0.529,0.523,1
+Thoothukudi,Semi-Urban,9.5186,78.611,Property Crime,6,Friday,Night,701,8.82,83.05,0.261,8,13,5.94,Rainy,0,26-35,0.995,3.57,0.831,57.24,0.323,0.828,1
+Villupuram,Rural,12.9246,76.6558,Cybercrime,1,Sunday,Night,308,14.88,73.22,0.598,3,10,3.25,Sunny,0,26-35,1.079,2.37,0.732,37.48,0.539,0.531,0
+Tiruvannamalai,Semi-Urban,9.0916,80.0292,Drug Offense,1,Sunday,Evening,697,7.12,80.34,0.343,3,10,1.73,Rainy,0,46-60,1.03,3.71,0.803,51.07,0.658,0.349,1
+Tirunelveli,Rural,12.3183,79.413,Assault,10,Saturday,Afternoon,612,8.55,69.9,0.672,8,4,3.92,Hot,1,46-60,1.09,4.24,0.699,49.85,0.839,0.777,1
+Villupuram,Rural,10.9126,77.966,Domestic Violence,5,Friday,Evening,511,8.72,68.22,0.646,2,10,6.32,Sunny,0,26-35,0.998,1.89,0.682,48.74,0.843,0.567,0
+Madurai,Semi-Urban,10.9856,80.2102,Burglary,1,Wednesday,Morning,1109,3.21,90.59,0.374,19,23,2.72,Rainy,0,46-60,1.064,2.16,0.906,73.83,0.724,0.584,0
+Tiruchirappalli,Rural,8.5664,76.2318,Fraud,1,Sunday,Evening,627,13.61,82.39,0.337,4,5,5.12,Hot,0,36-45,1.014,3.75,0.824,48.74,0.474,0.304,0
+Tiruchirappalli,Semi-Urban,10.5097,77.2487,Domestic Violence,9,Thursday,Evening,714,13.62,79.13,0.125,3,7,3.67,Cloudy,0,18-25,0.925,2.79,0.791,34.52,0.581,0.581,1
+Villupuram,Rural,11.2004,76.5223,Burglary,2,Saturday,Night,712,8.07,82.38,0.557,2,15,2.87,Hot,0,60+,1.025,4.14,0.824,47.76,0.227,0.538,1
+Tiruvannamalai,Semi-Urban,12.3563,76.315,Fraud,10,Tuesday,Afternoon,276,5.71,81.4,0.418,3,2,2.07,Cloudy,1,60+,1.015,3.94,0.814,41.88,0.763,0.937,1
+Dharmapuri,Semi-Urban,8.8323,76.624,Traffic Violation,10,Wednesday,Afternoon,330,5.81,82.91,0.184,3,3,2.03,Hot,1,18-25,1.011,4.49,0.829,62.13,0.271,0.911,1
+Ramanathapuram,Rural,9.8593,79.6442,Assault,11,Tuesday,Morning,661,10.85,72.05,0.229,5,15,6.65,Cloudy,1,18-25,1.018,4.37,0.72,35.78,0.598,0.392,0
+Madurai,Urban,11.0424,77.4208,Traffic Violation,7,Thursday,Morning,1992,5.27,94.36,0.628,24,35,1.25,Sunny,0,36-45,0.98,1.95,0.944,80.7,0.234,0.696,1
+Krishnagiri,Urban,11.1952,78.9729,Burglary,1,Friday,Afternoon,582,7.36,78.29,0.579,3,9,7.7,Cloudy,0,18-25,1.017,1.68,0.783,66.61,0.368,0.503,0
+Dharmapuri,Rural,9.217,76.3111,Burglary,8,Saturday,Afternoon,358,14.8,67.64,0.443,3,7,7.54,Hot,0,60+,0.918,1.73,0.676,52.3,0.205,0.596,0
+Erode,Rural,10.2346,79.8097,Property Crime,8,Wednesday,Morning,603,6.14,78.42,0.255,2,3,1.23,Rainy,0,18-25,1.037,4.13,0.784,60.2,0.842,0.851,0
+Karur,Semi-Urban,9.39,80.1266,Vandalism,3,Monday,Afternoon,787,5.58,77.61,0.272,4,8,6.35,Hot,0,26-35,0.904,3.99,0.776,49.93,0.884,0.815,1
+Sivaganga,Rural,10.4703,76.2419,Burglary,8,Sunday,Afternoon,662,14.23,77.44,0.487,6,12,6.48,Hot,0,18-25,1.053,2.02,0.774,64.44,0.619,0.933,0
+Krishnagiri,Rural,10.3672,79.4977,Cybercrime,10,Saturday,Evening,205,13.89,67.7,0.752,2,15,3.88,Hot,1,36-45,1.078,4.43,0.677,59.18,0.342,0.531,0
+Thoothukudi,Rural,12.4108,79.575,Domestic Violence,2,Tuesday,Evening,542,11.99,68.76,0.664,8,4,1.89,Sunny,0,26-35,1.075,3.64,0.688,53.59,0.682,0.429,0
+Virudhunagar,Rural,12.4757,78.0782,Fraud,2,Tuesday,Night,331,9.64,79.42,0.481,2,14,3.56,Rainy,0,46-60,0.981,3.64,0.794,44.45,0.838,0.618,1
+Tiruchirappalli,Rural,11.7855,76.8254,Vandalism,12,Thursday,Afternoon,561,6.21,67.04,0.669,2,7,1.96,Rainy,1,36-45,1.041,1.22,0.67,33.0,0.556,0.75,0
+Villupuram,Rural,12.5641,78.2002,Theft,6,Saturday,Night,342,5.9,77.03,0.684,6,12,3.28,Hot,0,60+,1.013,3.48,0.77,56.73,0.594,0.938,1
+Namakkal,Urban,10.4288,79.4751,Drug Offense,12,Wednesday,Afternoon,255,14.17,81.29,0.745,5,13,5.69,Rainy,1,26-35,1.05,3.88,0.813,47.82,0.323,0.302,0
+Erode,Rural,8.864,78.4938,Domestic Violence,8,Sunday,Night,201,11.73,78.6,0.552,4,3,2.95,Rainy,0,60+,0.992,3.89,0.786,54.24,0.246,0.539,0
+Cuddalore,Rural,8.0205,80.4253,Assault,4,Wednesday,Night,735,12.07,69.06,0.204,2,6,6.28,Rainy,1,36-45,0.965,3.11,0.691,49.49,0.62,0.918,1
+Karur,Rural,8.9808,77.9993,Fraud,3,Sunday,Night,776,14.18,66.25,0.744,3,7,3.64,Sunny,0,46-60,0.903,2.02,0.663,49.21,0.477,0.45,1
+Ramanathapuram,Rural,12.7596,79.4078,Theft,6,Wednesday,Night,728,7.43,84.59,0.683,2,2,2.28,Hot,0,46-60,1.095,1.66,0.846,50.23,0.547,0.549,0
+Vellore,Urban,8.0266,79.0094,Property Crime,6,Wednesday,Evening,668,9.78,70.05,0.474,4,12,6.54,Rainy,0,36-45,0.975,3.83,0.701,40.53,0.296,0.796,1
+Chennai,Urban,10.1533,79.8075,Burglary,12,Sunday,Evening,980,6.83,91.2,0.7,13,32,3.87,Hot,1,60+,0.993,2.31,0.912,70.95,0.832,0.47,1
+Namakkal,Semi-Urban,13.2011,78.2914,Traffic Violation,11,Wednesday,Morning,528,11.24,84.22,0.425,5,10,6.7,Hot,1,46-60,0.957,4.32,0.842,49.05,0.302,0.769,0
+Coimbatore,Urban,11.4624,79.9773,Assault,2,Monday,Afternoon,1253,4.82,87.78,0.393,25,15,3.38,Rainy,0,60+,1.068,4.93,0.878,82.12,0.789,0.915,1
+Dindigul,Rural,10.1124,78.4426,Domestic Violence,2,Friday,Afternoon,237,12.85,71.0,0.677,7,7,7.58,Cloudy,0,46-60,0.906,1.94,0.71,55.54,0.694,0.415,1
+Villupuram,Rural,11.3041,79.0545,Fraud,12,Friday,Morning,239,5.77,71.18,0.391,4,11,6.19,Rainy,1,60+,1.033,2.77,0.712,36.19,0.847,0.828,0
+Vellore,Urban,9.862,76.0234,Cybercrime,10,Wednesday,Night,774,7.38,69.91,0.322,8,15,2.01,Hot,1,36-45,0.909,2.46,0.699,67.04,0.339,0.371,1
+Coimbatore,Urban,8.6738,78.2258,Assault,4,Monday,Night,1001,6.89,87.34,0.71,9,21,7.47,Cloudy,1,46-60,1.008,4.63,0.873,77.58,0.769,0.681,1
+Chennai,Semi-Urban,11.4771,76.1603,Assault,12,Sunday,Night,1945,4.36,87.6,0.686,10,27,3.91,Cloudy,1,60+,0.923,1.56,0.876,87.58,0.871,0.841,0
+Virudhunagar,Rural,11.1038,79.1103,Theft,2,Monday,Morning,211,14.28,68.93,0.745,2,12,3.19,Cloudy,0,46-60,1.085,2.15,0.689,47.26,0.223,0.324,1
+Cuddalore,Rural,13.1626,79.276,Theft,11,Sunday,Night,444,10.92,67.73,0.232,8,5,6.2,Sunny,1,46-60,0.93,4.87,0.677,49.53,0.476,0.405,0
+Tiruvannamalai,Rural,11.1095,78.6979,Drug Offense,1,Wednesday,Evening,706,6.72,68.0,0.634,4,6,5.45,Sunny,0,26-35,0.98,3.73,0.68,33.68,0.53,0.661,1
+Virudhunagar,Semi-Urban,10.0571,78.4002,Drug Offense,7,Monday,Morning,761,9.85,66.86,0.691,3,12,5.03,Sunny,0,60+,0.991,2.44,0.669,61.18,0.866,0.928,1
+Dindigul,Rural,10.5923,76.4204,Domestic Violence,4,Wednesday,Morning,446,5.6,75.75,0.723,3,15,1.15,Cloudy,1,46-60,1.032,2.79,0.758,34.36,0.479,0.867,0
+Kanchipuram,Rural,8.3227,76.1522,Domestic Violence,7,Sunday,Night,243,14.04,65.08,0.332,4,15,0.56,Sunny,0,60+,0.902,1.79,0.651,57.97,0.275,0.787,1
+Kanchipuram,Semi-Urban,12.0929,79.8183,Fraud,9,Monday,Night,569,9.16,81.88,0.319,2,12,3.68,Cloudy,0,46-60,0.933,1.9,0.819,39.81,0.209,0.461,0
+Salem,Rural,11.7683,76.8606,Theft,11,Wednesday,Afternoon,285,15.0,72.08,0.529,3,14,3.54,Hot,1,46-60,0.923,4.31,0.721,53.15,0.459,0.775,0
+Dindigul,Rural,8.4866,77.0318,Traffic Violation,3,Thursday,Night,363,7.34,76.05,0.146,5,14,7.5,Hot,0,60+,0.996,1.39,0.76,35.04,0.62,0.628,1
+Cuddalore,Semi-Urban,10.0465,76.5204,Drug Offense,11,Monday,Morning,575,14.34,72.6,0.781,7,9,1.12,Rainy,1,36-45,0.905,3.5,0.726,68.47,0.314,0.517,0
+Ramanathapuram,Semi-Urban,12.8653,77.1638,Property Crime,8,Sunday,Night,387,5.75,70.71,0.22,5,12,4.39,Rainy,0,46-60,0.959,4.06,0.707,31.71,0.298,0.832,0
+Ramanathapuram,Rural,10.1932,77.3043,Assault,1,Saturday,Evening,635,13.88,74.99,0.341,3,6,7.39,Cloudy,0,46-60,1.07,4.14,0.75,55.42,0.751,0.544,1
+Tiruvannamalai,Rural,9.7693,80.3629,Domestic Violence,5,Thursday,Afternoon,610,5.3,71.97,0.374,3,5,7.41,Cloudy,0,18-25,0.996,1.7,0.72,41.94,0.838,0.769,0
+Krishnagiri,Rural,9.8981,80.4813,Vandalism,12,Wednesday,Afternoon,628,5.66,72.36,0.276,5,5,0.6,Hot,1,46-60,1.056,4.94,0.724,48.03,0.87,0.336,1
+Villupuram,Rural,9.4602,76.1562,Domestic Violence,10,Monday,Evening,547,7.57,67.86,0.664,5,4,5.72,Sunny,1,26-35,1.076,1.97,0.679,53.73,0.282,0.539,1
+Tirunelveli,Rural,10.1292,77.0811,Property Crime,9,Saturday,Morning,643,10.7,83.61,0.319,3,11,5.74,Cloudy,0,36-45,1.011,4.98,0.836,58.47,0.426,0.685,1
+Villupuram,Semi-Urban,10.1575,78.79,Fraud,6,Wednesday,Afternoon,237,14.02,66.6,0.425,8,14,4.4,Cloudy,0,46-60,1.014,1.71,0.666,33.53,0.305,0.367,1
+Madurai,Urban,8.6296,79.9214,Assault,10,Thursday,Evening,888,3.67,90.69,0.609,15,38,7.97,Hot,1,26-35,0.936,3.52,0.907,78.22,0.835,0.564,0
+Tiruchirappalli,Rural,12.4061,77.0201,Theft,6,Saturday,Night,304,11.68,70.69,0.308,3,9,2.81,Rainy,0,60+,1.011,3.33,0.707,51.4,0.772,0.569,1
+Dindigul,Rural,10.9497,78.0348,Cybercrime,4,Wednesday,Evening,398,12.96,80.76,0.262,3,5,4.47,Rainy,1,26-35,0.951,3.58,0.808,66.89,0.875,0.674,0
+Erode,Rural,10.4277,76.6419,Property Crime,5,Sunday,Night,356,8.46,70.02,0.313,4,6,5.6,Sunny,0,36-45,0.922,2.56,0.7,33.91,0.757,0.782,0
+Ramanathapuram,Urban,8.9583,77.0856,Vandalism,8,Sunday,Morning,682,11.36,73.74,0.406,6,4,4.99,Sunny,0,18-25,1.065,4.88,0.737,35.55,0.771,0.36,1
+Villupuram,Rural,9.5761,78.1473,Vandalism,4,Saturday,Evening,580,10.07,71.57,0.797,8,11,3.29,Cloudy,1,36-45,0.913,3.13,0.716,32.89,0.847,0.514,0
+Tiruvannamalai,Rural,8.5895,78.6431,Domestic Violence,6,Monday,Evening,463,8.74,84.58,0.789,4,6,5.76,Sunny,0,26-35,0.916,2.85,0.846,66.19,0.445,0.393,1
+Thoothukudi,Semi-Urban,10.2915,78.626,Traffic Violation,5,Monday,Morning,438,8.24,69.82,0.212,8,14,7.65,Sunny,0,18-25,0.931,4.26,0.698,43.37,0.377,0.674,1
+Dindigul,Urban,9.4284,76.5537,Vandalism,6,Monday,Evening,658,8.95,71.16,0.299,4,8,0.75,Sunny,0,18-25,1.012,4.23,0.712,56.69,0.482,0.512,1
+Madurai,Semi-Urban,13.1797,77.9749,Domestic Violence,6,Sunday,Afternoon,1081,7.45,89.86,0.585,10,20,6.43,Rainy,0,36-45,0.912,1.11,0.899,73.62,0.4,0.479,0
+Ramanathapuram,Rural,12.1671,78.7306,Assault,5,Saturday,Evening,400,13.43,74.6,0.335,8,6,1.73,Cloudy,0,26-35,0.996,3.73,0.746,43.42,0.839,0.896,1
+Salem,Semi-Urban,8.664,77.4291,Domestic Violence,5,Friday,Afternoon,473,6.46,77.5,0.331,2,11,3.93,Hot,0,18-25,0.908,0.71,0.775,57.56,0.87,0.307,1
+Villupuram,Rural,10.0551,78.1636,Domestic Violence,3,Saturday,Evening,599,5.07,76.26,0.289,8,10,1.96,Cloudy,0,46-60,1.063,1.19,0.763,58.16,0.285,0.482,0
+Kanchipuram,Rural,9.1586,79.2055,Burglary,8,Tuesday,Afternoon,438,7.91,82.55,0.123,4,2,1.96,Cloudy,0,60+,1.011,0.91,0.826,62.79,0.327,0.469,0
+Coimbatore,Urban,8.8544,76.166,Traffic Violation,12,Tuesday,Morning,1593,4.21,92.36,0.759,12,28,4.73,Rainy,1,36-45,1.093,2.54,0.924,80.8,0.333,0.344,1
+Namakkal,Semi-Urban,11.0665,79.5284,Theft,4,Monday,Night,202,13.99,77.05,0.598,4,12,3.69,Cloudy,1,60+,1.059,1.08,0.771,37.97,0.679,0.508,1
+Namakkal,Semi-Urban,11.8536,80.053,Theft,11,Monday,Morning,681,13.04,84.04,0.64,8,5,7.31,Rainy,1,26-35,0.905,4.63,0.84,52.84,0.55,0.907,0
+Tiruvannamalai,Rural,8.5944,80.3988,Drug Offense,1,Tuesday,Night,798,7.31,83.37,0.564,8,15,1.14,Rainy,0,18-25,1.096,4.5,0.834,33.1,0.732,0.454,0
+Dharmapuri,Semi-Urban,10.339,79.1712,Fraud,12,Saturday,Evening,617,12.64,75.65,0.781,8,3,4.67,Sunny,1,18-25,1.045,2.25,0.756,38.65,0.642,0.521,1
+Chennai,Urban,13.3434,79.3761,Fraud,3,Tuesday,Evening,1438,6.23,87.1,0.334,20,18,4.8,Hot,0,60+,1.084,2.41,0.871,88.15,0.718,0.57,1
+Vellore,Rural,11.2784,76.1164,Burglary,8,Monday,Night,226,13.48,76.83,0.457,7,15,4.76,Cloudy,0,36-45,1.03,4.52,0.768,69.86,0.39,0.446,1
+Dindigul,Urban,13.3704,77.7461,Burglary,10,Friday,Night,518,9.78,83.67,0.547,3,15,5.05,Sunny,1,46-60,0.971,1.56,0.837,33.23,0.254,0.435,1
+Chennai,Urban,8.7764,77.5355,Traffic Violation,4,Thursday,Night,1677,5.61,86.79,0.663,21,16,5.88,Sunny,1,18-25,0.922,3.8,0.868,77.59,0.446,0.911,1
+Tirunelveli,Rural,8.1814,78.4338,Theft,12,Sunday,Night,693,12.97,76.17,0.668,5,14,3.16,Hot,1,18-25,0.959,1.19,0.762,38.28,0.824,0.664,1
+Madurai,Semi-Urban,12.283,76.4178,Property Crime,4,Sunday,Evening,1660,7.61,94.35,0.499,11,38,1.45,Sunny,1,60+,0.929,3.89,0.944,79.3,0.309,0.612,1
+Dharmapuri,Semi-Urban,9.3146,76.9598,Theft,5,Saturday,Night,269,7.61,80.94,0.724,3,6,6.37,Hot,0,46-60,0.949,3.38,0.809,41.03,0.442,0.513,1
+Thoothukudi,Rural,9.4499,77.6683,Theft,12,Tuesday,Night,274,14.94,66.24,0.396,7,6,7.3,Rainy,1,18-25,1.05,0.67,0.662,59.34,0.439,0.87,1
+Namakkal,Rural,11.7422,79.2146,Burglary,4,Thursday,Night,377,6.32,70.48,0.721,5,8,4.04,Hot,1,46-60,1.013,4.35,0.705,39.57,0.357,0.487,1
+Dindigul,Semi-Urban,8.5371,80.0615,Assault,11,Thursday,Morning,534,8.71,69.91,0.737,7,7,2.61,Sunny,1,26-35,1.096,0.61,0.699,50.67,0.639,0.493,1
+Dharmapuri,Rural,11.0449,79.2055,Traffic Violation,6,Saturday,Afternoon,513,9.26,71.32,0.257,8,8,2.14,Cloudy,0,36-45,1.078,3.41,0.713,52.49,0.317,0.815,0
+Tirunelveli,Rural,10.4733,77.7952,Cybercrime,11,Friday,Evening,739,12.09,68.58,0.323,8,12,4.89,Cloudy,1,26-35,1.038,4.19,0.686,68.74,0.335,0.631,1
+Virudhunagar,Rural,9.2958,77.1847,Cybercrime,1,Thursday,Evening,207,11.88,68.26,0.227,7,6,1.06,Cloudy,0,26-35,0.904,1.64,0.683,41.27,0.342,0.699,0
+Thanjavur,Rural,9.8745,77.1711,Traffic Violation,6,Wednesday,Night,486,14.8,68.56,0.513,7,14,6.75,Rainy,0,36-45,1.081,2.31,0.686,33.99,0.496,0.464,0
+Erode,Rural,9.8118,79.0251,Theft,9,Sunday,Night,653,5.06,80.84,0.539,2,15,4.97,Hot,0,18-25,0.978,0.81,0.808,38.15,0.406,0.74,1
+Sivaganga,Semi-Urban,8.3176,79.7131,Burglary,11,Sunday,Night,619,7.24,76.01,0.466,7,8,6.0,Cloudy,1,26-35,1.031,4.61,0.76,64.24,0.442,0.504,1
+Villupuram,Semi-Urban,12.1549,78.6037,Traffic Violation,9,Tuesday,Morning,441,7.2,66.55,0.638,4,2,5.16,Hot,0,46-60,0.988,1.68,0.666,33.68,0.665,0.632,1
+Tiruchirappalli,Semi-Urban,13.0399,80.2269,Drug Offense,5,Friday,Afternoon,434,9.67,73.19,0.328,5,13,0.74,Cloudy,0,46-60,0.903,2.02,0.732,45.37,0.392,0.334,0
+Karur,Rural,8.2196,76.3714,Property Crime,1,Saturday,Morning,278,11.64,74.18,0.265,3,3,4.32,Sunny,0,60+,0.945,2.52,0.742,59.39,0.422,0.91,0
+Thanjavur,Rural,10.7184,77.5068,Traffic Violation,4,Thursday,Night,685,10.22,74.92,0.313,4,14,6.74,Hot,1,36-45,1.089,4.93,0.749,43.61,0.53,0.864,0
+Madurai,Urban,9.2561,77.1913,Burglary,4,Friday,Evening,909,3.63,93.5,0.753,14,23,3.02,Hot,1,60+,1.012,2.42,0.935,86.28,0.798,0.622,0
+Kanchipuram,Urban,9.9077,77.4303,Theft,9,Sunday,Night,275,13.44,78.73,0.292,3,7,3.62,Rainy,0,26-35,0.967,1.85,0.787,42.55,0.337,0.939,0
+Ramanathapuram,Semi-Urban,11.3076,76.7927,Theft,2,Friday,Night,654,9.79,78.56,0.501,3,15,5.85,Sunny,0,46-60,1.085,1.58,0.786,33.67,0.613,0.407,0
+Dindigul,Rural,11.0062,77.5174,Domestic Violence,1,Monday,Afternoon,348,10.3,83.35,0.23,7,15,3.5,Sunny,0,46-60,1.038,1.24,0.834,40.95,0.545,0.469,1
+Ramanathapuram,Semi-Urban,12.6018,76.7946,Property Crime,1,Wednesday,Night,517,14.19,70.07,0.344,3,5,4.52,Hot,0,18-25,1.051,1.4,0.701,63.08,0.375,0.425,0
+Dharmapuri,Rural,8.1618,76.8835,Fraud,4,Tuesday,Evening,748,8.12,74.74,0.456,7,9,1.8,Rainy,1,26-35,1.072,3.68,0.747,41.22,0.858,0.548,1
+Coimbatore,Urban,8.913,78.1414,Cybercrime,1,Thursday,Afternoon,1160,5.78,86.15,0.734,16,40,4.16,Sunny,0,60+,0.933,4.74,0.862,85.24,0.331,0.455,0
+Dharmapuri,Rural,9.6115,76.182,Vandalism,3,Saturday,Afternoon,281,13.45,68.94,0.304,6,2,4.22,Cloudy,0,18-25,1.048,3.63,0.689,36.73,0.495,0.472,0
+Krishnagiri,Semi-Urban,9.2405,76.9608,Vandalism,1,Sunday,Night,242,11.82,75.8,0.757,8,6,5.45,Rainy,0,46-60,1.085,2.13,0.758,68.14,0.318,0.678,0
+Tiruvannamalai,Rural,13.3831,79.1851,Domestic Violence,5,Wednesday,Night,741,9.38,75.93,0.561,2,5,7.45,Sunny,0,18-25,0.993,4.65,0.759,57.49,0.735,0.684,1
+Tiruchirappalli,Rural,8.3999,76.2141,Burglary,6,Saturday,Evening,289,7.19,73.5,0.755,6,15,6.87,Hot,0,60+,0.991,1.35,0.735,60.88,0.809,0.732,1
+Vellore,Rural,11.8677,77.5824,Drug Offense,6,Thursday,Night,316,9.45,79.08,0.599,6,6,4.54,Cloudy,0,36-45,1.038,3.85,0.791,58.71,0.425,0.834,0
+Tirunelveli,Semi-Urban,11.158,77.3754,Fraud,3,Sunday,Morning,423,11.32,72.59,0.239,4,15,1.77,Hot,0,18-25,0.969,4.48,0.726,31.29,0.553,0.791,0
+Virudhunagar,Rural,10.9392,77.5935,Theft,10,Monday,Night,319,14.13,71.25,0.48,5,7,2.85,Sunny,1,18-25,1.036,2.42,0.712,62.96,0.251,0.771,0
+Dharmapuri,Urban,12.8928,76.604,Assault,7,Tuesday,Afternoon,554,6.42,76.55,0.471,2,14,5.65,Sunny,0,46-60,0.943,3.34,0.766,40.81,0.831,0.564,0
+Villupuram,Rural,12.8164,78.7521,Assault,9,Wednesday,Evening,512,6.69,83.64,0.613,4,12,4.05,Cloudy,0,36-45,1.019,3.17,0.836,67.4,0.302,0.898,0
+Salem,Rural,11.2203,78.9883,Assault,8,Saturday,Evening,495,10.43,68.41,0.797,5,13,1.92,Hot,0,46-60,0.905,0.69,0.684,68.37,0.745,0.889,0
+Vellore,Rural,12.7676,80.0289,Domestic Violence,5,Sunday,Night,392,8.91,75.4,0.713,5,11,5.19,Rainy,0,60+,0.965,3.84,0.754,60.12,0.476,0.656,0
+Coimbatore,Urban,11.1774,80.0217,Cybercrime,12,Friday,Evening,1343,5.21,92.33,0.192,8,37,5.47,Sunny,1,18-25,0.908,0.66,0.923,72.68,0.328,0.617,1
+Karur,Rural,11.0192,79.4509,Domestic Violence,11,Sunday,Night,738,10.93,82.04,0.138,5,6,3.74,Rainy,1,60+,1.014,4.4,0.82,65.81,0.769,0.676,0
+Virudhunagar,Semi-Urban,12.9872,79.0869,Drug Offense,8,Wednesday,Night,675,8.55,67.45,0.764,4,3,2.74,Rainy,0,46-60,1.095,2.65,0.674,40.98,0.706,0.397,0
+Villupuram,Urban,10.0649,79.5924,Theft,6,Saturday,Night,318,11.5,77.47,0.702,8,11,6.19,Cloudy,0,26-35,0.918,0.59,0.775,35.26,0.646,0.364,1
+Villupuram,Rural,8.7771,78.0933,Theft,4,Tuesday,Afternoon,255,9.68,65.3,0.422,6,11,7.12,Sunny,1,36-45,1.042,4.1,0.653,43.11,0.4,0.813,1
+Thanjavur,Urban,9.771,77.838,Drug Offense,10,Tuesday,Afternoon,347,7.35,84.66,0.162,4,9,1.49,Sunny,1,60+,1.048,3.52,0.847,51.78,0.592,0.845,1
+Salem,Urban,10.4318,80.3743,Fraud,3,Friday,Afternoon,231,5.24,72.49,0.164,5,5,2.12,Cloudy,0,36-45,1.06,4.59,0.725,48.8,0.509,0.378,1
+Kanchipuram,Rural,9.2744,79.2063,Fraud,7,Tuesday,Morning,277,9.36,83.16,0.661,2,7,5.45,Sunny,0,18-25,1.075,4.93,0.832,55.72,0.817,0.916,1
+Madurai,Semi-Urban,8.7378,77.936,Drug Offense,1,Monday,Evening,1394,6.07,89.47,0.611,14,20,1.18,Rainy,0,26-35,0.971,3.55,0.895,82.91,0.484,0.51,0
+Dindigul,Rural,13.3324,76.6914,Burglary,10,Sunday,Night,756,10.77,69.78,0.728,8,13,4.17,Cloudy,1,26-35,0.945,0.58,0.698,53.44,0.509,0.618,1
+Cuddalore,Rural,11.6771,76.3761,Domestic Violence,4,Sunday,Morning,722,13.46,67.47,0.621,7,10,1.35,Hot,1,18-25,0.903,1.45,0.675,54.99,0.351,0.363,0
+Vellore,Urban,11.3796,76.0573,Drug Offense,12,Tuesday,Afternoon,522,7.59,81.67,0.771,4,10,1.58,Sunny,1,60+,0.998,2.63,0.817,54.65,0.595,0.303,1
+Tiruchirappalli,Rural,11.3736,79.1074,Domestic Violence,4,Friday,Afternoon,463,15.0,80.5,0.704,7,7,4.68,Hot,1,36-45,0.986,4.11,0.805,30.21,0.831,0.79,1
+Kanchipuram,Semi-Urban,11.8327,80.1169,Assault,6,Wednesday,Night,239,9.7,83.61,0.754,5,4,7.05,Sunny,0,46-60,0.923,3.67,0.836,38.48,0.248,0.824,1
+Cuddalore,Semi-Urban,11.2464,80.2926,Vandalism,3,Thursday,Afternoon,228,14.41,79.29,0.262,3,9,1.66,Sunny,0,18-25,1.008,4.83,0.793,67.34,0.729,0.342,0
+Thoothukudi,Semi-Urban,8.0281,77.3791,Drug Offense,7,Saturday,Evening,206,10.41,83.45,0.129,6,9,7.69,Hot,0,46-60,1.004,4.98,0.834,61.06,0.842,0.327,1
+Dharmapuri,Rural,12.4374,79.209,Vandalism,5,Thursday,Afternoon,754,9.55,71.62,0.259,7,14,7.92,Sunny,0,18-25,1.082,2.48,0.716,52.02,0.829,0.787,0
+Krishnagiri,Semi-Urban,9.3229,78.0815,Domestic Violence,11,Tuesday,Night,721,6.79,82.16,0.311,6,11,5.54,Cloudy,1,46-60,1.001,1.53,0.822,43.14,0.645,0.47,1
+Salem,Semi-Urban,11.841,76.8753,Theft,9,Friday,Evening,364,11.8,67.64,0.79,3,9,7.67,Cloudy,0,36-45,0.953,2.1,0.676,56.17,0.45,0.798,1
+Sivaganga,Rural,13.109,76.0629,Assault,4,Friday,Afternoon,431,7.28,82.99,0.146,8,3,3.92,Rainy,1,36-45,0.925,2.31,0.83,66.77,0.64,0.457,1
+Salem,Rural,10.4464,78.7439,Cybercrime,5,Saturday,Evening,741,12.43,84.63,0.343,8,5,1.58,Hot,0,18-25,0.987,1.65,0.846,39.96,0.572,0.743,0
+Virudhunagar,Urban,8.0943,77.4774,Traffic Violation,1,Sunday,Night,360,8.84,79.23,0.235,3,8,4.55,Hot,0,36-45,0.922,1.33,0.792,61.54,0.595,0.71,0
+Cuddalore,Rural,11.68,76.8006,Fraud,3,Wednesday,Afternoon,739,12.31,71.04,0.364,8,3,1.23,Hot,0,46-60,0.916,1.13,0.71,66.95,0.215,0.661,1
+Kanchipuram,Urban,9.7496,77.5766,Burglary,11,Wednesday,Morning,282,11.82,69.4,0.171,8,12,3.16,Sunny,1,60+,1.069,3.28,0.694,65.3,0.796,0.63,1
+Villupuram,Urban,11.7959,78.3338,Assault,11,Tuesday,Night,297,14.94,75.91,0.48,3,13,3.07,Rainy,1,46-60,1.009,0.86,0.759,37.12,0.39,0.561,1
+Ramanathapuram,Rural,8.2588,79.1774,Assault,6,Saturday,Night,726,7.92,81.48,0.561,8,13,3.52,Hot,0,26-35,0.94,2.51,0.815,42.26,0.863,0.5,1
+Tiruchirappalli,Rural,10.9881,79.5183,Vandalism,7,Thursday,Evening,682,10.26,67.46,0.627,6,11,1.87,Hot,0,18-25,1.025,2.68,0.675,30.62,0.477,0.77,0
+Thoothukudi,Rural,11.5494,77.0079,Vandalism,2,Thursday,Afternoon,554,7.5,82.07,0.564,2,6,6.88,Cloudy,0,36-45,0.949,1.85,0.821,61.43,0.407,0.753,1
+Krishnagiri,Rural,11.7412,76.8688,Property Crime,6,Saturday,Morning,345,10.41,76.28,0.727,4,12,1.27,Rainy,0,36-45,1.021,3.01,0.763,65.44,0.727,0.71,1
+Chennai,Urban,11.3017,77.8209,Domestic Violence,3,Thursday,Evening,1191,6.46,86.09,0.219,21,33,2.79,Sunny,0,18-25,0.935,1.17,0.861,89.83,0.34,0.796,0
+Namakkal,Urban,11.5655,78.1343,Burglary,11,Tuesday,Evening,246,11.64,68.13,0.66,4,15,7.88,Hot,1,26-35,1.093,1.36,0.681,59.35,0.538,0.327,0
+Coimbatore,Urban,10.4352,76.6773,Burglary,12,Wednesday,Night,1634,3.57,87.12,0.774,12,19,2.09,Rainy,1,26-35,0.947,4.83,0.871,70.26,0.531,0.656,1
+Tiruvannamalai,Semi-Urban,9.8542,80.0824,Drug Offense,10,Sunday,Evening,342,5.01,81.06,0.394,2,13,5.31,Rainy,1,36-45,1.016,3.76,0.811,48.19,0.499,0.472,0
+Thanjavur,Rural,9.7656,78.8429,Vandalism,7,Wednesday,Morning,331,6.74,75.87,0.777,4,7,6.26,Rainy,0,60+,1.066,3.67,0.759,64.31,0.635,0.431,0
+Cuddalore,Rural,12.2876,78.8688,Cybercrime,2,Monday,Evening,481,9.2,66.48,0.228,8,13,0.89,Sunny,0,46-60,1.046,2.54,0.665,54.45,0.595,0.687,0
+Sivaganga,Rural,12.3199,79.9554,Drug Offense,3,Sunday,Night,497,6.37,81.22,0.58,6,2,6.31,Cloudy,0,26-35,1.036,4.35,0.812,57.74,0.804,0.542,1
+Salem,Semi-Urban,9.5556,76.5941,Domestic Violence,5,Saturday,Evening,687,11.49,84.75,0.762,6,12,0.62,Hot,0,46-60,0.919,3.63,0.848,41.28,0.795,0.937,1
+Kanchipuram,Rural,13.4377,79.7936,Domestic Violence,7,Tuesday,Evening,714,5.86,77.21,0.6,7,4,5.01,Cloudy,0,26-35,0.931,1.25,0.772,37.47,0.876,0.401,0
+Tirunelveli,Semi-Urban,9.068,77.8172,Burglary,10,Thursday,Night,665,7.34,65.92,0.219,2,13,1.29,Cloudy,1,36-45,0.987,1.67,0.659,56.83,0.69,0.905,1
+Madurai,Urban,11.8038,76.6698,Domestic Violence,8,Tuesday,Morning,984,5.15,87.44,0.703,11,39,5.87,Hot,0,60+,1.015,0.53,0.874,80.28,0.416,0.342,1
+Cuddalore,Rural,8.3612,79.8188,Drug Offense,12,Monday,Evening,698,10.07,69.63,0.727,6,11,7.19,Sunny,1,60+,1.003,4.64,0.696,50.21,0.855,0.432,0
+Virudhunagar,Semi-Urban,11.4655,77.0602,Fraud,11,Wednesday,Night,602,5.99,78.84,0.188,2,8,7.69,Rainy,1,60+,1.007,3.78,0.788,36.66,0.417,0.587,0
+Dharmapuri,Semi-Urban,10.8995,76.0749,Assault,2,Thursday,Night,319,13.03,76.06,0.127,4,3,5.52,Sunny,0,60+,0.982,2.3,0.761,64.89,0.624,0.923,1
+Coimbatore,Semi-Urban,13.1701,77.1408,Property Crime,10,Friday,Evening,1378,4.82,93.99,0.246,14,40,1.64,Sunny,1,46-60,0.988,4.57,0.94,85.43,0.325,0.574,1
+Namakkal,Semi-Urban,9.906,78.3751,Fraud,12,Thursday,Night,419,9.26,79.78,0.734,3,4,4.79,Hot,1,18-25,1.029,4.46,0.798,32.33,0.392,0.83,1
+Madurai,Urban,10.0749,80.3164,Cybercrime,4,Tuesday,Morning,900,5.79,89.62,0.632,19,26,2.85,Sunny,1,60+,1.07,2.45,0.896,88.87,0.483,0.55,1
+Ramanathapuram,Semi-Urban,9.9064,77.7716,Assault,4,Friday,Afternoon,668,10.54,76.92,0.771,4,6,7.41,Rainy,1,26-35,0.996,4.87,0.769,33.45,0.876,0.811,1
+Chennai,Urban,9.0463,78.8308,Drug Offense,4,Tuesday,Evening,984,5.43,93.81,0.109,16,25,1.69,Cloudy,1,26-35,0.992,3.29,0.938,87.7,0.685,0.93,0
+Virudhunagar,Rural,12.6804,79.8971,Domestic Violence,10,Tuesday,Afternoon,435,6.97,76.51,0.705,2,12,4.4,Cloudy,1,26-35,0.997,0.5,0.765,53.35,0.764,0.803,1
+Tirunelveli,Rural,12.8557,76.9463,Assault,7,Monday,Morning,554,11.96,72.81,0.266,7,12,6.34,Sunny,0,60+,0.902,2.73,0.728,39.48,0.63,0.315,0
+Erode,Rural,13.1136,76.1898,Assault,8,Sunday,Night,524,13.99,84.1,0.738,6,12,7.77,Hot,0,46-60,0.911,4.87,0.841,61.32,0.732,0.44,0
+Dharmapuri,Semi-Urban,11.9858,76.1877,Traffic Violation,3,Thursday,Night,243,9.21,68.94,0.57,5,14,7.75,Sunny,0,60+,1.004,3.81,0.689,52.52,0.872,0.413,0
+Coimbatore,Urban,11.6485,80.236,Property Crime,8,Friday,Night,1921,3.32,91.29,0.419,19,24,6.13,Sunny,0,60+,0.922,1.85,0.913,80.46,0.472,0.354,1
+Thoothukudi,Rural,8.6724,78.1241,Fraud,11,Sunday,Morning,572,6.39,75.47,0.639,6,2,3.33,Cloudy,1,46-60,0.927,2.39,0.755,52.75,0.213,0.89,0
+Tirunelveli,Semi-Urban,11.9858,78.1376,Domestic Violence,1,Sunday,Evening,201,6.01,74.75,0.397,4,2,4.22,Cloudy,0,18-25,1.004,2.29,0.748,64.2,0.845,0.476,1
+Krishnagiri,Semi-Urban,12.5753,80.185,Property Crime,2,Wednesday,Morning,786,14.33,72.84,0.632,2,9,2.49,Cloudy,0,60+,1.058,1.93,0.728,68.87,0.863,0.672,1
+Ramanathapuram,Urban,12.7171,79.3446,Traffic Violation,6,Friday,Morning,435,13.67,83.82,0.306,2,15,5.12,Cloudy,0,18-25,0.929,4.2,0.838,31.72,0.398,0.348,0
+Krishnagiri,Rural,12.678,80.3721,Traffic Violation,7,Monday,Morning,791,8.37,83.2,0.643,8,6,4.34,Sunny,0,60+,1.072,1.24,0.832,34.83,0.672,0.665,1
+Tirunelveli,Rural,12.1193,80.2564,Burglary,2,Sunday,Night,367,14.69,66.36,0.305,8,3,2.92,Rainy,0,60+,0.968,0.88,0.664,53.95,0.729,0.321,1
+Karur,Semi-Urban,10.5119,78.8196,Fraud,9,Wednesday,Morning,612,11.23,82.12,0.388,6,8,5.43,Cloudy,0,60+,1.061,3.86,0.821,38.28,0.328,0.474,0
+Namakkal,Semi-Urban,11.6292,78.0832,Domestic Violence,12,Tuesday,Evening,497,10.6,81.65,0.281,3,10,5.49,Hot,1,26-35,1.086,1.51,0.817,57.38,0.246,0.639,0
+Vellore,Rural,9.9235,77.5169,Drug Offense,7,Monday,Night,539,8.76,78.65,0.568,6,6,3.18,Rainy,0,26-35,1.03,1.99,0.786,32.47,0.299,0.718,1
+Thoothukudi,Urban,9.2644,78.7688,Assault,2,Saturday,Morning,259,13.47,78.65,0.737,2,11,2.75,Sunny,0,36-45,1.082,3.93,0.787,56.49,0.303,0.48,0
+Ramanathapuram,Rural,8.2817,76.1172,Fraud,11,Wednesday,Afternoon,281,7.91,83.33,0.641,2,7,0.84,Sunny,1,36-45,1.071,1.32,0.833,36.93,0.384,0.881,1
+Karur,Rural,12.1279,78.4827,Burglary,11,Sunday,Night,348,13.19,67.11,0.407,4,14,5.97,Sunny,1,36-45,1.033,2.58,0.671,39.58,0.514,0.603,0
+Namakkal,Rural,10.8106,77.0735,Domestic Violence,8,Saturday,Afternoon,619,13.14,78.41,0.561,8,15,3.11,Rainy,0,18-25,0.909,1.6,0.784,44.46,0.26,0.506,1
+Tirunelveli,Rural,12.3224,78.6166,Property Crime,5,Tuesday,Afternoon,307,12.04,84.36,0.588,7,15,2.23,Hot,0,36-45,1.065,3.21,0.844,35.3,0.741,0.548,0
+Tiruchirappalli,Semi-Urban,12.8643,78.0367,Burglary,12,Saturday,Evening,330,12.27,70.69,0.128,8,7,2.75,Hot,1,46-60,0.976,4.11,0.707,56.51,0.386,0.476,1
+Salem,Rural,13.4294,80.4159,Assault,12,Sunday,Morning,631,11.45,80.9,0.273,6,2,7.55,Rainy,1,36-45,0.96,3.04,0.809,33.74,0.265,0.543,1
+Namakkal,Rural,9.7833,77.4732,Fraud,1,Saturday,Night,704,14.43,79.26,0.355,2,15,7.95,Sunny,0,60+,0.922,2.42,0.793,46.75,0.366,0.46,1
+Madurai,Urban,11.8701,79.1632,Fraud,1,Tuesday,Afternoon,970,7.97,94.23,0.459,22,22,7.1,Rainy,0,46-60,1.025,2.97,0.942,89.32,0.83,0.411,1
+Kanchipuram,Rural,12.7322,79.8437,Domestic Violence,2,Monday,Night,572,7.64,80.46,0.186,6,3,6.0,Rainy,0,46-60,0.954,2.84,0.805,66.11,0.8,0.642,0
+Chennai,Urban,8.0468,76.1666,Fraud,5,Friday,Night,1378,3.09,94.68,0.369,16,35,2.26,Sunny,0,36-45,1.031,0.84,0.947,76.03,0.316,0.534,1
+Ramanathapuram,Rural,11.9257,80.2413,Fraud,9,Wednesday,Afternoon,639,14.93,84.46,0.747,8,12,1.3,Hot,0,36-45,0.929,3.78,0.845,31.36,0.754,0.398,0
+Madurai,Semi-Urban,13.3315,79.3571,Assault,2,Sunday,Night,1538,4.63,85.84,0.572,21,40,3.79,Sunny,0,60+,0.924,4.17,0.858,77.79,0.618,0.345,0
+Madurai,Urban,12.6995,77.0547,Vandalism,6,Friday,Afternoon,1733,5.3,88.29,0.542,11,39,4.79,Cloudy,0,26-35,0.927,1.68,0.883,78.95,0.89,0.477,1
+Kanchipuram,Rural,12.9541,79.173,Traffic Violation,9,Tuesday,Afternoon,605,5.41,80.81,0.458,2,6,5.62,Cloudy,0,26-35,0.901,1.08,0.808,54.91,0.758,0.452,1
+Ramanathapuram,Semi-Urban,11.5367,76.8787,Cybercrime,11,Thursday,Morning,441,6.76,79.07,0.198,8,5,2.38,Hot,1,46-60,0.931,4.63,0.791,67.44,0.227,0.477,0
+Karur,Rural,9.4381,79.0732,Theft,10,Saturday,Morning,551,10.25,67.81,0.558,8,2,3.41,Cloudy,1,60+,1.078,2.43,0.678,30.39,0.568,0.584,0
+Coimbatore,Urban,10.5994,79.5447,Burglary,3,Wednesday,Night,1833,7.01,86.74,0.125,16,39,7.19,Sunny,0,18-25,0.97,4.74,0.867,79.95,0.578,0.562,1
+Vellore,Rural,13.0202,77.0926,Traffic Violation,1,Friday,Night,770,5.18,78.68,0.544,4,2,6.02,Rainy,0,36-45,1.003,1.89,0.787,39.63,0.788,0.517,0
+Villupuram,Semi-Urban,8.3593,78.9199,Assault,7,Sunday,Night,384,10.68,68.64,0.779,3,11,0.81,Rainy,0,36-45,1.064,3.03,0.686,56.23,0.48,0.686,0
+Tirunelveli,Rural,8.7698,76.0659,Property Crime,8,Monday,Evening,642,8.89,66.91,0.507,3,11,7.22,Rainy,0,26-35,0.966,2.48,0.669,41.79,0.751,0.644,0
+Vellore,Urban,12.3217,76.1667,Traffic Violation,8,Wednesday,Afternoon,720,5.6,69.53,0.376,2,7,5.29,Sunny,0,36-45,0.955,2.74,0.695,55.58,0.879,0.747,1
+Sivaganga,Urban,12.4046,77.4276,Burglary,5,Tuesday,Night,769,11.99,65.76,0.622,6,2,1.26,Sunny,0,36-45,1.034,3.79,0.658,43.11,0.503,0.878,0
+Tiruvannamalai,Rural,11.6748,79.9282,Theft,3,Thursday,Afternoon,315,8.86,78.62,0.509,6,11,7.19,Hot,0,60+,1.038,4.45,0.786,58.13,0.785,0.755,0
+Erode,Rural,12.0977,77.5399,Vandalism,12,Sunday,Morning,405,5.23,76.94,0.687,8,14,5.75,Sunny,1,18-25,0.951,0.8,0.769,34.42,0.585,0.847,1
+Coimbatore,Urban,9.4736,78.1885,Assault,2,Thursday,Night,1358,7.68,93.5,0.554,10,39,4.48,Cloudy,0,36-45,1.032,1.08,0.935,80.88,0.322,0.389,0
+Ramanathapuram,Urban,8.9044,76.7423,Property Crime,11,Friday,Evening,385,14.45,79.83,0.101,7,5,7.42,Hot,1,46-60,1.065,3.97,0.798,51.08,0.509,0.316,0
+Tiruvannamalai,Rural,8.1048,79.9556,Traffic Violation,9,Monday,Afternoon,327,13.4,75.91,0.398,3,6,5.31,Rainy,0,60+,0.972,0.89,0.759,35.74,0.368,0.834,0
+Vellore,Semi-Urban,9.4803,77.2312,Property Crime,5,Tuesday,Night,689,13.33,80.36,0.661,2,13,6.49,Cloudy,0,46-60,1.056,4.84,0.804,42.68,0.203,0.42,0
+Cuddalore,Rural,11.9659,77.9827,Assault,4,Monday,Evening,260,14.2,78.15,0.189,6,11,4.53,Cloudy,1,60+,1.062,1.1,0.781,36.18,0.538,0.583,1
+Dindigul,Rural,9.6899,76.8814,Traffic Violation,4,Friday,Afternoon,671,5.72,74.07,0.101,2,2,4.73,Rainy,1,18-25,0.965,0.82,0.741,57.6,0.58,0.461,1
+Tirunelveli,Semi-Urban,9.2287,78.5119,Cybercrime,12,Saturday,Evening,655,10.43,70.35,0.72,2,3,3.05,Sunny,1,46-60,0.94,1.21,0.703,49.76,0.35,0.437,1
+Cuddalore,Semi-Urban,13.3324,77.3692,Cybercrime,6,Tuesday,Morning,680,8.99,67.22,0.686,4,12,2.34,Cloudy,0,36-45,0.962,2.47,0.672,35.92,0.283,0.75,1
+Erode,Rural,8.7716,78.0183,Drug Offense,12,Sunday,Evening,505,6.01,69.66,0.227,8,3,4.14,Sunny,1,60+,0.999,1.33,0.697,58.33,0.659,0.329,0
+Dindigul,Rural,11.9338,76.2852,Property Crime,12,Monday,Evening,552,14.41,84.45,0.72,5,5,6.68,Hot,1,46-60,1.098,3.75,0.844,44.25,0.827,0.341,0
+Krishnagiri,Rural,13.4455,78.7665,Property Crime,6,Saturday,Evening,395,9.91,72.94,0.631,7,7,7.99,Cloudy,0,36-45,0.906,2.35,0.729,58.51,0.405,0.793,1
+Kanchipuram,Urban,11.7914,80.1137,Burglary,9,Saturday,Night,776,5.14,71.1,0.751,5,7,7.39,Hot,0,18-25,1.01,2.73,0.711,54.47,0.651,0.479,0
+Namakkal,Rural,8.6571,76.9486,Burglary,9,Tuesday,Evening,221,9.51,76.95,0.328,4,3,7.44,Hot,0,46-60,1.066,4.32,0.77,39.35,0.313,0.387,0
+Erode,Semi-Urban,12.0621,76.2016,Burglary,8,Saturday,Evening,582,14.53,71.59,0.447,3,12,3.92,Rainy,0,18-25,1.024,1.01,0.716,60.04,0.858,0.429,0
+Kanchipuram,Rural,8.4515,80.0416,Assault,6,Tuesday,Night,701,8.95,72.94,0.376,4,10,1.45,Sunny,0,18-25,1.039,0.56,0.729,39.14,0.294,0.633,0
+Chennai,Urban,10.1155,76.6942,Burglary,8,Friday,Evening,1991,3.66,91.45,0.745,14,36,0.61,Sunny,0,18-25,0.907,3.35,0.915,71.64,0.758,0.341,0
+Karur,Semi-Urban,9.4795,76.8083,Theft,9,Saturday,Night,790,9.88,83.03,0.564,7,6,7.91,Rainy,0,46-60,0.988,1.06,0.83,45.8,0.835,0.387,1
+Krishnagiri,Rural,10.5297,77.1887,Drug Offense,8,Thursday,Evening,456,8.96,70.64,0.796,2,12,6.72,Sunny,0,36-45,0.925,2.0,0.706,31.12,0.456,0.886,1
+Cuddalore,Semi-Urban,10.5596,78.3143,Theft,8,Sunday,Night,657,13.67,71.87,0.767,2,6,5.69,Hot,0,18-25,1.019,1.47,0.719,66.43,0.72,0.946,0
+Madurai,Urban,12.574,77.2131,Fraud,2,Monday,Morning,1103,5.62,91.13,0.757,23,27,1.44,Rainy,0,26-35,1.023,2.09,0.911,80.37,0.603,0.358,0
+Dindigul,Semi-Urban,12.1934,80.3218,Assault,4,Saturday,Afternoon,634,6.66,68.53,0.695,6,10,5.22,Sunny,1,60+,0.91,3.28,0.685,65.23,0.265,0.403,1
+Erode,Rural,11.5163,77.2488,Cybercrime,7,Tuesday,Evening,285,9.03,66.91,0.312,3,6,3.38,Sunny,0,18-25,1.035,0.53,0.669,68.49,0.391,0.59,1
+Thoothukudi,Rural,13.1084,76.646,Property Crime,4,Friday,Evening,351,6.98,78.8,0.202,3,8,6.41,Hot,1,60+,0.911,1.15,0.788,60.81,0.284,0.859,0
+Dharmapuri,Rural,10.7843,76.6797,Burglary,1,Tuesday,Night,697,10.78,73.93,0.523,4,8,5.81,Sunny,0,18-25,0.935,3.55,0.739,66.27,0.364,0.559,1
+Dindigul,Rural,9.1518,77.443,Fraud,12,Friday,Morning,787,5.09,72.63,0.208,5,2,4.1,Hot,1,46-60,0.966,4.28,0.726,43.23,0.889,0.86,0
+Vellore,Semi-Urban,13.029,78.925,Theft,11,Wednesday,Evening,790,13.63,74.2,0.69,7,6,6.85,Sunny,1,46-60,1.075,2.68,0.742,50.66,0.201,0.688,1
+Ramanathapuram,Rural,9.0163,80.1236,Property Crime,2,Wednesday,Night,220,9.64,68.13,0.475,8,13,1.32,Rainy,0,26-35,0.96,4.83,0.681,64.86,0.76,0.362,1
+Vellore,Rural,10.242,80.4013,Fraud,11,Monday,Evening,245,12.74,81.55,0.77,7,6,3.68,Rainy,1,46-60,0.996,1.76,0.816,52.43,0.782,0.714,0
+Coimbatore,Urban,8.2956,77.0001,Theft,4,Wednesday,Night,1848,6.1,86.45,0.745,17,32,6.73,Cloudy,1,26-35,1.039,4.7,0.865,74.27,0.768,0.366,1
+Thoothukudi,Urban,8.7968,77.3709,Assault,3,Saturday,Morning,780,13.74,71.0,0.258,2,15,1.84,Cloudy,0,46-60,1.01,0.96,0.71,33.24,0.408,0.636,0
+Salem,Rural,10.6738,76.9129,Traffic Violation,7,Wednesday,Afternoon,235,9.4,75.37,0.745,7,15,1.08,Sunny,0,46-60,1.017,2.65,0.754,68.45,0.735,0.834,0
+Tirunelveli,Rural,13.2414,76.9195,Assault,2,Tuesday,Night,556,6.57,81.04,0.189,8,12,6.82,Sunny,0,60+,0.996,1.99,0.81,67.37,0.815,0.834,0
+Tirunelveli,Rural,9.7724,78.8556,Theft,2,Saturday,Night,740,11.89,79.91,0.732,8,9,5.41,Cloudy,0,46-60,0.982,3.98,0.799,56.41,0.744,0.83,0
+Dindigul,Urban,10.7724,78.4741,Cybercrime,10,Friday,Afternoon,220,13.62,83.99,0.2,3,2,2.47,Rainy,1,60+,0.989,0.85,0.84,48.35,0.711,0.457,1
+Dharmapuri,Urban,9.7479,79.4176,Assault,12,Thursday,Night,783,9.36,72.72,0.407,2,8,2.0,Rainy,1,60+,1.072,4.45,0.727,43.22,0.611,0.715,1
+Tiruchirappalli,Rural,13.4971,76.4516,Theft,1,Monday,Night,449,13.3,81.1,0.187,4,5,4.94,Sunny,0,60+,0.918,0.64,0.811,38.53,0.744,0.57,1
+Chennai,Urban,8.5112,77.4653,Theft,3,Sunday,Evening,1383,5.36,86.39,0.494,24,32,3.24,Hot,0,46-60,1.007,1.33,0.864,76.68,0.201,0.441,1
+Thoothukudi,Semi-Urban,9.5693,80.2844,Assault,9,Wednesday,Morning,346,5.77,71.21,0.621,7,14,5.2,Cloudy,0,26-35,0.993,4.34,0.712,41.56,0.866,0.769,1
+Thoothukudi,Semi-Urban,8.0386,77.5101,Property Crime,2,Wednesday,Afternoon,472,9.79,77.94,0.214,6,13,4.55,Hot,0,36-45,1.017,1.97,0.779,69.12,0.36,0.753,0
+Cuddalore,Rural,11.3329,76.0667,Theft,6,Friday,Night,254,13.41,70.33,0.255,7,14,3.36,Rainy,0,36-45,1.042,4.93,0.703,68.81,0.555,0.367,1
+Krishnagiri,Urban,11.8745,78.7587,Property Crime,10,Tuesday,Morning,459,14.4,78.43,0.729,5,4,1.98,Cloudy,1,36-45,1.058,2.58,0.784,33.71,0.878,0.42,0
+Cuddalore,Semi-Urban,9.1258,76.5541,Assault,4,Wednesday,Night,267,11.25,79.55,0.645,8,9,0.95,Cloudy,1,18-25,1.077,1.41,0.795,41.54,0.371,0.653,0
+Tirunelveli,Semi-Urban,12.5387,77.0795,Theft,6,Monday,Night,538,11.68,78.33,0.5,7,3,2.62,Hot,0,26-35,0.927,1.58,0.783,51.24,0.881,0.302,1
+Dharmapuri,Rural,11.909,80.4691,Property Crime,7,Tuesday,Morning,575,13.09,84.36,0.386,5,7,2.41,Rainy,0,26-35,0.994,4.4,0.844,68.52,0.564,0.32,0
+Thanjavur,Rural,8.09,76.3587,Fraud,12,Tuesday,Morning,339,7.38,70.6,0.777,6,13,1.51,Sunny,1,18-25,1.038,4.97,0.706,62.26,0.847,0.779,1
+Thoothukudi,Urban,10.7399,76.5294,Assault,5,Thursday,Afternoon,491,10.81,72.58,0.134,5,15,2.67,Sunny,0,18-25,0.935,3.08,0.726,49.58,0.571,0.898,1
+Virudhunagar,Urban,8.6535,77.1031,Theft,6,Tuesday,Evening,640,10.8,76.42,0.218,8,15,1.04,Rainy,0,60+,0.966,3.38,0.764,34.0,0.852,0.588,1
+Krishnagiri,Rural,10.8818,77.7188,Fraud,5,Sunday,Morning,540,11.12,68.42,0.646,4,10,6.81,Rainy,0,60+,0.958,0.58,0.684,39.89,0.573,0.57,0
+Thanjavur,Rural,9.786,77.9037,Fraud,2,Friday,Afternoon,376,13.42,81.96,0.754,7,2,4.12,Sunny,0,18-25,1.085,1.26,0.82,68.01,0.4,0.777,0
+Coimbatore,Urban,12.4347,80.448,Burglary,8,Friday,Evening,1836,5.16,87.81,0.149,22,17,2.74,Hot,0,26-35,0.917,3.51,0.878,71.85,0.395,0.804,1
+Dindigul,Rural,13.0223,77.975,Traffic Violation,2,Monday,Morning,428,8.42,80.27,0.673,2,4,2.87,Sunny,0,60+,0.995,3.69,0.803,56.94,0.735,0.362,0
+Dindigul,Rural,8.4458,77.0704,Burglary,12,Thursday,Night,656,14.12,78.04,0.623,7,10,2.76,Cloudy,1,60+,1.039,2.26,0.78,37.23,0.287,0.485,1
+Virudhunagar,Semi-Urban,11.32,79.4552,Assault,4,Friday,Night,538,6.3,68.31,0.783,3,8,6.02,Cloudy,1,46-60,0.966,1.75,0.683,62.77,0.832,0.562,0
+Coimbatore,Urban,12.2492,77.0643,Drug Offense,5,Friday,Morning,1286,3.47,93.97,0.255,23,28,5.72,Hot,0,36-45,0.915,1.06,0.94,75.85,0.36,0.743,1
+Dharmapuri,Urban,13.1371,79.869,Assault,6,Tuesday,Afternoon,569,14.27,83.16,0.753,7,12,4.92,Rainy,0,18-25,1.094,3.78,0.832,48.1,0.367,0.355,1
+Vellore,Semi-Urban,9.696,77.4245,Cybercrime,8,Saturday,Evening,790,7.69,73.47,0.503,5,13,3.54,Cloudy,0,26-35,1.094,4.71,0.735,65.93,0.566,0.783,1
+Villupuram,Urban,12.7214,77.9812,Drug Offense,2,Thursday,Evening,660,11.12,82.44,0.487,8,3,2.91,Hot,0,60+,1.056,4.27,0.824,58.98,0.675,0.919,1
+Thanjavur,Semi-Urban,10.393,79.6778,Theft,4,Tuesday,Night,315,13.37,80.42,0.653,6,8,6.83,Hot,1,26-35,0.918,0.57,0.804,50.21,0.47,0.488,0
+Tiruchirappalli,Rural,10.1618,79.1158,Domestic Violence,7,Wednesday,Afternoon,209,9.3,84.59,0.57,4,11,6.92,Rainy,0,26-35,1.027,4.39,0.846,50.79,0.731,0.837,1
+Tiruvannamalai,Rural,10.0869,79.8284,Property Crime,12,Monday,Afternoon,284,13.36,65.58,0.346,7,9,4.02,Rainy,1,46-60,0.907,2.04,0.656,32.65,0.633,0.762,1
+Coimbatore,Urban,13.2819,79.891,Fraud,6,Saturday,Morning,1730,5.17,94.06,0.387,14,27,2.85,Sunny,0,26-35,0.913,3.98,0.941,88.3,0.646,0.539,0
+Vellore,Rural,11.0134,80.1891,Theft,9,Thursday,Night,262,10.27,78.18,0.316,3,6,7.55,Rainy,0,26-35,1.065,1.48,0.782,60.35,0.525,0.522,1
+Villupuram,Rural,10.5332,79.4951,Burglary,11,Sunday,Night,748,14.23,67.26,0.507,4,9,5.57,Sunny,1,18-25,0.924,0.84,0.673,61.43,0.704,0.582,0
+Virudhunagar,Rural,11.1789,77.5567,Cybercrime,4,Friday,Evening,366,10.8,84.1,0.721,7,2,3.97,Cloudy,1,18-25,1.038,1.4,0.841,63.35,0.842,0.586,1
+Cuddalore,Urban,12.0404,77.2179,Burglary,5,Wednesday,Evening,467,5.88,82.4,0.122,5,10,3.78,Rainy,0,18-25,0.995,4.94,0.824,33.6,0.594,0.384,0
+Tiruchirappalli,Semi-Urban,12.0099,80.44,Traffic Violation,8,Friday,Morning,751,11.65,67.83,0.252,2,15,5.77,Rainy,0,60+,0.922,4.85,0.678,62.46,0.78,0.459,1
+Sivaganga,Rural,9.4923,80.2059,Traffic Violation,9,Thursday,Morning,576,6.55,82.4,0.295,2,13,2.91,Rainy,0,26-35,1.052,2.51,0.824,65.9,0.684,0.621,1
+Namakkal,Rural,13.4151,77.823,Assault,10,Thursday,Morning,232,9.88,79.53,0.381,2,6,3.75,Rainy,1,46-60,0.989,1.65,0.795,44.62,0.872,0.812,1
+Karur,Rural,9.1506,76.4281,Theft,2,Wednesday,Evening,666,6.06,70.43,0.102,2,3,5.27,Cloudy,0,60+,1.023,3.1,0.704,46.07,0.625,0.413,0
+Dindigul,Rural,9.8893,76.0613,Drug Offense,8,Friday,Morning,265,6.88,65.42,0.752,8,15,1.96,Rainy,0,60+,0.998,1.75,0.654,60.4,0.4,0.657,0
+Virudhunagar,Rural,10.6446,79.0452,Theft,2,Thursday,Night,530,12.28,77.82,0.547,4,2,3.36,Cloudy,0,46-60,0.951,4.15,0.778,66.38,0.569,0.418,0
+Kanchipuram,Rural,11.5664,77.7172,Fraud,11,Tuesday,Afternoon,237,9.32,72.25,0.79,3,7,7.73,Hot,1,46-60,1.089,4.29,0.722,56.26,0.28,0.459,1
+Vellore,Rural,11.6458,76.9728,Assault,4,Saturday,Evening,549,9.16,82.42,0.689,2,11,4.0,Rainy,1,18-25,0.974,3.89,0.824,36.44,0.246,0.723,1
+Thoothukudi,Rural,12.1432,77.5623,Traffic Violation,3,Wednesday,Evening,474,7.54,66.48,0.241,5,2,1.31,Cloudy,0,60+,0.949,4.9,0.665,67.78,0.301,0.871,1
+Villupuram,Rural,9.5168,77.7255,Burglary,5,Friday,Night,496,11.18,70.72,0.489,5,12,5.96,Cloudy,0,18-25,1.081,4.21,0.707,43.32,0.455,0.898,1
+Vellore,Rural,8.4369,79.1438,Fraud,9,Friday,Evening,204,10.96,65.29,0.174,7,5,7.8,Rainy,0,18-25,0.967,0.93,0.653,62.95,0.596,0.336,1
+Tiruvannamalai,Rural,13.3057,78.301,Domestic Violence,4,Sunday,Night,291,11.67,76.95,0.471,3,3,3.18,Sunny,1,26-35,0.908,2.05,0.769,64.78,0.364,0.398,1
+Dharmapuri,Semi-Urban,12.538,78.5706,Vandalism,1,Monday,Night,574,9.79,78.1,0.322,8,12,6.22,Cloudy,0,46-60,1.031,0.79,0.781,36.88,0.577,0.568,0
+Namakkal,Rural,12.8016,79.8661,Assault,3,Tuesday,Night,789,14.56,81.26,0.707,6,3,1.88,Rainy,0,18-25,1.079,3.82,0.813,68.32,0.577,0.697,0
+Vellore,Rural,8.297,76.6968,Vandalism,2,Tuesday,Evening,406,11.26,82.85,0.539,8,12,4.39,Hot,0,60+,0.924,4.92,0.828,40.5,0.249,0.581,0
+Madurai,Urban,13.423,79.2582,Fraud,8,Tuesday,Afternoon,1115,7.56,87.31,0.399,24,31,7.9,Cloudy,0,46-60,0.944,4.3,0.873,85.49,0.472,0.732,1
+Dharmapuri,Rural,8.2731,79.8593,Theft,5,Thursday,Night,514,9.1,77.63,0.615,7,6,2.41,Sunny,0,18-25,0.941,2.12,0.776,49.88,0.355,0.837,1
+Namakkal,Rural,8.1032,76.2294,Domestic Violence,10,Saturday,Evening,207,11.1,82.28,0.445,7,5,1.49,Cloudy,1,26-35,1.094,1.21,0.823,58.78,0.413,0.805,1
+Vellore,Rural,8.278,77.5466,Property Crime,4,Tuesday,Afternoon,340,14.82,76.76,0.616,6,9,0.83,Rainy,1,26-35,1.023,4.34,0.768,57.39,0.401,0.466,1
+Villupuram,Semi-Urban,9.0378,77.8574,Domestic Violence,8,Sunday,Morning,263,5.53,68.23,0.237,5,10,6.39,Hot,0,46-60,0.961,0.65,0.682,61.04,0.506,0.885,1
+Vellore,Semi-Urban,13.259,76.2808,Traffic Violation,3,Tuesday,Evening,365,12.37,71.51,0.726,7,14,1.57,Cloudy,0,36-45,1.053,1.19,0.715,46.04,0.597,0.52,1
+Virudhunagar,Rural,12.8076,80.2473,Theft,1,Wednesday,Morning,217,12.72,80.86,0.727,8,2,1.69,Cloudy,0,46-60,0.929,3.62,0.809,44.43,0.267,0.527,0
+Tiruvannamalai,Semi-Urban,10.6892,77.4154,Vandalism,7,Sunday,Night,408,14.87,77.92,0.513,8,2,1.37,Hot,0,60+,0.981,2.48,0.779,55.6,0.613,0.89,0
+Madurai,Urban,9.1273,76.9321,Fraud,4,Monday,Night,1494,7.71,89.55,0.168,22,40,5.05,Rainy,1,60+,1.019,2.86,0.895,74.25,0.746,0.611,0
+Salem,Semi-Urban,11.1951,77.4712,Theft,6,Tuesday,Night,392,11.59,73.71,0.288,5,11,1.19,Hot,0,36-45,1.001,2.9,0.737,68.57,0.768,0.939,0
+Villupuram,Urban,8.0238,79.2751,Cybercrime,12,Thursday,Afternoon,351,8.22,72.16,0.508,8,5,5.28,Hot,1,36-45,1.032,1.49,0.722,30.58,0.61,0.723,1
+Sivaganga,Semi-Urban,12.1908,76.2129,Theft,11,Tuesday,Night,341,7.83,71.15,0.589,6,7,5.49,Rainy,1,36-45,1.069,2.07,0.712,57.0,0.583,0.574,0
+Chennai,Urban,10.4931,79.9418,Cybercrime,4,Friday,Night,1559,4.84,94.29,0.579,10,24,6.49,Cloudy,1,36-45,0.917,4.13,0.943,82.75,0.519,0.411,1
+Cuddalore,Rural,10.6962,76.5791,Traffic Violation,7,Friday,Night,744,7.84,72.17,0.618,5,13,3.5,Rainy,0,36-45,0.987,2.71,0.722,30.73,0.721,0.848,1
+Thoothukudi,Rural,13.1731,79.3168,Burglary,2,Wednesday,Evening,747,7.81,72.21,0.662,5,12,7.17,Cloudy,0,36-45,0.967,1.3,0.722,61.69,0.861,0.878,1
+Karur,Rural,11.3553,80.2467,Property Crime,12,Sunday,Night,331,11.96,77.99,0.382,7,10,7.63,Hot,1,26-35,0.902,1.31,0.78,36.55,0.429,0.69,0
+Cuddalore,Semi-Urban,9.8587,80.3666,Property Crime,12,Friday,Morning,489,11.45,78.31,0.465,4,10,2.02,Hot,1,26-35,0.941,1.63,0.783,52.4,0.784,0.648,1
+Virudhunagar,Urban,11.7165,80.1824,Cybercrime,7,Sunday,Afternoon,643,5.7,66.1,0.342,8,3,3.54,Sunny,0,36-45,0.972,3.04,0.661,68.4,0.804,0.643,0
+Coimbatore,Urban,9.7234,80.3683,Fraud,8,Saturday,Evening,1632,6.14,87.64,0.295,14,40,1.8,Rainy,0,60+,1.062,4.98,0.876,87.67,0.706,0.636,1
+Dharmapuri,Rural,9.2653,76.0268,Fraud,7,Tuesday,Evening,384,9.64,71.85,0.633,2,9,1.4,Sunny,0,46-60,1.014,1.19,0.719,66.09,0.292,0.717,0
+Dharmapuri,Rural,13.3811,80.2171,Vandalism,11,Sunday,Morning,395,7.62,78.6,0.788,8,2,3.74,Hot,1,18-25,0.954,3.12,0.786,62.68,0.419,0.798,1
+Tirunelveli,Rural,9.4596,80.221,Theft,7,Sunday,Evening,352,8.72,82.72,0.324,2,7,6.52,Cloudy,0,60+,0.95,3.53,0.827,46.8,0.623,0.523,1
+Tirunelveli,Rural,8.9509,79.4774,Fraud,4,Wednesday,Afternoon,666,5.64,72.86,0.66,7,11,4.43,Hot,1,60+,1.071,4.95,0.729,67.17,0.823,0.351,0
+Tiruvannamalai,Rural,13.1351,78.1665,Property Crime,12,Sunday,Night,664,5.88,70.32,0.262,5,13,4.62,Hot,1,26-35,0.964,3.68,0.703,54.74,0.785,0.914,0
+Dindigul,Semi-Urban,9.0264,79.1527,Burglary,4,Monday,Morning,482,9.65,75.92,0.457,2,4,3.67,Rainy,1,46-60,0.996,2.2,0.759,45.22,0.783,0.629,0
+Tiruchirappalli,Semi-Urban,11.4796,76.1884,Fraud,11,Friday,Evening,591,8.3,67.58,0.76,3,8,0.53,Sunny,1,60+,0.951,4.54,0.676,52.23,0.65,0.484,0
+Thanjavur,Rural,12.8631,79.1985,Domestic Violence,1,Wednesday,Evening,558,8.31,83.4,0.487,3,7,4.87,Sunny,0,46-60,0.942,0.71,0.834,30.98,0.401,0.357,1
+Virudhunagar,Rural,11.4889,77.5222,Domestic Violence,8,Wednesday,Evening,227,5.17,77.26,0.211,2,15,6.3,Rainy,0,18-25,1.032,1.43,0.773,35.12,0.649,0.476,1
+Cuddalore,Semi-Urban,8.866,79.3134,Drug Offense,6,Friday,Afternoon,345,8.54,69.15,0.242,6,14,6.03,Hot,0,46-60,1.099,4.4,0.691,61.4,0.418,0.925,0
+Sivaganga,Rural,8.1647,79.6391,Assault,11,Tuesday,Night,367,5.43,83.71,0.389,5,10,2.49,Sunny,1,60+,0.977,1.3,0.837,56.9,0.327,0.926,0
+Madurai,Urban,13.079,77.6814,Theft,9,Wednesday,Morning,1862,5.33,93.92,0.288,11,29,1.11,Hot,0,18-25,0.926,4.94,0.939,71.64,0.589,0.414,1
+Salem,Urban,12.1897,80.3764,Cybercrime,4,Saturday,Afternoon,341,8.93,77.68,0.549,6,12,7.66,Cloudy,1,18-25,0.913,2.91,0.777,34.19,0.536,0.426,0
+Vellore,Semi-Urban,11.2275,77.6433,Drug Offense,11,Wednesday,Afternoon,372,14.19,77.27,0.642,6,11,2.51,Rainy,1,60+,1.064,0.73,0.773,33.31,0.391,0.775,0
+Villupuram,Rural,11.9811,79.9962,Drug Offense,6,Sunday,Afternoon,537,9.46,79.68,0.479,3,6,7.48,Hot,0,18-25,1.001,1.87,0.797,30.75,0.878,0.419,1
+Dindigul,Rural,11.769,78.4046,Theft,9,Saturday,Evening,718,10.51,67.66,0.343,6,7,2.5,Cloudy,0,46-60,0.973,3.52,0.677,41.69,0.757,0.405,0
+Villupuram,Rural,12.7565,79.4704,Theft,4,Sunday,Morning,353,13.16,71.71,0.771,5,6,3.25,Cloudy,1,46-60,1.074,3.67,0.717,40.04,0.484,0.843,1
+Dharmapuri,Rural,10.7918,76.1187,Cybercrime,3,Monday,Night,664,12.01,72.92,0.464,4,2,0.55,Sunny,0,18-25,1.025,2.05,0.729,54.24,0.845,0.568,0
+Krishnagiri,Semi-Urban,12.416,76.5255,Property Crime,4,Friday,Afternoon,461,5.22,80.9,0.492,3,8,0.98,Rainy,1,60+,0.95,2.63,0.809,37.79,0.444,0.678,1
+Virudhunagar,Rural,12.8608,79.7307,Assault,8,Tuesday,Morning,621,13.28,79.44,0.179,8,4,1.09,Hot,0,46-60,0.968,4.54,0.794,45.05,0.272,0.335,1
+Dharmapuri,Rural,11.6191,76.6403,Domestic Violence,10,Friday,Evening,458,13.24,76.93,0.55,7,8,4.51,Hot,1,18-25,1.044,3.48,0.769,56.38,0.53,0.603,1
+Sivaganga,Rural,12.9881,76.607,Vandalism,9,Thursday,Morning,741,7.47,75.66,0.627,7,7,3.63,Rainy,0,18-25,0.952,0.78,0.757,39.99,0.644,0.825,1
+Dindigul,Rural,12.9915,79.8794,Burglary,6,Saturday,Morning,559,10.76,80.81,0.202,4,8,1.56,Cloudy,0,26-35,1.068,3.17,0.808,59.04,0.5,0.861,0
+Villupuram,Rural,8.2735,77.9626,Cybercrime,6,Friday,Afternoon,313,6.29,68.04,0.691,5,10,6.61,Sunny,0,26-35,1.067,2.12,0.68,32.71,0.638,0.444,0
+Sivaganga,Rural,10.1853,78.0365,Traffic Violation,5,Friday,Evening,325,8.75,72.67,0.793,4,3,3.56,Sunny,0,60+,1.027,3.57,0.727,31.31,0.386,0.91,0
+Thoothukudi,Rural,11.2263,76.4342,Traffic Violation,12,Thursday,Afternoon,343,13.73,66.82,0.615,7,2,6.91,Sunny,1,60+,0.915,0.96,0.668,53.01,0.586,0.768,1
+Vellore,Semi-Urban,11.2141,76.4202,Traffic Violation,3,Wednesday,Night,582,8.24,80.58,0.151,8,15,5.06,Sunny,0,46-60,1.053,2.8,0.806,65.49,0.703,0.703,1
+Madurai,Urban,11.3523,78.8952,Cybercrime,12,Monday,Evening,920,3.99,85.73,0.434,20,15,4.72,Hot,1,26-35,0.944,3.6,0.857,76.09,0.433,0.932,1
+Coimbatore,Urban,10.8706,80.2795,Theft,7,Tuesday,Night,1278,5.77,89.84,0.425,17,19,1.66,Hot,0,36-45,0.954,1.88,0.898,70.37,0.354,0.949,1
+Thanjavur,Rural,8.8671,78.7437,Domestic Violence,12,Saturday,Night,501,13.97,73.71,0.779,6,2,2.28,Sunny,1,36-45,1.072,4.05,0.737,66.26,0.836,0.593,1
+Cuddalore,Rural,11.154,79.2434,Vandalism,8,Tuesday,Evening,302,6.83,74.67,0.667,8,6,0.83,Cloudy,0,36-45,0.908,3.95,0.747,30.5,0.369,0.37,1
+Karur,Rural,13.2512,79.9049,Burglary,3,Sunday,Evening,633,12.74,77.9,0.33,4,6,1.52,Sunny,0,26-35,0.902,2.53,0.779,62.67,0.632,0.645,1
+Thoothukudi,Rural,12.648,79.4146,Burglary,7,Friday,Evening,718,5.45,68.96,0.19,3,2,3.53,Sunny,0,18-25,0.952,3.5,0.69,34.86,0.76,0.832,0
+Coimbatore,Urban,9.1211,76.8358,Theft,6,Tuesday,Afternoon,1167,4.35,87.12,0.479,14,19,1.32,Cloudy,0,60+,0.916,3.07,0.871,70.27,0.896,0.403,0
+Madurai,Urban,10.618,78.9149,Assault,12,Thursday,Afternoon,963,5.8,87.55,0.267,11,20,5.9,Hot,1,26-35,0.911,0.97,0.876,82.01,0.298,0.338,0
+Dindigul,Semi-Urban,10.5255,77.6848,Theft,2,Wednesday,Night,586,8.41,83.71,0.12,2,10,1.01,Hot,0,26-35,0.904,4.18,0.837,60.07,0.297,0.616,1
+Thanjavur,Semi-Urban,10.8099,79.488,Theft,6,Sunday,Night,615,11.76,76.64,0.352,6,9,6.7,Rainy,0,36-45,1.071,3.76,0.766,68.72,0.327,0.385,1
+Tiruchirappalli,Rural,9.9027,77.1789,Theft,10,Friday,Night,239,7.3,75.38,0.297,2,5,4.47,Sunny,1,18-25,1.078,4.78,0.754,51.56,0.428,0.6,0
+Sivaganga,Rural,13.0937,76.1944,Domestic Violence,4,Friday,Morning,246,10.13,78.23,0.764,8,7,4.66,Sunny,1,60+,1.036,2.49,0.782,35.18,0.461,0.915,0
+Chennai,Urban,10.4929,77.5933,Property Crime,7,Monday,Morning,1616,5.76,89.8,0.357,14,29,6.07,Hot,0,36-45,0.923,1.55,0.898,70.31,0.699,0.342,0
+Madurai,Urban,9.3188,79.9269,Property Crime,8,Thursday,Morning,1924,3.85,93.55,0.172,9,22,3.59,Cloudy,0,36-45,0.958,1.85,0.935,85.99,0.643,0.766,0
+Karur,Semi-Urban,10.6,78.8733,Property Crime,10,Saturday,Evening,704,6.63,83.75,0.231,5,10,2.4,Rainy,1,36-45,1.001,4.21,0.837,67.58,0.339,0.648,0
+Vellore,Rural,9.8547,77.7125,Assault,10,Monday,Evening,296,6.71,80.31,0.212,2,15,3.68,Rainy,1,60+,1.076,1.53,0.803,38.3,0.206,0.335,1
+Madurai,Urban,9.1349,76.2881,Fraud,11,Wednesday,Morning,1414,5.28,94.55,0.466,10,21,6.76,Hot,1,36-45,1.008,2.35,0.946,76.05,0.218,0.662,1
+Thoothukudi,Semi-Urban,12.3132,77.6223,Assault,1,Sunday,Morning,782,8.77,65.51,0.342,6,6,6.44,Hot,0,60+,0.913,3.93,0.655,50.09,0.385,0.325,1
+Chennai,Urban,9.9393,77.8932,Theft,10,Sunday,Night,1010,4.31,90.82,0.299,24,26,6.89,Hot,1,18-25,1.054,0.92,0.908,77.9,0.297,0.76,0
+Tirunelveli,Semi-Urban,9.2889,80.3246,Burglary,12,Thursday,Night,645,10.68,70.65,0.6,4,4,2.25,Hot,1,36-45,0.983,4.43,0.706,64.28,0.456,0.826,0
+Cuddalore,Semi-Urban,12.0196,77.3382,Theft,9,Friday,Evening,797,9.89,83.86,0.455,8,8,7.31,Rainy,0,18-25,1.063,4.34,0.839,69.15,0.349,0.378,1
+Salem,Rural,8.574,76.0109,Theft,8,Thursday,Night,424,11.2,66.43,0.317,3,4,3.81,Sunny,0,26-35,1.053,2.88,0.664,59.62,0.531,0.67,1
+Thoothukudi,Rural,8.1552,76.4848,Domestic Violence,4,Wednesday,Night,715,14.36,77.76,0.416,8,6,6.8,Rainy,1,36-45,0.963,0.79,0.778,43.42,0.274,0.794,0
+Virudhunagar,Urban,9.7395,79.6332,Theft,6,Tuesday,Night,459,10.01,83.61,0.262,3,8,1.82,Rainy,0,60+,1.014,2.89,0.836,45.63,0.323,0.491,1
+Salem,Urban,11.5568,77.0119,Cybercrime,10,Friday,Evening,455,6.13,73.33,0.52,3,2,3.63,Hot,1,26-35,0.937,4.87,0.733,63.14,0.899,0.413,1
+Thoothukudi,Rural,9.9053,76.12,Burglary,8,Thursday,Night,417,14.82,81.91,0.189,8,3,1.21,Cloudy,0,36-45,0.939,3.51,0.819,34.16,0.49,0.634,0
+Coimbatore,Urban,11.0145,80.2173,Cybercrime,8,Thursday,Evening,1727,5.14,86.63,0.709,22,23,3.44,Sunny,0,26-35,0.926,2.52,0.866,83.69,0.751,0.689,1
+Vellore,Rural,8.753,76.9986,Domestic Violence,10,Tuesday,Afternoon,488,9.87,66.44,0.755,8,14,6.95,Cloudy,1,26-35,1.097,0.97,0.664,60.61,0.541,0.431,0
+Namakkal,Urban,9.6451,80.422,Fraud,3,Monday,Evening,636,12.73,67.43,0.497,3,11,4.79,Cloudy,0,18-25,0.976,1.29,0.674,43.22,0.819,0.635,1
+Chennai,Urban,11.2634,79.1939,Cybercrime,1,Friday,Night,1020,7.95,86.03,0.666,17,32,4.63,Cloudy,0,26-35,1.052,2.81,0.86,78.73,0.503,0.763,0
+Villupuram,Rural,9.7632,76.3016,Burglary,2,Tuesday,Night,542,9.52,66.23,0.305,4,7,2.23,Sunny,0,46-60,0.948,3.27,0.662,66.17,0.338,0.571,1
+Ramanathapuram,Rural,10.7762,78.6215,Vandalism,5,Saturday,Evening,511,7.27,81.55,0.735,5,9,6.06,Rainy,0,60+,0.981,2.57,0.816,46.7,0.607,0.578,1
+Chennai,Semi-Urban,8.7659,78.3065,Cybercrime,11,Friday,Afternoon,1202,7.72,88.53,0.158,12,19,7.29,Hot,1,26-35,1.007,2.12,0.885,83.27,0.436,0.811,1
+Kanchipuram,Rural,9.3155,79.6516,Drug Offense,12,Wednesday,Morning,327,6.21,67.93,0.68,8,15,5.93,Cloudy,1,18-25,1.09,2.88,0.679,31.27,0.266,0.581,1
+Erode,Rural,10.0375,78.7258,Theft,8,Wednesday,Night,732,7.82,68.27,0.729,8,11,1.03,Sunny,0,18-25,0.919,4.75,0.683,34.12,0.627,0.447,1
+Tirunelveli,Rural,13.4551,78.4237,Burglary,6,Monday,Evening,736,13.76,84.82,0.179,4,8,2.03,Hot,0,36-45,1.049,1.25,0.848,30.35,0.77,0.878,1
+Thanjavur,Rural,10.9368,79.0766,Burglary,4,Tuesday,Morning,777,8.62,70.51,0.591,4,11,1.58,Rainy,1,26-35,0.97,2.07,0.705,68.12,0.669,0.36,1
+Cuddalore,Rural,11.6561,76.5788,Domestic Violence,3,Monday,Evening,799,8.69,70.47,0.138,8,2,6.33,Cloudy,0,36-45,1.09,0.81,0.705,66.78,0.783,0.694,0
+Ramanathapuram,Rural,11.1395,76.5751,Fraud,6,Saturday,Night,398,14.73,78.82,0.175,4,13,2.64,Hot,0,60+,1.074,1.54,0.788,41.79,0.412,0.41,0
+Cuddalore,Semi-Urban,9.1572,77.9501,Theft,9,Wednesday,Evening,212,6.74,84.23,0.544,2,13,1.68,Sunny,0,26-35,1.026,0.95,0.842,30.66,0.509,0.899,1
+Tirunelveli,Rural,9.9876,76.7392,Theft,3,Monday,Afternoon,800,8.44,74.15,0.369,3,9,2.29,Sunny,0,26-35,1.065,1.71,0.742,65.29,0.627,0.789,0
+Dindigul,Rural,10.7999,78.6924,Assault,4,Saturday,Night,210,12.88,70.46,0.497,6,2,3.63,Sunny,1,60+,1.009,1.16,0.705,33.42,0.747,0.413,0
+Tiruvannamalai,Rural,11.7452,76.1064,Theft,1,Tuesday,Afternoon,752,12.51,77.44,0.461,4,10,7.49,Hot,0,26-35,0.974,1.81,0.774,56.96,0.666,0.79,0
+Kanchipuram,Rural,10.5687,78.0769,Drug Offense,11,Friday,Morning,480,7.88,83.24,0.63,2,2,2.05,Sunny,1,18-25,0.935,3.52,0.832,56.09,0.436,0.813,0
+Dindigul,Rural,11.4006,79.3062,Theft,2,Sunday,Evening,680,14.42,71.34,0.722,7,5,4.19,Cloudy,0,36-45,1.036,3.94,0.713,69.91,0.786,0.9,1
+Dindigul,Semi-Urban,11.7599,80.3968,Fraud,11,Saturday,Evening,706,10.24,76.61,0.309,5,15,3.78,Rainy,1,60+,0.968,3.05,0.766,49.88,0.63,0.743,0
+Krishnagiri,Semi-Urban,12.508,77.8867,Theft,7,Wednesday,Morning,641,7.81,80.75,0.171,5,5,5.87,Hot,0,60+,1.092,4.16,0.807,42.54,0.59,0.604,1
+Thoothukudi,Semi-Urban,10.0864,80.0203,Domestic Violence,5,Friday,Afternoon,567,10.03,84.24,0.35,3,3,2.25,Sunny,0,36-45,1.067,4.06,0.842,34.11,0.354,0.704,1
+Kanchipuram,Semi-Urban,9.309,80.2942,Cybercrime,11,Saturday,Afternoon,412,13.38,74.18,0.69,6,4,1.81,Rainy,1,26-35,1.004,1.06,0.742,37.74,0.779,0.844,1
+Kanchipuram,Semi-Urban,9.6122,80.1389,Assault,3,Friday,Morning,325,8.6,71.09,0.717,7,4,2.29,Rainy,0,36-45,0.943,2.36,0.711,55.12,0.684,0.658,1
+Namakkal,Rural,11.2066,79.0916,Cybercrime,5,Tuesday,Evening,378,9.18,75.13,0.778,8,13,6.23,Cloudy,0,46-60,0.99,4.23,0.751,67.11,0.269,0.61,0
+Karur,Rural,13.1463,79.5263,Fraud,1,Sunday,Evening,524,10.98,75.67,0.518,5,3,1.02,Cloudy,0,46-60,1.06,1.81,0.757,69.66,0.585,0.796,1
+Tiruvannamalai,Rural,10.2497,78.8105,Fraud,2,Monday,Night,682,5.54,71.29,0.795,4,12,0.93,Sunny,0,26-35,0.902,3.89,0.713,46.84,0.331,0.882,1
+Thanjavur,Rural,12.7518,79.376,Traffic Violation,9,Sunday,Evening,208,8.7,75.41,0.509,3,5,2.45,Sunny,0,60+,0.982,4.41,0.754,43.47,0.599,0.641,1
+Madurai,Urban,9.8823,78.8026,Traffic Violation,10,Saturday,Night,1670,7.16,94.67,0.132,15,37,5.84,Hot,1,36-45,0.998,1.5,0.947,70.5,0.274,0.32,1
+Krishnagiri,Semi-Urban,10.744,77.3516,Fraud,6,Friday,Evening,393,6.57,78.83,0.238,8,12,1.71,Sunny,0,46-60,1.041,2.56,0.788,63.27,0.326,0.332,0
+Virudhunagar,Rural,8.2991,76.7645,Fraud,10,Wednesday,Morning,713,6.21,74.06,0.135,6,8,5.31,Hot,1,46-60,0.936,1.53,0.741,34.46,0.661,0.477,1
+Coimbatore,Semi-Urban,11.3944,78.5432,Traffic Violation,4,Tuesday,Morning,904,5.21,94.52,0.163,25,31,7.61,Hot,1,18-25,1.017,2.79,0.945,87.51,0.762,0.336,1
+Thanjavur,Semi-Urban,11.7211,80.4869,Fraud,6,Tuesday,Afternoon,699,5.76,83.71,0.252,6,4,4.53,Rainy,0,36-45,1.051,1.45,0.837,56.68,0.835,0.634,1
+Ramanathapuram,Semi-Urban,9.3708,76.8491,Domestic Violence,1,Saturday,Night,696,5.88,70.07,0.508,4,3,3.41,Sunny,0,36-45,1.057,0.59,0.701,57.23,0.761,0.489,1
+Namakkal,Rural,10.2819,77.0351,Traffic Violation,5,Sunday,Afternoon,529,8.09,69.92,0.338,8,11,5.29,Rainy,0,60+,0.921,4.15,0.699,41.18,0.372,0.857,0
+Erode,Urban,9.6124,79.6349,Property Crime,8,Saturday,Morning,636,7.7,83.82,0.355,8,10,6.34,Hot,0,36-45,0.963,3.04,0.838,49.14,0.806,0.881,0
+Karur,Rural,10.5659,76.9631,Theft,7,Sunday,Afternoon,646,13.99,74.99,0.478,4,3,7.29,Rainy,0,46-60,1.044,2.71,0.75,46.11,0.383,0.326,1
+Tirunelveli,Rural,13.3777,77.4088,Vandalism,10,Tuesday,Evening,713,10.94,69.01,0.655,5,8,5.13,Cloudy,1,26-35,1.091,4.91,0.69,50.38,0.658,0.388,0
+Tiruchirappalli,Semi-Urban,13.2609,79.0338,Cybercrime,9,Thursday,Morning,482,6.99,65.39,0.591,6,3,2.4,Rainy,0,26-35,0.91,3.46,0.654,40.76,0.334,0.611,0
+Villupuram,Rural,8.3787,78.5985,Domestic Violence,1,Friday,Evening,511,14.95,72.27,0.147,2,13,1.86,Rainy,0,36-45,0.928,3.43,0.723,31.39,0.585,0.867,0
+Coimbatore,Urban,9.3399,80.4559,Fraud,2,Tuesday,Afternoon,966,7.86,87.98,0.629,13,18,7.52,Hot,0,60+,0.973,4.95,0.88,81.93,0.539,0.796,0
+Chennai,Urban,12.5895,78.5762,Cybercrime,3,Saturday,Night,1505,4.6,88.25,0.204,15,22,2.42,Cloudy,0,18-25,1.045,1.81,0.883,82.52,0.258,0.755,1
+Karur,Semi-Urban,9.9849,79.2766,Drug Offense,6,Sunday,Morning,252,8.1,65.11,0.663,6,5,5.99,Hot,0,60+,0.97,1.36,0.651,69.26,0.59,0.346,0
+Ramanathapuram,Rural,11.6965,77.2489,Traffic Violation,6,Sunday,Morning,629,5.67,68.91,0.734,6,8,6.75,Cloudy,0,60+,0.901,1.07,0.689,37.27,0.689,0.886,0
+Erode,Rural,9.9636,78.4086,Burglary,6,Wednesday,Afternoon,598,11.3,68.96,0.425,8,2,2.96,Sunny,0,60+,0.992,1.54,0.69,63.8,0.243,0.485,0
+Kanchipuram,Rural,8.2368,79.3462,Cybercrime,11,Wednesday,Night,283,14.57,65.54,0.316,2,9,5.58,Hot,1,36-45,0.974,4.23,0.655,69.68,0.26,0.748,1
+Tiruchirappalli,Semi-Urban,11.0306,79.9067,Burglary,11,Tuesday,Night,533,13.08,73.94,0.414,6,6,7.54,Hot,1,18-25,0.984,4.82,0.739,54.56,0.751,0.652,1
+Erode,Rural,8.4599,79.3554,Burglary,12,Wednesday,Evening,471,8.66,73.41,0.698,8,12,1.81,Rainy,1,18-25,1.085,4.98,0.734,32.73,0.683,0.868,1
+Kanchipuram,Semi-Urban,9.3074,79.5076,Vandalism,1,Saturday,Evening,295,14.34,66.66,0.417,5,8,7.72,Rainy,0,36-45,1.091,3.91,0.667,58.89,0.313,0.362,1
+Coimbatore,Semi-Urban,11.6818,78.6236,Cybercrime,2,Saturday,Night,1370,5.12,86.8,0.383,22,30,2.02,Rainy,0,46-60,1.064,2.91,0.868,78.75,0.835,0.39,1
+Ramanathapuram,Rural,10.6457,76.2571,Fraud,10,Sunday,Evening,638,5.68,72.53,0.519,4,3,1.14,Sunny,1,18-25,0.9,4.29,0.725,32.03,0.79,0.928,0
+Dharmapuri,Rural,11.4451,76.4262,Cybercrime,11,Monday,Night,689,12.07,74.41,0.396,5,3,0.99,Cloudy,1,36-45,0.923,3.58,0.744,31.19,0.551,0.561,1
+Krishnagiri,Semi-Urban,12.2532,79.9512,Property Crime,12,Tuesday,Evening,522,14.24,78.99,0.37,4,2,3.11,Sunny,1,36-45,1.022,1.09,0.79,63.3,0.631,0.871,1
+Tiruvannamalai,Urban,11.8755,79.5563,Traffic Violation,6,Sunday,Afternoon,215,9.02,72.62,0.365,5,12,4.75,Cloudy,0,26-35,0.97,3.8,0.726,44.76,0.852,0.729,0
+Tiruchirappalli,Rural,9.6621,79.3045,Vandalism,5,Thursday,Morning,599,5.76,68.0,0.787,3,2,1.91,Sunny,0,36-45,1.054,4.0,0.68,53.97,0.885,0.793,0
+Thanjavur,Semi-Urban,8.4268,79.8559,Burglary,1,Tuesday,Night,235,10.72,73.99,0.289,4,7,1.59,Rainy,0,36-45,1.022,2.17,0.74,34.95,0.436,0.551,1
+Tiruchirappalli,Rural,8.6342,77.2093,Cybercrime,8,Sunday,Evening,353,5.79,79.43,0.112,5,12,1.16,Sunny,0,46-60,0.927,1.47,0.794,49.8,0.393,0.916,0
+Ramanathapuram,Semi-Urban,12.937,77.0735,Cybercrime,4,Sunday,Afternoon,392,10.71,79.78,0.285,8,6,1.45,Hot,1,26-35,0.915,3.18,0.798,47.49,0.787,0.824,1
+Coimbatore,Urban,10.3947,77.5675,Assault,12,Sunday,Afternoon,1731,3.56,90.47,0.758,12,24,3.32,Rainy,1,26-35,1.018,1.23,0.905,88.66,0.533,0.509,0
+Vellore,Urban,11.605,76.4598,Burglary,10,Friday,Night,631,9.36,80.94,0.182,3,3,6.9,Cloudy,1,60+,1.016,1.67,0.809,48.4,0.472,0.934,1
+Tiruchirappalli,Rural,9.4309,79.982,Theft,12,Saturday,Night,714,12.45,79.36,0.595,3,9,7.6,Rainy,1,36-45,0.914,2.88,0.794,62.59,0.821,0.89,1
+Virudhunagar,Rural,8.4736,80.2608,Vandalism,7,Sunday,Afternoon,784,5.64,73.26,0.335,8,14,2.33,Sunny,0,36-45,1.057,2.46,0.733,49.31,0.791,0.629,0
+Thoothukudi,Rural,13.1332,78.6315,Assault,12,Saturday,Morning,630,9.03,82.98,0.327,6,9,5.64,Cloudy,1,18-25,1.029,4.33,0.83,37.49,0.74,0.359,0
+Thanjavur,Rural,10.1172,79.6962,Fraud,1,Sunday,Night,711,13.05,67.93,0.689,8,3,5.33,Hot,0,18-25,1.082,2.49,0.679,49.93,0.678,0.866,1
+Karur,Rural,9.6935,77.828,Domestic Violence,2,Sunday,Morning,543,10.44,83.74,0.669,7,6,4.45,Rainy,0,26-35,0.941,2.12,0.837,54.14,0.353,0.688,1
+Madurai,Urban,8.7962,79.431,Burglary,10,Friday,Evening,1948,3.97,94.43,0.131,19,33,7.26,Sunny,1,60+,1.0,0.53,0.944,78.29,0.835,0.325,1
+Kanchipuram,Urban,12.1188,76.9012,Theft,10,Thursday,Night,621,11.55,72.15,0.37,2,3,7.0,Sunny,1,26-35,0.913,2.7,0.722,54.23,0.834,0.45,1
+Vellore,Rural,8.8872,78.8063,Fraud,6,Tuesday,Afternoon,726,11.85,78.99,0.383,2,8,4.78,Sunny,0,60+,1.048,4.74,0.79,42.28,0.788,0.907,0
+Vellore,Rural,11.6345,79.8456,Drug Offense,9,Friday,Night,315,9.65,76.23,0.124,2,10,1.24,Cloudy,0,46-60,0.915,4.99,0.762,42.97,0.739,0.371,0
+Coimbatore,Urban,9.6232,78.8554,Assault,11,Thursday,Afternoon,952,7.82,90.52,0.776,16,19,7.91,Hot,1,26-35,1.028,1.28,0.905,88.31,0.82,0.775,0
+Chennai,Semi-Urban,11.1388,79.2918,Fraud,9,Saturday,Afternoon,1360,7.93,92.27,0.469,12,22,7.78,Hot,0,60+,1.027,1.5,0.923,82.52,0.472,0.907,0
+Chennai,Semi-Urban,10.0821,79.6625,Theft,10,Thursday,Evening,1745,7.97,87.13,0.217,10,28,2.24,Sunny,1,46-60,0.966,0.95,0.871,77.49,0.574,0.842,0
+Ramanathapuram,Semi-Urban,8.2572,80.2791,Assault,3,Wednesday,Afternoon,411,7.63,66.39,0.169,5,12,7.51,Hot,0,26-35,1.034,3.62,0.664,62.76,0.652,0.636,0
+Villupuram,Rural,13.3286,78.9031,Burglary,7,Saturday,Evening,618,14.68,80.12,0.619,3,11,2.58,Rainy,0,60+,0.915,1.73,0.801,46.73,0.784,0.82,1
+Kanchipuram,Semi-Urban,8.3956,77.7611,Theft,1,Saturday,Night,632,7.24,79.98,0.792,8,14,7.29,Rainy,0,18-25,0.973,3.91,0.8,53.21,0.407,0.311,0
+Krishnagiri,Rural,12.3257,76.3928,Burglary,2,Tuesday,Evening,396,5.93,68.41,0.474,3,13,2.93,Hot,0,26-35,1.057,2.32,0.684,67.98,0.347,0.906,0
+Kanchipuram,Rural,10.089,79.8314,Traffic Violation,11,Saturday,Morning,415,5.68,70.4,0.157,6,15,6.46,Rainy,1,18-25,0.981,4.99,0.704,67.94,0.489,0.306,0
+Namakkal,Rural,10.2591,76.9052,Vandalism,1,Tuesday,Evening,607,9.89,67.57,0.241,6,11,7.91,Rainy,0,18-25,0.91,1.45,0.676,57.27,0.665,0.421,0
+Erode,Semi-Urban,9.6562,79.9278,Traffic Violation,5,Saturday,Night,727,5.08,71.33,0.775,7,5,6.83,Hot,0,60+,0.974,2.08,0.713,62.59,0.828,0.913,0
+Coimbatore,Semi-Urban,12.3639,78.163,Assault,4,Saturday,Night,1629,3.09,87.53,0.224,23,30,7.05,Cloudy,1,46-60,0.9,2.21,0.875,70.75,0.449,0.927,1
+Erode,Rural,9.1123,78.557,Traffic Violation,5,Sunday,Night,463,5.25,81.34,0.625,8,10,6.97,Rainy,0,60+,1.093,1.61,0.813,56.5,0.323,0.849,1
+Chennai,Urban,11.1074,76.9205,Property Crime,10,Saturday,Evening,1151,6.98,91.42,0.205,21,32,0.86,Hot,1,26-35,1.055,0.62,0.914,83.68,0.604,0.656,0
+Dharmapuri,Semi-Urban,9.9085,77.3091,Assault,2,Tuesday,Night,221,14.5,77.23,0.713,2,7,4.73,Cloudy,0,26-35,0.911,1.99,0.772,69.08,0.204,0.4,1
+Dharmapuri,Semi-Urban,8.8326,78.3077,Vandalism,12,Friday,Night,587,5.71,79.7,0.138,8,12,2.91,Cloudy,1,46-60,0.941,4.48,0.797,42.23,0.458,0.516,0
+Tirunelveli,Rural,11.232,76.1611,Vandalism,8,Tuesday,Night,643,5.79,82.7,0.358,3,15,7.98,Rainy,0,18-25,0.958,2.87,0.827,49.09,0.637,0.714,1
+Thoothukudi,Rural,10.2919,79.8527,Domestic Violence,12,Wednesday,Night,636,12.08,83.88,0.35,4,10,6.53,Cloudy,1,60+,0.976,2.02,0.839,54.75,0.248,0.841,0
+Cuddalore,Semi-Urban,10.8532,78.8995,Fraud,10,Saturday,Afternoon,470,6.68,74.96,0.197,8,12,2.03,Rainy,1,60+,1.042,2.46,0.75,42.6,0.389,0.722,0
+Namakkal,Rural,12.0601,79.3766,Property Crime,2,Thursday,Afternoon,550,13.51,66.1,0.575,4,3,6.58,Rainy,0,18-25,0.985,1.03,0.661,54.75,0.354,0.666,0
+Kanchipuram,Rural,10.5856,77.1302,Property Crime,5,Wednesday,Evening,640,12.2,69.99,0.124,4,5,2.56,Hot,0,60+,0.99,3.35,0.7,40.15,0.488,0.332,0
+Namakkal,Rural,10.7243,76.3057,Theft,9,Sunday,Night,368,12.96,76.79,0.671,2,14,7.12,Cloudy,0,18-25,0.957,4.78,0.768,63.27,0.577,0.645,1
+Villupuram,Rural,8.2061,78.6912,Assault,6,Friday,Afternoon,340,11.58,78.07,0.338,7,10,0.76,Cloudy,0,46-60,0.977,3.94,0.781,59.59,0.264,0.855,1
+Kanchipuram,Rural,11.2527,79.76,Burglary,12,Sunday,Evening,702,13.88,79.22,0.139,7,14,1.77,Hot,1,60+,0.92,2.64,0.792,58.11,0.273,0.322,0
+Tiruchirappalli,Semi-Urban,8.8254,77.3549,Drug Offense,5,Saturday,Afternoon,364,7.41,78.19,0.621,7,7,7.43,Cloudy,0,46-60,0.952,4.01,0.782,34.09,0.539,0.621,0
+Thoothukudi,Rural,10.731,79.0904,Assault,8,Tuesday,Afternoon,246,14.28,67.72,0.102,4,13,1.64,Hot,0,46-60,1.057,1.11,0.677,53.27,0.504,0.601,0
+Sivaganga,Rural,11.7081,79.7657,Property Crime,7,Wednesday,Afternoon,514,13.33,81.38,0.366,7,3,3.69,Rainy,0,18-25,1.044,4.67,0.814,69.65,0.211,0.667,1
+Namakkal,Rural,11.8827,76.2605,Vandalism,2,Friday,Afternoon,277,5.52,80.32,0.208,7,15,1.06,Hot,0,26-35,1.009,4.27,0.803,58.62,0.738,0.336,0
+Tiruvannamalai,Semi-Urban,8.9795,76.8486,Vandalism,1,Thursday,Evening,497,11.43,66.08,0.767,5,7,4.92,Cloudy,0,60+,0.957,1.96,0.661,50.03,0.465,0.56,0
+Krishnagiri,Rural,11.0106,77.6452,Property Crime,6,Friday,Morning,501,8.87,74.5,0.292,3,7,1.4,Sunny,0,46-60,1.05,4.99,0.745,68.26,0.832,0.844,0
+Chennai,Semi-Urban,13.412,76.2489,Fraud,7,Tuesday,Night,1950,3.57,92.35,0.183,12,16,1.31,Sunny,0,46-60,1.017,2.74,0.923,70.55,0.413,0.465,0
+Madurai,Semi-Urban,8.3586,78.732,Assault,2,Wednesday,Morning,1275,7.25,87.85,0.129,20,28,1.97,Hot,0,46-60,0.962,3.14,0.878,86.49,0.771,0.87,0
+Thoothukudi,Semi-Urban,13.3597,80.385,Fraud,3,Thursday,Morning,637,9.02,75.02,0.744,3,5,6.1,Cloudy,0,18-25,0.991,0.87,0.75,57.47,0.612,0.592,1
+Namakkal,Rural,12.5369,79.7408,Fraud,12,Monday,Afternoon,476,14.51,78.49,0.555,3,9,4.84,Sunny,1,60+,0.909,2.72,0.785,52.7,0.827,0.566,1
+Madurai,Urban,13.0571,78.3264,Burglary,5,Friday,Evening,1220,6.39,91.45,0.684,24,24,5.25,Hot,0,46-60,0.965,4.07,0.915,87.3,0.402,0.639,0
+Karur,Semi-Urban,9.3198,78.262,Traffic Violation,10,Saturday,Morning,522,8.91,79.94,0.218,7,10,6.98,Cloudy,1,36-45,1.012,3.24,0.799,38.39,0.268,0.461,1
+Villupuram,Rural,13.4095,79.766,Theft,11,Sunday,Afternoon,365,8.86,84.49,0.563,7,5,2.5,Cloudy,1,26-35,0.902,3.99,0.845,55.16,0.753,0.325,1
+Madurai,Urban,12.6869,78.0268,Burglary,9,Friday,Evening,1295,6.37,88.32,0.766,25,39,4.67,Sunny,0,36-45,1.008,4.8,0.883,76.09,0.736,0.629,0
+Virudhunagar,Semi-Urban,11.5354,76.1396,Theft,5,Monday,Evening,639,9.71,72.17,0.289,7,12,7.31,Rainy,0,46-60,1.085,4.28,0.722,45.02,0.898,0.342,0
+Coimbatore,Urban,9.2992,78.9868,Property Crime,6,Friday,Afternoon,857,5.95,91.4,0.756,22,36,1.87,Sunny,0,60+,0.926,2.95,0.914,81.09,0.401,0.936,0
+Ramanathapuram,Urban,11.9491,77.6135,Traffic Violation,3,Saturday,Evening,476,14.3,73.25,0.392,7,14,2.42,Rainy,0,26-35,0.942,4.74,0.732,39.73,0.649,0.677,0
+Krishnagiri,Rural,11.1149,77.7149,Burglary,10,Saturday,Evening,699,6.25,72.4,0.312,6,9,3.14,Cloudy,1,36-45,0.911,1.92,0.724,53.92,0.788,0.908,1
+Vellore,Rural,12.3588,78.2702,Drug Offense,9,Monday,Night,240,8.91,65.32,0.483,5,13,7.19,Hot,0,36-45,1.042,2.51,0.653,63.52,0.867,0.455,1
+Virudhunagar,Rural,12.25,80.2271,Theft,10,Saturday,Evening,680,13.64,77.4,0.389,7,11,4.92,Sunny,1,60+,0.997,2.23,0.774,40.84,0.819,0.94,0
+Vellore,Semi-Urban,9.7619,76.0829,Cybercrime,1,Tuesday,Evening,433,9.2,78.11,0.228,4,11,3.72,Cloudy,0,46-60,1.023,1.13,0.781,65.73,0.577,0.849,0
+Sivaganga,Semi-Urban,10.765,78.0831,Traffic Violation,2,Sunday,Night,430,8.91,82.15,0.487,5,4,4.51,Rainy,0,36-45,0.976,4.5,0.822,67.43,0.428,0.573,1
+Karur,Semi-Urban,12.2478,77.381,Cybercrime,9,Wednesday,Night,342,9.89,65.78,0.142,4,15,7.94,Hot,0,18-25,1.076,4.13,0.658,35.23,0.38,0.309,0
+Virudhunagar,Semi-Urban,12.931,77.115,Theft,11,Friday,Night,746,6.25,75.78,0.671,6,7,3.01,Cloudy,1,18-25,0.913,3.09,0.758,57.49,0.306,0.808,0
+Namakkal,Semi-Urban,8.2113,76.6198,Burglary,9,Tuesday,Evening,379,7.79,77.19,0.673,2,12,1.44,Sunny,0,46-60,0.979,4.53,0.772,43.88,0.88,0.712,1
+Karur,Urban,13.0491,79.317,Cybercrime,8,Tuesday,Night,295,14.58,66.64,0.647,3,3,4.36,Rainy,0,36-45,0.984,4.56,0.666,34.69,0.556,0.86,1
+Namakkal,Rural,13.0068,76.0787,Domestic Violence,6,Tuesday,Morning,793,8.94,78.52,0.11,6,12,3.25,Rainy,0,60+,0.995,1.1,0.785,58.5,0.219,0.866,1
+Madurai,Urban,12.023,77.7023,Fraud,5,Tuesday,Evening,1854,5.33,93.19,0.774,13,18,6.0,Sunny,0,46-60,0.917,2.93,0.932,81.62,0.882,0.334,1
+Ramanathapuram,Rural,13.382,79.794,Cybercrime,9,Monday,Night,521,6.31,79.28,0.266,4,5,7.45,Hot,0,18-25,0.906,1.36,0.793,40.24,0.731,0.358,0
+Thoothukudi,Rural,10.3192,78.9663,Burglary,7,Friday,Evening,378,13.97,79.82,0.543,6,6,6.01,Rainy,0,18-25,1.057,0.58,0.798,61.95,0.44,0.552,1
+Dindigul,Rural,13.0268,80.4262,Cybercrime,8,Friday,Night,458,5.64,78.4,0.345,5,12,3.66,Rainy,0,18-25,1.075,4.34,0.784,51.16,0.472,0.43,1
+Karur,Rural,12.3372,78.2274,Theft,1,Wednesday,Night,619,8.61,72.79,0.298,3,3,1.54,Rainy,0,36-45,0.934,3.1,0.728,54.69,0.361,0.845,1
+Tiruvannamalai,Rural,12.4136,80.3994,Burglary,10,Thursday,Night,309,6.56,81.22,0.754,7,15,4.73,Rainy,1,18-25,0.992,2.53,0.812,55.13,0.506,0.766,0
+Madurai,Urban,9.2847,77.8259,Drug Offense,10,Tuesday,Night,1617,6.52,94.8,0.415,21,23,6.29,Sunny,1,60+,0.905,0.51,0.948,89.77,0.325,0.471,0
+Erode,Semi-Urban,9.6277,78.8656,Vandalism,6,Sunday,Evening,376,6.5,72.52,0.763,7,4,1.29,Sunny,0,18-25,1.031,2.31,0.725,43.71,0.849,0.445,1
+Tiruchirappalli,Rural,8.3098,78.5581,Domestic Violence,12,Saturday,Afternoon,539,11.06,81.59,0.288,5,12,5.12,Rainy,1,26-35,1.089,4.9,0.816,62.59,0.238,0.64,1
+Chennai,Urban,10.6315,79.3043,Fraud,3,Sunday,Night,1394,7.12,85.19,0.678,8,21,6.12,Sunny,0,18-25,1.097,4.04,0.852,87.74,0.832,0.458,0
+Krishnagiri,Semi-Urban,11.1646,80.3585,Domestic Violence,10,Monday,Afternoon,638,12.45,68.96,0.772,5,12,6.41,Sunny,1,36-45,1.032,3.63,0.69,68.66,0.418,0.507,0
+Chennai,Urban,11.2291,80.0026,Vandalism,10,Wednesday,Night,1728,4.97,92.49,0.634,11,21,5.23,Hot,1,18-25,1.011,1.59,0.925,80.2,0.382,0.318,1
+Madurai,Semi-Urban,13.451,80.0583,Cybercrime,7,Thursday,Morning,1208,5.39,94.97,0.372,10,33,7.01,Sunny,0,36-45,1.074,2.84,0.95,81.85,0.369,0.462,0
+Thoothukudi,Rural,8.326,77.4343,Theft,4,Monday,Night,595,6.85,81.49,0.165,5,15,2.34,Sunny,1,36-45,1.078,4.34,0.815,33.47,0.674,0.555,0
+Dindigul,Rural,12.7337,79.3704,Burglary,6,Thursday,Night,588,7.23,65.88,0.419,8,10,4.29,Cloudy,0,60+,0.93,4.76,0.659,50.54,0.31,0.304,0
+Dharmapuri,Rural,10.1103,79.3725,Drug Offense,6,Wednesday,Evening,377,11.93,75.21,0.291,4,12,6.51,Sunny,0,60+,0.918,4.83,0.752,55.8,0.557,0.693,0
+Kanchipuram,Urban,11.0359,79.2654,Vandalism,2,Thursday,Morning,545,10.03,67.21,0.359,2,9,4.85,Rainy,0,60+,0.969,3.34,0.672,31.37,0.455,0.734,0
+Thoothukudi,Rural,13.3849,78.0395,Cybercrime,8,Saturday,Night,342,8.74,78.86,0.75,8,3,1.09,Sunny,0,18-25,1.021,1.21,0.789,54.53,0.848,0.71,1
+Cuddalore,Rural,8.0617,76.3094,Vandalism,7,Tuesday,Evening,267,14.51,75.15,0.664,8,12,4.64,Sunny,0,18-25,0.985,3.79,0.752,34.27,0.238,0.855,1
+Sivaganga,Semi-Urban,8.6041,79.2438,Fraud,1,Saturday,Evening,425,10.1,75.92,0.25,3,15,4.06,Cloudy,0,18-25,0.956,4.88,0.759,65.37,0.495,0.404,0
+Kanchipuram,Rural,8.1353,79.5395,Fraud,10,Sunday,Evening,359,7.23,71.91,0.481,5,5,3.01,Cloudy,1,46-60,0.943,1.29,0.719,46.44,0.689,0.655,1
+Tirunelveli,Urban,9.4025,79.7738,Vandalism,11,Sunday,Evening,599,14.65,70.64,0.28,5,15,3.22,Sunny,1,60+,0.978,1.87,0.706,48.37,0.265,0.899,1
+Krishnagiri,Semi-Urban,8.8676,77.3909,Fraud,2,Tuesday,Afternoon,263,6.54,78.67,0.502,5,8,3.26,Cloudy,0,26-35,1.097,4.81,0.787,42.1,0.877,0.783,1
+Kanchipuram,Urban,12.1671,78.9417,Theft,2,Friday,Night,204,13.76,73.25,0.766,6,8,0.88,Hot,0,36-45,1.035,4.19,0.732,68.22,0.393,0.388,0
+Ramanathapuram,Rural,8.3515,77.2368,Property Crime,12,Monday,Night,463,10.47,78.74,0.659,2,10,2.24,Hot,1,18-25,1.039,4.72,0.787,60.13,0.54,0.585,0
+Krishnagiri,Rural,8.7986,79.3946,Cybercrime,7,Saturday,Evening,612,13.13,68.51,0.294,3,2,0.86,Cloudy,0,46-60,0.988,1.55,0.685,59.28,0.692,0.356,1
+Salem,Urban,11.0216,78.7262,Domestic Violence,6,Tuesday,Morning,439,12.77,66.81,0.315,8,15,5.14,Hot,0,46-60,1.056,2.1,0.668,65.37,0.737,0.534,0
+Erode,Semi-Urban,8.7765,80.0814,Fraud,4,Thursday,Morning,710,14.01,66.76,0.326,5,4,3.44,Cloudy,1,26-35,0.988,3.88,0.668,41.45,0.485,0.676,0
+Chennai,Urban,11.8741,76.1266,Fraud,12,Monday,Morning,1377,6.01,90.3,0.304,15,17,4.66,Sunny,1,60+,0.983,1.75,0.903,74.87,0.781,0.575,0
+Chennai,Urban,9.1415,78.7771,Fraud,8,Tuesday,Morning,1952,3.79,94.87,0.184,23,16,4.52,Cloudy,0,36-45,1.032,2.33,0.949,80.42,0.217,0.424,1
+Thanjavur,Urban,9.2519,78.2555,Property Crime,9,Monday,Evening,494,5.96,78.82,0.756,6,7,3.04,Cloudy,0,26-35,0.993,4.89,0.788,53.79,0.69,0.91,1
+Namakkal,Semi-Urban,10.2298,78.6267,Vandalism,7,Tuesday,Night,738,5.21,81.37,0.445,4,11,6.65,Cloudy,0,36-45,0.926,0.68,0.814,30.3,0.497,0.424,0
+Salem,Semi-Urban,11.1598,78.8763,Property Crime,12,Friday,Morning,382,8.78,75.3,0.185,4,3,5.86,Rainy,1,36-45,1.056,3.24,0.753,51.21,0.44,0.89,1
+Thoothukudi,Rural,12.7162,80.2228,Fraud,11,Tuesday,Afternoon,699,5.71,76.25,0.435,7,4,4.46,Rainy,1,60+,1.02,3.79,0.763,61.27,0.649,0.374,1
+Dharmapuri,Rural,9.2856,79.9934,Theft,1,Friday,Evening,266,11.66,66.47,0.216,5,3,4.95,Cloudy,0,60+,1.073,4.99,0.665,59.83,0.827,0.819,0
+Chennai,Urban,11.4474,76.8232,Cybercrime,2,Sunday,Afternoon,1514,5.89,94.06,0.138,11,32,0.57,Hot,0,60+,0.981,3.41,0.941,78.03,0.577,0.679,1
+Thanjavur,Rural,8.7534,78.4022,Fraud,2,Monday,Morning,718,11.05,65.12,0.285,5,8,7.41,Cloudy,0,36-45,1.029,0.97,0.651,36.76,0.372,0.498,0
+Namakkal,Rural,11.4257,80.1977,Theft,8,Thursday,Afternoon,724,12.36,69.6,0.699,4,10,6.41,Cloudy,0,26-35,1.018,0.6,0.696,45.2,0.751,0.413,1
+Karur,Semi-Urban,11.4623,76.4223,Burglary,7,Wednesday,Night,482,10.01,78.29,0.318,2,6,4.2,Hot,0,46-60,0.937,0.51,0.783,55.65,0.847,0.387,1
+Namakkal,Semi-Urban,12.4625,77.7274,Burglary,6,Sunday,Night,367,13.09,74.34,0.488,2,9,4.02,Hot,0,18-25,0.967,1.03,0.743,62.65,0.866,0.909,0
+Tirunelveli,Rural,11.4721,79.2252,Assault,11,Tuesday,Morning,465,10.73,81.07,0.278,3,2,5.61,Rainy,1,18-25,0.936,0.78,0.811,35.8,0.228,0.412,1
+Cuddalore,Semi-Urban,12.2868,76.3497,Cybercrime,4,Thursday,Evening,556,14.12,76.87,0.358,7,10,0.91,Cloudy,1,36-45,1.05,0.81,0.769,30.24,0.346,0.922,1
+Thoothukudi,Semi-Urban,8.0735,78.3867,Domestic Violence,3,Sunday,Morning,269,8.87,76.01,0.715,7,3,1.22,Sunny,0,26-35,0.996,1.55,0.76,43.11,0.602,0.856,0
+Cuddalore,Semi-Urban,9.7588,77.5355,Burglary,9,Friday,Morning,295,6.84,67.25,0.615,5,15,2.93,Hot,0,26-35,0.979,1.12,0.672,34.36,0.852,0.376,0
+Namakkal,Rural,13.1677,78.3584,Fraud,3,Monday,Evening,656,14.69,80.65,0.421,4,2,5.61,Rainy,0,36-45,0.93,4.89,0.807,61.02,0.644,0.43,0
+Madurai,Urban,9.907,77.9254,Assault,1,Thursday,Night,1259,5.13,85.19,0.473,11,22,5.45,Rainy,0,60+,0.929,3.98,0.852,87.21,0.55,0.392,1
+Madurai,Urban,8.8214,78.1464,Domestic Violence,1,Wednesday,Evening,1533,3.37,91.88,0.331,11,30,7.85,Cloudy,0,46-60,0.998,2.65,0.919,77.44,0.834,0.877,0
+Coimbatore,Urban,9.5968,78.8757,Cybercrime,3,Thursday,Morning,1347,7.45,93.24,0.197,21,28,5.24,Rainy,0,36-45,0.941,1.01,0.932,78.54,0.432,0.631,0
+Cuddalore,Rural,8.9812,79.5407,Cybercrime,7,Tuesday,Morning,203,12.67,79.49,0.682,6,15,5.99,Rainy,0,36-45,0.928,4.2,0.795,56.22,0.396,0.371,1
+Dindigul,Semi-Urban,13.4675,77.9756,Burglary,4,Tuesday,Evening,765,9.97,74.08,0.532,7,13,3.64,Hot,1,18-25,1.001,4.89,0.741,48.08,0.836,0.3,1
+Thoothukudi,Rural,12.8056,77.7215,Assault,6,Sunday,Night,730,7.55,69.63,0.453,4,11,3.94,Rainy,0,60+,0.998,1.59,0.696,35.91,0.348,0.914,0
+Cuddalore,Rural,10.9167,79.0826,Assault,12,Monday,Evening,366,14.0,84.51,0.244,4,14,4.08,Rainy,1,60+,1.008,1.8,0.845,34.46,0.437,0.393,1
+Krishnagiri,Semi-Urban,8.4822,77.7103,Theft,9,Wednesday,Night,641,6.63,80.1,0.798,7,12,5.8,Sunny,0,46-60,1.08,3.88,0.801,49.78,0.309,0.489,0
+Tirunelveli,Semi-Urban,9.1198,77.0793,Theft,6,Saturday,Evening,762,13.28,77.36,0.14,5,10,4.24,Hot,0,46-60,1.036,2.28,0.774,31.4,0.632,0.585,0
+Tirunelveli,Rural,9.8402,76.9244,Theft,5,Monday,Morning,439,13.89,83.06,0.63,3,3,2.95,Rainy,0,60+,0.96,3.17,0.831,48.93,0.307,0.43,1
+Erode,Semi-Urban,8.0856,76.2785,Vandalism,10,Wednesday,Afternoon,547,12.98,83.4,0.672,3,13,5.26,Hot,1,60+,0.904,1.95,0.834,42.5,0.511,0.509,1
+Tirunelveli,Rural,13.1151,78.4091,Fraud,3,Wednesday,Morning,541,6.59,77.92,0.543,2,4,4.86,Sunny,0,26-35,0.998,1.96,0.779,69.74,0.735,0.422,1
+Villupuram,Rural,10.8631,78.9219,Assault,11,Friday,Night,400,5.97,66.66,0.203,2,3,1.14,Hot,1,26-35,0.903,2.91,0.667,52.07,0.823,0.509,1
+Kanchipuram,Urban,12.8367,78.7573,Vandalism,4,Saturday,Night,443,8.23,73.06,0.399,2,6,2.0,Sunny,1,60+,1.009,1.3,0.731,36.51,0.434,0.923,1
+Chennai,Urban,9.3652,78.7819,Drug Offense,8,Tuesday,Morning,1805,3.32,88.99,0.311,14,22,0.75,Cloudy,0,18-25,1.078,1.04,0.89,70.14,0.351,0.717,1
+Tirunelveli,Semi-Urban,13.0586,78.2843,Traffic Violation,4,Sunday,Night,596,6.53,82.6,0.681,5,9,4.05,Rainy,1,26-35,0.954,1.28,0.826,56.45,0.693,0.398,1
+Virudhunagar,Rural,11.3376,80.4058,Fraud,9,Thursday,Morning,443,6.36,72.26,0.393,4,12,1.51,Hot,0,60+,1.067,1.6,0.723,55.32,0.845,0.738,1
+Coimbatore,Urban,13.4999,78.8681,Traffic Violation,6,Friday,Morning,802,5.1,93.44,0.104,23,27,4.59,Hot,0,36-45,1.017,0.73,0.934,78.05,0.703,0.392,0
+Erode,Rural,11.4643,79.2611,Theft,9,Monday,Evening,469,6.39,68.09,0.331,6,15,7.0,Sunny,0,36-45,0.962,1.31,0.681,41.73,0.462,0.933,0
+Salem,Semi-Urban,13.4943,77.9855,Burglary,12,Friday,Afternoon,686,9.74,75.66,0.123,6,3,7.08,Rainy,1,26-35,1.09,3.18,0.757,60.36,0.391,0.342,0
+Coimbatore,Semi-Urban,8.9165,79.9411,Assault,11,Wednesday,Night,1356,3.65,85.39,0.224,19,39,4.24,Rainy,1,18-25,1.032,4.33,0.854,76.28,0.488,0.404,0
+Kanchipuram,Rural,12.7069,78.2312,Vandalism,4,Monday,Morning,411,5.74,76.03,0.438,5,9,2.52,Hot,1,26-35,1.085,3.87,0.76,48.01,0.669,0.588,1
+Villupuram,Semi-Urban,9.1555,76.3261,Property Crime,9,Tuesday,Evening,392,10.16,84.15,0.624,7,15,5.23,Hot,0,60+,1.08,4.98,0.842,38.01,0.45,0.899,1
+Dharmapuri,Semi-Urban,10.3933,78.687,Burglary,4,Friday,Night,510,9.11,81.95,0.569,2,15,1.71,Sunny,1,36-45,0.913,3.19,0.819,44.4,0.722,0.558,1
+Namakkal,Rural,11.5696,76.0225,Burglary,2,Saturday,Morning,722,5.16,78.0,0.517,5,11,2.41,Cloudy,0,36-45,1.029,3.71,0.78,47.98,0.675,0.625,0
+Karur,Rural,8.9225,78.115,Drug Offense,7,Tuesday,Evening,314,5.91,65.59,0.72,2,4,4.64,Rainy,0,18-25,1.006,0.79,0.656,66.89,0.577,0.401,0
+Namakkal,Semi-Urban,10.6846,78.0906,Theft,1,Saturday,Evening,777,13.69,84.41,0.617,4,9,7.77,Cloudy,0,46-60,0.971,2.35,0.844,52.52,0.287,0.867,1
+Dindigul,Rural,10.7217,78.49,Burglary,5,Wednesday,Evening,250,5.55,69.59,0.491,6,12,7.62,Sunny,0,36-45,1.027,3.62,0.696,58.93,0.846,0.602,1
+Salem,Semi-Urban,9.7281,77.3598,Burglary,3,Sunday,Evening,613,7.99,71.5,0.504,6,6,6.73,Sunny,0,60+,1.07,3.53,0.715,45.2,0.302,0.85,1
+Ramanathapuram,Rural,11.3778,78.9133,Burglary,2,Monday,Night,398,14.97,80.77,0.298,4,12,5.43,Sunny,0,60+,1.076,3.87,0.808,35.21,0.716,0.716,0
+Virudhunagar,Rural,11.3414,76.012,Theft,6,Wednesday,Night,782,12.6,75.11,0.774,2,4,1.67,Rainy,0,18-25,0.925,2.34,0.751,68.8,0.721,0.605,0
+Cuddalore,Rural,9.614,78.7557,Fraud,6,Wednesday,Night,649,5.65,68.94,0.255,6,15,4.52,Sunny,0,60+,0.993,2.88,0.689,51.77,0.663,0.403,1
+Thoothukudi,Rural,10.5779,78.7176,Domestic Violence,1,Tuesday,Evening,675,13.28,77.89,0.165,4,14,4.55,Hot,0,18-25,1.098,3.25,0.779,62.45,0.297,0.745,1
+Tiruvannamalai,Rural,10.7521,78.9571,Traffic Violation,6,Sunday,Evening,690,7.25,71.16,0.488,3,6,6.85,Hot,0,36-45,1.092,3.86,0.712,42.83,0.735,0.424,0
+Tiruchirappalli,Semi-Urban,9.8638,78.32,Fraud,2,Monday,Evening,480,9.8,66.8,0.534,8,5,6.69,Cloudy,0,26-35,0.916,4.27,0.668,44.23,0.556,0.823,0
+Virudhunagar,Rural,11.5739,78.294,Theft,2,Monday,Night,469,12.8,69.4,0.506,6,6,7.58,Sunny,0,60+,0.995,1.69,0.694,44.96,0.223,0.364,0
+Coimbatore,Semi-Urban,12.0371,77.629,Drug Offense,10,Monday,Night,1326,6.75,86.37,0.665,9,35,1.34,Hot,1,18-25,0.929,1.19,0.864,83.87,0.331,0.71,0
+Vellore,Rural,9.2038,77.0463,Vandalism,12,Friday,Night,778,6.95,73.54,0.499,4,8,7.28,Sunny,1,26-35,0.92,4.44,0.735,48.23,0.758,0.627,1
+Krishnagiri,Rural,11.0943,80.1469,Traffic Violation,4,Friday,Morning,664,7.39,72.24,0.272,2,13,6.89,Hot,1,60+,0.971,4.69,0.722,42.8,0.422,0.585,0
+Cuddalore,Urban,9.7405,79.5563,Cybercrime,6,Monday,Night,326,8.29,73.24,0.713,3,12,5.83,Cloudy,0,46-60,1.057,2.85,0.732,63.22,0.383,0.52,0
+Dindigul,Semi-Urban,9.9577,76.3782,Assault,11,Tuesday,Afternoon,385,5.84,67.72,0.561,2,9,2.71,Rainy,1,18-25,0.952,2.19,0.677,67.14,0.315,0.91,1
+Tirunelveli,Semi-Urban,8.5051,78.6462,Assault,4,Sunday,Morning,305,5.08,66.7,0.697,8,11,3.24,Hot,1,26-35,0.921,3.71,0.667,61.51,0.435,0.43,0
+Thanjavur,Rural,8.9726,78.6255,Traffic Violation,3,Sunday,Evening,632,6.53,82.84,0.512,4,5,5.36,Rainy,0,18-25,1.023,0.5,0.828,37.14,0.538,0.616,0
+Vellore,Semi-Urban,12.0162,77.4931,Property Crime,2,Friday,Evening,576,10.64,68.15,0.757,6,5,2.7,Hot,0,46-60,0.997,3.85,0.681,36.11,0.897,0.688,1
+Erode,Urban,12.8158,76.1639,Fraud,4,Wednesday,Afternoon,620,10.47,68.24,0.265,3,14,7.13,Rainy,1,26-35,1.014,2.62,0.682,63.02,0.728,0.932,0
+Cuddalore,Semi-Urban,11.8139,76.1505,Vandalism,10,Tuesday,Afternoon,616,5.44,78.66,0.219,5,6,4.83,Sunny,1,18-25,0.909,3.66,0.787,67.25,0.671,0.652,0
+Thanjavur,Rural,10.1835,76.6745,Theft,2,Monday,Night,545,12.09,76.05,0.151,2,7,5.45,Rainy,0,46-60,0.91,4.92,0.761,60.38,0.708,0.739,0
+Thanjavur,Semi-Urban,8.841,77.0669,Domestic Violence,8,Monday,Afternoon,653,12.52,77.23,0.369,2,14,1.78,Hot,0,26-35,1.038,2.07,0.772,47.63,0.305,0.515,0
+Tiruvannamalai,Rural,9.0551,80.0895,Theft,8,Monday,Afternoon,649,9.61,72.29,0.465,4,15,1.06,Hot,0,18-25,1.06,4.02,0.723,31.53,0.766,0.867,0
+Namakkal,Semi-Urban,12.5485,79.7675,Burglary,2,Tuesday,Night,397,13.39,76.7,0.549,8,6,3.07,Rainy,0,18-25,0.933,3.41,0.767,31.86,0.332,0.874,0
+Kanchipuram,Semi-Urban,11.7274,77.9163,Burglary,7,Sunday,Night,258,10.39,69.37,0.27,2,8,3.44,Sunny,0,26-35,0.921,3.59,0.694,58.56,0.773,0.422,1
+Villupuram,Semi-Urban,9.7418,76.8502,Vandalism,4,Thursday,Afternoon,261,7.35,82.35,0.289,5,9,2.68,Hot,1,46-60,1.095,4.65,0.824,41.25,0.461,0.428,0
+Sivaganga,Rural,8.078,76.4034,Cybercrime,7,Tuesday,Afternoon,481,12.72,82.91,0.742,3,10,1.04,Hot,0,46-60,1.058,3.68,0.829,44.24,0.63,0.555,1
+Krishnagiri,Rural,12.1874,79.6114,Traffic Violation,2,Saturday,Morning,706,13.23,71.77,0.627,8,8,2.04,Rainy,0,18-25,0.986,3.22,0.718,66.38,0.758,0.919,1
+Erode,Rural,11.1085,78.3321,Fraud,8,Thursday,Morning,327,10.94,72.16,0.369,2,13,1.35,Rainy,0,26-35,0.902,4.97,0.722,32.46,0.612,0.453,0
+Tiruchirappalli,Rural,10.0303,76.9946,Theft,12,Sunday,Night,451,9.14,67.81,0.719,4,9,7.77,Rainy,1,36-45,1.072,1.38,0.678,62.88,0.308,0.789,0
+Namakkal,Rural,11.0729,77.1289,Theft,1,Sunday,Night,568,9.76,84.17,0.747,8,11,2.41,Cloudy,0,18-25,0.965,4.47,0.842,62.24,0.406,0.385,0
+Dindigul,Rural,10.7057,76.432,Traffic Violation,9,Sunday,Evening,239,5.69,70.72,0.231,8,13,3.6,Hot,0,18-25,0.925,3.54,0.707,43.29,0.731,0.617,0
+Thoothukudi,Semi-Urban,11.6297,79.1529,Vandalism,10,Wednesday,Morning,512,14.44,82.17,0.76,8,3,2.25,Sunny,1,26-35,0.901,4.76,0.822,45.09,0.586,0.664,0
+Chennai,Urban,13.3845,76.8357,Vandalism,9,Thursday,Morning,1924,3.69,93.93,0.666,23,34,4.69,Cloudy,0,60+,1.058,2.98,0.939,76.19,0.612,0.662,0
+Namakkal,Rural,8.2653,78.0654,Domestic Violence,7,Monday,Afternoon,680,5.67,81.68,0.334,7,2,7.21,Rainy,0,36-45,1.088,3.14,0.817,50.21,0.875,0.812,1
+Thoothukudi,Rural,11.7221,78.4291,Burglary,6,Thursday,Night,715,10.73,81.2,0.262,3,2,3.6,Cloudy,0,36-45,1.005,3.52,0.812,46.95,0.339,0.61,0
+Ramanathapuram,Rural,10.8439,78.8209,Vandalism,5,Friday,Afternoon,520,7.68,84.56,0.635,5,14,2.36,Hot,0,60+,1.093,1.66,0.846,34.96,0.544,0.46,1
+Cuddalore,Rural,8.3596,78.8177,Cybercrime,9,Wednesday,Afternoon,235,7.1,78.06,0.763,6,15,4.36,Hot,0,60+,0.949,2.85,0.781,56.42,0.258,0.455,0
+Virudhunagar,Urban,11.3797,76.7762,Theft,3,Tuesday,Morning,678,13.65,73.01,0.155,4,4,4.08,Cloudy,0,46-60,1.03,2.79,0.73,34.37,0.866,0.554,0
+Namakkal,Rural,11.1794,79.962,Theft,10,Monday,Night,646,10.46,74.44,0.498,3,6,5.74,Sunny,1,60+,0.903,2.12,0.744,59.85,0.804,0.329,0
+Villupuram,Rural,8.9166,77.3563,Cybercrime,10,Wednesday,Evening,645,6.21,69.17,0.505,3,13,1.04,Cloudy,1,26-35,1.039,4.01,0.692,49.9,0.574,0.412,1
+Krishnagiri,Semi-Urban,10.1357,79.1595,Cybercrime,6,Monday,Evening,637,5.04,66.43,0.116,8,15,4.81,Rainy,0,60+,1.069,4.38,0.664,69.31,0.725,0.326,1
+Thoothukudi,Rural,11.3886,76.5731,Theft,9,Tuesday,Evening,310,11.98,75.01,0.259,7,6,4.38,Rainy,0,60+,0.976,1.29,0.75,40.62,0.782,0.871,0
+Tiruchirappalli,Rural,10.3769,76.7554,Theft,5,Friday,Afternoon,633,9.22,75.92,0.658,7,2,6.82,Rainy,0,46-60,1.03,2.67,0.759,63.37,0.397,0.476,0
+Madurai,Urban,8.7034,77.221,Theft,3,Friday,Evening,1267,6.62,90.5,0.402,10,25,2.45,Hot,0,26-35,1.02,1.31,0.905,75.42,0.674,0.821,0
+Tirunelveli,Semi-Urban,8.9946,77.1162,Theft,1,Thursday,Afternoon,636,8.79,71.89,0.339,8,15,4.55,Cloudy,0,60+,1.023,4.96,0.719,48.19,0.84,0.85,0
+Karur,Semi-Urban,9.6111,79.6901,Domestic Violence,1,Friday,Night,696,5.55,70.38,0.338,5,15,2.7,Hot,0,46-60,0.973,3.81,0.704,35.89,0.863,0.645,1
+Virudhunagar,Rural,11.0566,78.336,Theft,2,Wednesday,Evening,795,13.15,80.63,0.373,7,3,4.3,Cloudy,0,18-25,1.079,2.19,0.806,59.61,0.863,0.713,1
+Salem,Urban,9.3803,79.6681,Vandalism,12,Tuesday,Morning,387,7.25,69.72,0.219,5,7,1.86,Cloudy,1,18-25,1.059,4.06,0.697,49.54,0.796,0.712,1
+Dharmapuri,Urban,9.5024,77.2741,Property Crime,9,Thursday,Morning,389,11.54,79.2,0.614,5,8,3.37,Rainy,0,60+,0.964,4.98,0.792,46.5,0.663,0.685,1
+Tiruchirappalli,Rural,11.1528,79.9849,Theft,1,Saturday,Evening,600,6.5,68.3,0.794,3,14,5.11,Rainy,0,18-25,1.01,2.55,0.683,44.79,0.392,0.798,1
+Tiruchirappalli,Semi-Urban,11.3663,76.4972,Domestic Violence,7,Sunday,Night,630,6.69,78.72,0.116,2,15,0.69,Cloudy,0,46-60,1.094,3.83,0.787,57.15,0.275,0.849,0
+Salem,Semi-Urban,12.2249,77.2433,Drug Offense,2,Thursday,Night,626,7.79,82.81,0.315,6,9,2.36,Sunny,0,60+,0.971,4.6,0.828,56.83,0.277,0.559,1
+Karur,Rural,9.8279,78.0291,Assault,7,Tuesday,Evening,327,11.33,81.05,0.403,6,12,4.85,Sunny,0,46-60,1.017,0.87,0.811,33.92,0.448,0.529,1
+Vellore,Rural,8.6623,78.2043,Domestic Violence,2,Sunday,Morning,317,13.17,79.93,0.156,2,10,1.75,Rainy,0,26-35,1.099,2.07,0.799,54.54,0.208,0.663,1
+Karur,Rural,12.9727,80.3805,Theft,2,Sunday,Evening,761,7.14,69.29,0.743,7,9,4.03,Cloudy,0,46-60,1.023,3.35,0.693,64.3,0.597,0.688,1
+Karur,Rural,8.2037,76.2067,Drug Offense,5,Wednesday,Morning,300,11.99,66.85,0.378,6,8,4.31,Cloudy,0,46-60,1.056,3.78,0.668,65.25,0.671,0.558,0
+Karur,Urban,10.2867,79.8107,Property Crime,7,Wednesday,Afternoon,355,10.57,83.74,0.629,7,12,7.36,Sunny,0,26-35,0.959,2.27,0.837,31.57,0.816,0.83,0
+Tiruchirappalli,Rural,10.7533,76.6036,Theft,3,Monday,Night,690,12.13,67.39,0.216,8,8,3.56,Rainy,0,36-45,0.954,2.67,0.674,53.58,0.594,0.919,1
+Dharmapuri,Semi-Urban,8.9533,78.6426,Domestic Violence,11,Sunday,Evening,243,5.22,78.9,0.124,8,9,7.12,Sunny,1,18-25,1.081,2.98,0.789,37.53,0.362,0.307,0
+Chennai,Semi-Urban,9.6897,76.5411,Burglary,5,Sunday,Night,1043,7.28,91.39,0.435,13,16,5.5,Hot,0,60+,0.928,0.55,0.914,81.48,0.773,0.587,0
+Dharmapuri,Rural,12.7446,79.1032,Burglary,1,Friday,Night,206,6.04,82.05,0.571,3,12,0.87,Rainy,0,46-60,1.078,3.49,0.821,66.79,0.614,0.446,1
+Sivaganga,Urban,9.4629,76.4786,Traffic Violation,5,Tuesday,Morning,249,10.79,68.78,0.667,7,2,0.61,Sunny,0,46-60,0.905,2.06,0.688,53.4,0.345,0.39,0
+Salem,Rural,11.0491,79.7535,Domestic Violence,11,Saturday,Evening,435,5.08,81.29,0.351,2,12,5.42,Rainy,1,60+,0.91,1.17,0.813,66.42,0.495,0.792,1
+Chennai,Urban,13.1306,79.9235,Fraud,5,Thursday,Night,1675,7.45,89.34,0.679,12,24,7.2,Hot,0,46-60,0.926,4.15,0.893,71.62,0.644,0.339,1
+Kanchipuram,Rural,10.111,77.0374,Cybercrime,4,Tuesday,Evening,481,11.63,83.97,0.408,4,4,5.4,Cloudy,1,18-25,1.023,3.43,0.84,57.18,0.718,0.701,0
+Chennai,Urban,9.3092,80.3698,Traffic Violation,8,Thursday,Evening,1988,7.91,88.79,0.721,20,15,0.83,Rainy,0,18-25,1.051,3.01,0.888,81.2,0.317,0.479,0
+Ramanathapuram,Semi-Urban,8.0481,78.4937,Drug Offense,12,Monday,Morning,241,10.74,82.44,0.775,2,10,4.94,Cloudy,1,26-35,1.075,4.46,0.824,53.38,0.532,0.915,1
+Thanjavur,Rural,9.9364,79.4112,Burglary,3,Monday,Night,255,13.34,71.14,0.603,2,13,5.11,Hot,0,36-45,0.947,1.71,0.711,47.86,0.429,0.434,0
+Madurai,Urban,11.3703,78.0602,Domestic Violence,2,Tuesday,Evening,1447,6.34,86.96,0.698,9,35,5.76,Cloudy,0,60+,1.099,2.49,0.87,85.55,0.426,0.926,1
+Krishnagiri,Rural,12.2335,80.4624,Fraud,4,Saturday,Morning,687,9.66,66.09,0.453,6,7,1.76,Hot,1,18-25,1.09,1.15,0.661,47.2,0.806,0.608,0
+Thoothukudi,Rural,11.4446,78.7613,Cybercrime,11,Thursday,Night,221,8.07,78.78,0.222,2,15,1.87,Hot,1,18-25,0.902,3.56,0.788,61.89,0.71,0.874,0
+Karur,Semi-Urban,12.7674,77.4209,Property Crime,1,Monday,Afternoon,667,8.9,78.63,0.121,2,9,5.18,Rainy,0,26-35,1.064,4.66,0.786,54.52,0.358,0.631,0
+Salem,Rural,13.4656,79.8688,Traffic Violation,12,Tuesday,Evening,481,7.85,84.96,0.108,3,8,7.54,Sunny,1,36-45,1.001,0.66,0.85,33.64,0.877,0.312,1
+Krishnagiri,Rural,9.1742,78.9176,Theft,3,Thursday,Night,612,11.52,68.26,0.796,4,9,5.88,Hot,0,36-45,0.907,3.0,0.683,67.38,0.725,0.378,0
+Dharmapuri,Semi-Urban,8.5169,79.3392,Fraud,10,Thursday,Evening,460,5.61,66.15,0.775,2,12,4.02,Cloudy,1,46-60,1.013,1.21,0.661,39.25,0.36,0.508,0
+Sivaganga,Rural,12.0738,78.6236,Assault,3,Sunday,Evening,655,12.47,70.08,0.137,6,9,7.01,Hot,0,60+,0.994,1.8,0.701,69.93,0.772,0.661,0
+Dharmapuri,Rural,8.6009,79.4949,Theft,7,Wednesday,Afternoon,788,9.28,65.05,0.634,3,6,3.56,Cloudy,0,26-35,1.022,2.65,0.65,46.24,0.619,0.876,0
+Virudhunagar,Semi-Urban,10.4229,77.5482,Drug Offense,5,Sunday,Afternoon,552,10.57,79.45,0.543,4,7,5.0,Hot,0,46-60,1.057,4.54,0.795,53.99,0.458,0.847,1
+Krishnagiri,Rural,9.0492,76.7052,Burglary,3,Monday,Night,691,5.66,68.75,0.765,5,9,2.08,Sunny,0,36-45,1.025,2.35,0.688,54.63,0.623,0.409,1
+Tirunelveli,Rural,13.0002,78.7209,Domestic Violence,12,Wednesday,Evening,439,14.58,78.56,0.335,2,7,6.62,Hot,1,26-35,1.032,2.99,0.786,36.38,0.764,0.581,0
+Chennai,Urban,8.4081,79.2883,Cybercrime,6,Sunday,Evening,1074,4.36,85.19,0.23,15,35,2.84,Cloudy,0,36-45,1.096,3.18,0.852,79.21,0.674,0.703,0
+Madurai,Urban,11.6107,80.2971,Traffic Violation,9,Thursday,Evening,1986,3.48,92.35,0.514,24,28,7.06,Cloudy,0,60+,1.066,1.15,0.924,88.76,0.641,0.818,0
+Virudhunagar,Rural,9.0153,77.746,Fraud,6,Friday,Evening,405,6.64,75.09,0.671,7,14,2.69,Rainy,0,60+,1.028,2.33,0.751,60.3,0.429,0.534,0
+Dharmapuri,Rural,11.9738,77.448,Fraud,11,Wednesday,Afternoon,531,7.51,77.57,0.488,2,15,6.75,Cloudy,1,26-35,1.038,4.38,0.776,52.53,0.236,0.774,1
+Cuddalore,Rural,11.2698,76.5914,Domestic Violence,5,Thursday,Afternoon,609,5.42,66.87,0.542,7,2,4.24,Hot,0,46-60,1.048,0.82,0.669,62.19,0.818,0.725,0
+Coimbatore,Urban,13.3011,79.2992,Theft,6,Sunday,Evening,1444,5.48,86.13,0.37,17,16,3.45,Cloudy,0,26-35,1.058,0.9,0.861,82.31,0.767,0.8,1
+Tiruchirappalli,Rural,9.8664,79.0233,Fraud,2,Sunday,Afternoon,567,9.7,69.9,0.337,4,5,1.32,Sunny,0,60+,0.92,2.46,0.699,44.11,0.286,0.549,0
+Tiruchirappalli,Rural,9.6635,79.8328,Cybercrime,7,Saturday,Afternoon,635,10.4,78.26,0.581,4,12,0.85,Sunny,0,60+,1.096,4.69,0.783,31.45,0.503,0.597,1
+Tiruvannamalai,Semi-Urban,10.7744,78.4555,Theft,5,Tuesday,Morning,236,12.99,76.04,0.473,4,14,4.7,Cloudy,0,46-60,1.039,2.02,0.76,63.77,0.776,0.417,1
+Dindigul,Rural,10.797,76.7987,Property Crime,3,Saturday,Afternoon,518,12.7,81.11,0.451,5,10,1.0,Rainy,0,26-35,1.007,3.47,0.811,37.4,0.201,0.674,1
+Coimbatore,Urban,12.3724,76.3052,Theft,4,Sunday,Night,1954,4.88,90.62,0.739,12,18,4.81,Hot,1,18-25,0.925,2.17,0.906,80.84,0.562,0.587,0
+Ramanathapuram,Rural,9.7031,76.0877,Theft,6,Tuesday,Night,204,12.78,70.05,0.567,2,7,4.49,Hot,0,36-45,0.938,1.87,0.701,61.5,0.204,0.875,1
+Chennai,Urban,10.6344,77.0062,Fraud,2,Saturday,Afternoon,1156,7.04,85.61,0.497,25,20,4.16,Rainy,0,60+,0.927,2.83,0.856,73.85,0.242,0.358,1
+Villupuram,Semi-Urban,13.1093,76.6528,Burglary,7,Monday,Evening,685,11.27,84.17,0.217,4,12,7.44,Hot,0,18-25,0.94,1.91,0.842,67.12,0.879,0.714,0
+Cuddalore,Rural,12.3798,76.4574,Burglary,7,Tuesday,Afternoon,595,14.46,72.26,0.236,2,11,4.36,Rainy,0,60+,0.983,0.71,0.723,39.1,0.698,0.724,0
+Tirunelveli,Rural,12.8324,79.0119,Theft,10,Monday,Night,597,12.39,83.72,0.352,7,2,0.84,Sunny,1,60+,1.066,3.13,0.837,68.55,0.384,0.425,0
+Krishnagiri,Rural,8.9532,79.6543,Traffic Violation,5,Sunday,Morning,587,7.47,73.7,0.323,7,15,1.11,Cloudy,0,18-25,1.088,0.52,0.737,43.41,0.779,0.66,0
+Dindigul,Rural,12.2514,76.594,Cybercrime,4,Wednesday,Night,245,8.6,71.37,0.164,3,8,3.36,Rainy,1,60+,1.079,2.52,0.714,64.03,0.722,0.472,1
+Villupuram,Semi-Urban,9.139,76.4413,Burglary,8,Sunday,Morning,366,12.88,81.63,0.717,3,3,1.68,Sunny,0,36-45,0.914,3.37,0.816,35.18,0.46,0.726,0
+Erode,Rural,9.4876,79.8187,Assault,6,Sunday,Night,715,11.25,81.36,0.674,7,11,5.53,Cloudy,0,60+,1.001,3.2,0.814,31.03,0.456,0.783,1
+Salem,Rural,12.0158,79.4352,Domestic Violence,1,Monday,Evening,322,5.94,73.99,0.369,5,3,5.18,Hot,0,36-45,0.908,3.79,0.74,54.92,0.36,0.663,0
+Chennai,Urban,10.3887,77.5066,Fraud,3,Saturday,Night,978,3.75,88.44,0.639,17,33,4.03,Sunny,0,18-25,1.057,1.23,0.884,72.85,0.452,0.823,0
+Krishnagiri,Rural,12.4959,77.3205,Theft,9,Sunday,Afternoon,499,11.56,75.01,0.148,4,2,2.05,Rainy,0,46-60,1.099,3.67,0.75,53.72,0.615,0.755,0
+Thanjavur,Rural,9.488,77.8151,Burglary,11,Monday,Night,368,11.76,84.32,0.23,8,13,7.52,Sunny,1,26-35,1.05,1.56,0.843,51.16,0.278,0.821,0
+Dindigul,Semi-Urban,10.5952,80.0502,Cybercrime,4,Thursday,Evening,685,11.37,68.1,0.628,2,6,2.83,Cloudy,1,60+,0.999,2.42,0.681,44.72,0.545,0.61,1
+Kanchipuram,Semi-Urban,13.3174,79.3207,Vandalism,7,Sunday,Night,729,9.47,71.25,0.766,5,5,4.33,Rainy,0,60+,0.944,2.05,0.712,48.02,0.258,0.732,1
+Cuddalore,Rural,11.6985,78.3837,Vandalism,1,Friday,Evening,652,13.46,83.25,0.517,5,13,2.85,Hot,0,26-35,0.912,2.51,0.832,67.61,0.528,0.874,0
+Virudhunagar,Rural,11.9717,76.225,Theft,10,Friday,Afternoon,763,14.38,79.97,0.4,3,6,6.93,Rainy,1,26-35,0.992,2.97,0.8,44.27,0.648,0.921,0
+Erode,Rural,11.6279,76.473,Assault,1,Wednesday,Evening,568,11.81,81.38,0.525,5,4,3.45,Hot,0,60+,1.081,4.11,0.814,61.94,0.816,0.584,1
+Coimbatore,Semi-Urban,8.4062,80.2146,Theft,1,Thursday,Night,1880,7.72,90.46,0.695,22,37,3.9,Hot,0,18-25,0.954,1.85,0.905,81.73,0.573,0.333,1
+Tiruchirappalli,Semi-Urban,8.5178,76.6297,Burglary,6,Sunday,Night,562,14.15,75.11,0.405,2,13,6.3,Sunny,0,46-60,0.925,1.68,0.751,53.71,0.768,0.314,1
+Tiruvannamalai,Semi-Urban,9.5306,76.3867,Vandalism,1,Monday,Night,328,9.39,78.15,0.462,6,14,4.14,Cloudy,0,18-25,1.002,2.76,0.782,66.07,0.378,0.641,0
+Namakkal,Rural,11.0306,78.5691,Burglary,7,Saturday,Evening,312,10.81,79.97,0.201,2,11,3.65,Sunny,0,46-60,0.901,2.46,0.8,64.4,0.278,0.876,1
+Salem,Rural,10.1836,78.1817,Vandalism,11,Saturday,Morning,697,14.31,78.17,0.774,5,7,4.71,Cloudy,1,26-35,0.982,3.22,0.782,47.37,0.591,0.655,1
+Krishnagiri,Rural,9.7511,76.2913,Domestic Violence,7,Wednesday,Afternoon,799,8.2,81.63,0.7,4,6,6.1,Rainy,0,60+,1.07,4.81,0.816,46.27,0.229,0.33,0
+Karur,Rural,10.3634,79.6802,Drug Offense,12,Tuesday,Afternoon,766,5.58,70.61,0.639,4,6,1.71,Sunny,1,26-35,0.958,4.19,0.706,57.62,0.352,0.912,1
+Kanchipuram,Semi-Urban,12.8198,78.2879,Burglary,3,Wednesday,Night,787,14.81,78.92,0.265,2,8,0.77,Sunny,0,60+,1.078,3.95,0.789,64.08,0.415,0.739,0
+Tirunelveli,Semi-Urban,12.752,79.2112,Fraud,6,Saturday,Night,414,6.67,72.17,0.107,2,8,0.65,Hot,0,46-60,1.083,4.83,0.722,46.11,0.609,0.453,0
+Coimbatore,Urban,12.5101,79.8612,Traffic Violation,2,Thursday,Afternoon,1948,7.12,94.28,0.691,15,40,6.28,Rainy,0,60+,0.923,0.71,0.943,77.3,0.706,0.881,0
+Cuddalore,Rural,10.3314,80.4105,Fraud,4,Tuesday,Morning,525,8.7,75.66,0.334,3,2,3.72,Rainy,1,26-35,1.048,3.01,0.757,69.09,0.692,0.935,1
+Coimbatore,Urban,10.5526,78.2448,Traffic Violation,5,Friday,Afternoon,861,3.6,90.81,0.556,11,28,0.55,Cloudy,0,46-60,1.066,4.02,0.908,85.77,0.627,0.483,1
+Vellore,Rural,10.805,79.8618,Property Crime,4,Tuesday,Morning,329,14.0,79.63,0.724,3,2,1.77,Sunny,1,18-25,1.087,4.4,0.796,64.86,0.575,0.793,0
+Tirunelveli,Semi-Urban,8.303,76.6246,Traffic Violation,5,Saturday,Afternoon,521,8.49,80.12,0.442,2,13,6.6,Sunny,0,46-60,0.975,0.62,0.801,36.71,0.714,0.761,1
+Dharmapuri,Rural,10.4292,80.0072,Theft,2,Wednesday,Night,537,14.35,68.17,0.683,4,11,2.96,Cloudy,0,46-60,0.955,1.6,0.682,45.2,0.566,0.625,0
+Salem,Rural,10.5559,76.1075,Theft,5,Thursday,Night,425,6.79,77.03,0.429,5,4,3.07,Cloudy,0,36-45,1.076,3.95,0.77,60.41,0.261,0.53,1
+Chennai,Urban,12.7413,79.6971,Theft,10,Saturday,Afternoon,1535,6.31,90.23,0.432,18,15,4.8,Cloudy,1,18-25,1.074,3.14,0.902,82.4,0.371,0.381,0
+Cuddalore,Rural,10.2431,77.6139,Cybercrime,10,Monday,Afternoon,685,8.78,78.3,0.741,4,2,3.62,Rainy,1,26-35,1.092,2.15,0.783,56.17,0.357,0.363,0
+Tiruchirappalli,Semi-Urban,13.0892,79.0067,Theft,3,Wednesday,Evening,678,14.19,81.93,0.534,3,2,7.49,Cloudy,0,60+,1.068,3.28,0.819,58.73,0.487,0.324,0
+Tiruvannamalai,Rural,10.961,77.804,Cybercrime,12,Tuesday,Morning,257,7.06,67.58,0.344,2,13,4.13,Rainy,1,46-60,0.952,1.6,0.676,30.75,0.897,0.475,1
+Thanjavur,Rural,10.7542,77.3375,Fraud,12,Tuesday,Evening,509,7.07,77.68,0.534,8,4,4.2,Cloudy,1,36-45,1.047,1.9,0.777,58.76,0.287,0.883,0
+Ramanathapuram,Semi-Urban,10.2167,79.5089,Drug Offense,11,Friday,Night,234,7.51,83.28,0.725,6,6,1.01,Cloudy,1,36-45,1.08,3.99,0.833,48.18,0.871,0.304,0
+Karur,Rural,11.7058,79.2111,Traffic Violation,12,Saturday,Morning,591,11.76,80.78,0.498,4,11,0.58,Rainy,1,18-25,0.938,2.41,0.808,53.83,0.551,0.51,1
+Villupuram,Rural,8.1596,79.9289,Domestic Violence,2,Tuesday,Night,515,9.89,67.3,0.248,8,10,4.76,Rainy,0,26-35,0.932,4.99,0.673,55.64,0.345,0.668,0
+Thoothukudi,Rural,8.8711,79.4035,Property Crime,12,Tuesday,Night,630,8.86,72.8,0.327,4,14,0.51,Sunny,1,18-25,0.99,4.95,0.728,35.21,0.664,0.548,1
+Karur,Rural,9.571,78.1552,Assault,1,Monday,Morning,501,5.91,75.45,0.366,4,9,7.86,Sunny,0,60+,0.907,1.71,0.754,36.71,0.361,0.569,1
+Chennai,Urban,12.6278,78.8598,Assault,8,Saturday,Afternoon,1983,3.72,87.39,0.278,20,20,1.06,Cloudy,0,46-60,1.088,0.57,0.874,86.32,0.779,0.898,1
+Cuddalore,Rural,10.4495,80.0922,Burglary,5,Monday,Night,350,11.04,80.57,0.178,6,3,1.59,Hot,0,36-45,1.017,1.5,0.806,38.47,0.712,0.878,1
+Dindigul,Rural,10.6675,77.6299,Drug Offense,10,Saturday,Afternoon,569,7.1,84.18,0.244,6,15,1.91,Rainy,1,18-25,0.984,0.76,0.842,58.72,0.366,0.53,0
+Krishnagiri,Rural,11.3528,78.2808,Vandalism,6,Monday,Night,703,8.0,72.06,0.529,8,15,4.7,Hot,0,26-35,1.018,2.02,0.721,63.04,0.644,0.791,0
+Chennai,Urban,12.7962,80.0777,Drug Offense,1,Sunday,Afternoon,898,3.03,92.01,0.198,15,34,5.28,Cloudy,0,26-35,0.935,1.36,0.92,75.13,0.553,0.865,0
+Thoothukudi,Semi-Urban,11.8501,76.0952,Burglary,2,Monday,Morning,447,12.69,70.66,0.595,7,6,3.83,Hot,0,26-35,0.93,3.4,0.707,44.92,0.681,0.865,0
+Ramanathapuram,Rural,12.7208,80.0441,Burglary,2,Monday,Afternoon,255,5.75,76.22,0.344,5,9,1.39,Rainy,0,26-35,1.002,3.26,0.762,63.97,0.479,0.914,1
+Virudhunagar,Semi-Urban,9.3381,76.3633,Burglary,2,Tuesday,Afternoon,241,8.77,67.63,0.657,5,5,7.4,Cloudy,0,18-25,0.999,4.49,0.676,36.81,0.848,0.522,0
+Vellore,Rural,11.9599,77.7553,Vandalism,4,Saturday,Morning,652,11.56,72.98,0.292,7,13,4.18,Hot,1,36-45,1.098,2.18,0.73,67.23,0.399,0.607,1
+Ramanathapuram,Semi-Urban,12.1396,78.5376,Assault,10,Saturday,Night,323,10.97,71.26,0.571,6,10,1.18,Rainy,1,18-25,0.972,3.5,0.713,45.02,0.687,0.765,1
+Cuddalore,Rural,9.4021,79.556,Domestic Violence,12,Monday,Evening,327,11.8,68.54,0.567,6,6,5.2,Rainy,1,26-35,1.003,2.86,0.685,43.6,0.697,0.931,1
+Thoothukudi,Urban,9.3028,79.4345,Assault,12,Monday,Evening,214,10.97,76.84,0.726,2,8,4.36,Cloudy,1,18-25,1.086,3.01,0.768,34.53,0.717,0.539,1
+Thanjavur,Rural,11.1914,79.9851,Domestic Violence,10,Tuesday,Morning,766,13.63,80.22,0.385,4,5,3.93,Hot,1,46-60,0.914,1.3,0.802,58.07,0.204,0.733,0
+Kanchipuram,Rural,12.5771,78.6217,Theft,1,Saturday,Night,626,11.75,81.04,0.129,8,9,7.08,Cloudy,0,46-60,0.974,2.43,0.81,63.99,0.592,0.415,0
+Karur,Rural,13.4371,77.4071,Drug Offense,3,Saturday,Night,775,6.47,75.43,0.705,8,12,0.52,Rainy,0,60+,0.94,4.47,0.754,50.11,0.787,0.455,1
+Villupuram,Rural,12.4646,78.4585,Theft,9,Sunday,Night,646,10.9,72.61,0.404,6,13,2.29,Sunny,0,26-35,1.076,2.81,0.726,55.95,0.815,0.616,0
+Erode,Rural,9.9011,78.9341,Domestic Violence,4,Monday,Afternoon,409,14.07,75.98,0.383,3,5,5.66,Rainy,1,18-25,0.905,4.99,0.76,46.72,0.481,0.869,1
+Krishnagiri,Rural,9.5858,78.2707,Domestic Violence,4,Friday,Night,465,5.11,74.55,0.371,6,15,0.81,Cloudy,1,18-25,0.937,1.06,0.746,43.15,0.755,0.542,0
+Villupuram,Semi-Urban,8.6587,78.6058,Fraud,7,Wednesday,Night,749,10.92,81.99,0.358,4,6,2.75,Sunny,0,60+,0.902,1.3,0.82,47.56,0.667,0.784,1
+Vellore,Urban,9.3883,77.5982,Fraud,10,Thursday,Morning,391,14.82,83.39,0.754,6,13,0.72,Hot,1,18-25,1.048,4.68,0.834,62.53,0.445,0.552,1
+Karur,Semi-Urban,8.5677,77.6367,Theft,11,Friday,Night,275,14.03,67.45,0.634,8,10,3.02,Sunny,1,60+,0.956,2.75,0.675,55.28,0.793,0.446,0
+Coimbatore,Urban,10.3849,78.5525,Cybercrime,8,Wednesday,Afternoon,1046,6.99,88.97,0.102,9,24,1.97,Sunny,0,18-25,1.059,1.57,0.89,72.75,0.875,0.692,1
+Tirunelveli,Semi-Urban,10.3241,76.7798,Fraud,10,Saturday,Afternoon,437,14.69,72.69,0.4,8,15,0.6,Cloudy,1,60+,0.926,1.1,0.727,41.49,0.855,0.605,1
+Dharmapuri,Rural,10.564,78.1957,Assault,5,Saturday,Evening,666,7.43,81.47,0.527,4,4,4.67,Cloudy,0,46-60,0.933,4.9,0.815,69.09,0.23,0.476,1
+Thoothukudi,Urban,12.6314,79.9079,Traffic Violation,3,Thursday,Afternoon,413,6.07,77.64,0.635,4,15,5.65,Sunny,0,60+,1.062,3.66,0.776,54.76,0.672,0.836,0
+Salem,Rural,11.1701,80.0749,Theft,2,Saturday,Night,245,13.18,70.88,0.779,7,12,2.36,Sunny,0,36-45,0.964,1.16,0.709,39.25,0.701,0.877,1
+Tirunelveli,Rural,12.7788,76.045,Vandalism,10,Friday,Evening,670,9.61,81.14,0.201,4,13,6.29,Sunny,1,46-60,0.96,1.48,0.811,57.02,0.283,0.85,1
+Madurai,Urban,12.4204,77.3766,Cybercrime,4,Sunday,Night,1034,7.26,89.65,0.131,24,22,1.39,Rainy,1,26-35,0.969,2.8,0.897,83.9,0.503,0.887,0
+Vellore,Semi-Urban,8.0946,78.8978,Theft,9,Wednesday,Morning,545,7.1,65.18,0.161,3,5,0.65,Sunny,0,60+,1.055,2.66,0.652,54.75,0.763,0.85,0
+Vellore,Semi-Urban,12.2098,79.7248,Drug Offense,5,Thursday,Morning,367,9.22,82.48,0.163,6,6,6.02,Sunny,0,26-35,0.97,1.78,0.825,63.77,0.277,0.382,0
+Coimbatore,Urban,13.0483,79.7244,Cybercrime,1,Friday,Morning,1183,5.11,93.13,0.726,11,19,2.18,Cloudy,0,26-35,0.967,0.7,0.931,79.26,0.826,0.656,0
+Tiruvannamalai,Rural,10.6206,76.5416,Drug Offense,2,Tuesday,Evening,551,11.58,67.42,0.395,4,7,1.14,Cloudy,0,26-35,0.906,2.82,0.674,30.84,0.299,0.739,0
+Tiruchirappalli,Semi-Urban,8.0736,77.0541,Burglary,10,Sunday,Evening,454,9.52,81.01,0.347,7,7,4.54,Hot,1,60+,1.071,4.33,0.81,32.8,0.287,0.782,1
+Sivaganga,Urban,8.7791,78.9451,Fraud,9,Saturday,Afternoon,367,9.29,83.95,0.476,6,4,6.65,Sunny,0,60+,1.077,4.48,0.839,30.45,0.364,0.341,0
+Dindigul,Semi-Urban,10.0366,77.4651,Property Crime,8,Thursday,Morning,250,6.42,84.68,0.537,8,14,6.59,Cloudy,0,60+,1.003,3.78,0.847,46.84,0.71,0.365,1
+Krishnagiri,Semi-Urban,8.3259,76.0755,Drug Offense,12,Thursday,Evening,255,6.68,78.76,0.467,8,3,5.74,Hot,1,18-25,1.061,2.83,0.788,54.93,0.779,0.534,0
+Salem,Semi-Urban,13.1383,76.8686,Drug Offense,4,Monday,Night,320,8.31,83.85,0.202,3,12,4.34,Sunny,1,36-45,1.034,3.79,0.838,58.81,0.584,0.915,1
+Tiruvannamalai,Urban,9.2655,77.039,Theft,5,Wednesday,Night,755,5.83,70.56,0.294,5,8,6.72,Sunny,0,46-60,1.076,1.75,0.706,60.85,0.711,0.493,1
+Erode,Rural,11.1538,77.0047,Theft,12,Saturday,Morning,214,13.55,72.02,0.408,5,10,6.46,Cloudy,1,60+,0.996,2.58,0.72,60.07,0.87,0.581,1
+Erode,Rural,9.4438,78.7286,Fraud,4,Monday,Afternoon,352,9.62,80.34,0.339,5,2,6.67,Cloudy,1,46-60,1.098,3.21,0.803,31.02,0.597,0.438,0
+Madurai,Urban,8.9236,77.1414,Drug Offense,8,Saturday,Afternoon,1383,4.21,89.77,0.31,17,19,7.81,Hot,0,18-25,0.913,2.46,0.898,89.59,0.312,0.362,1
+Tirunelveli,Rural,9.7402,79.0945,Theft,3,Friday,Morning,759,5.81,69.27,0.558,7,2,1.24,Rainy,0,18-25,0.961,2.07,0.693,58.64,0.552,0.837,0
+Krishnagiri,Rural,11.0305,77.8644,Property Crime,12,Wednesday,Evening,275,8.18,67.81,0.523,5,11,6.28,Sunny,1,46-60,0.968,3.91,0.678,63.56,0.588,0.657,1
+Chennai,Urban,11.4845,76.7753,Drug Offense,1,Monday,Evening,1811,3.4,88.71,0.387,21,19,7.25,Rainy,0,60+,0.921,1.39,0.887,72.77,0.351,0.806,1
+Krishnagiri,Rural,11.9102,80.0494,Burglary,3,Saturday,Morning,385,11.57,66.13,0.303,3,11,2.26,Rainy,0,60+,1.073,1.86,0.661,39.18,0.485,0.915,1
+Ramanathapuram,Semi-Urban,10.0567,77.1055,Property Crime,12,Tuesday,Evening,342,7.22,82.66,0.12,5,13,3.99,Hot,1,36-45,0.949,0.55,0.827,69.69,0.755,0.376,0
+Villupuram,Urban,12.974,76.464,Traffic Violation,5,Wednesday,Morning,441,7.32,74.92,0.534,4,2,4.77,Sunny,0,36-45,0.995,4.99,0.749,56.71,0.815,0.371,1
+Kanchipuram,Rural,8.4383,76.5142,Burglary,11,Tuesday,Morning,740,10.66,78.47,0.779,8,11,6.93,Cloudy,1,26-35,0.953,3.75,0.785,65.29,0.345,0.529,1
+Dharmapuri,Semi-Urban,11.4714,78.9702,Property Crime,6,Monday,Morning,418,9.75,68.74,0.491,8,8,3.75,Rainy,0,36-45,1.049,4.04,0.687,52.12,0.743,0.556,0
+Dindigul,Semi-Urban,11.9912,77.1724,Traffic Violation,7,Saturday,Afternoon,218,12.07,65.84,0.572,2,12,1.96,Cloudy,0,60+,1.031,3.51,0.658,46.73,0.876,0.597,1
+Namakkal,Rural,8.1562,79.0694,Vandalism,11,Monday,Morning,661,7.59,69.24,0.416,8,4,7.05,Rainy,1,46-60,1.046,2.89,0.692,62.83,0.348,0.528,0
+Namakkal,Semi-Urban,8.4097,78.4741,Drug Offense,7,Monday,Morning,636,14.38,74.95,0.275,5,10,7.66,Rainy,0,36-45,0.928,2.7,0.749,65.26,0.243,0.593,0
+Thanjavur,Semi-Urban,12.9652,80.1199,Cybercrime,9,Saturday,Night,529,8.09,79.4,0.32,7,14,3.18,Hot,0,26-35,0.942,1.47,0.794,58.97,0.531,0.382,0
+Villupuram,Semi-Urban,9.8914,78.2345,Drug Offense,3,Tuesday,Evening,250,8.22,66.87,0.602,5,4,2.84,Rainy,0,36-45,0.979,4.67,0.669,46.34,0.305,0.559,0
+Tirunelveli,Rural,9.9763,77.4659,Property Crime,1,Friday,Afternoon,530,14.94,79.38,0.541,2,11,7.01,Rainy,0,18-25,1.051,4.2,0.794,39.68,0.48,0.902,0
+Villupuram,Urban,12.2571,77.102,Theft,12,Saturday,Evening,703,8.05,77.75,0.464,2,7,2.65,Hot,1,26-35,1.087,3.49,0.777,61.5,0.485,0.668,1
