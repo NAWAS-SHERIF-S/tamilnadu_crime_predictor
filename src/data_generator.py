@@ -6,11 +6,31 @@ from datetime import datetime
 def generate_crime_dataset():
     """Generate realistic synthetic crime dataset for Tamil Nadu with logical correlations"""
     
-    # Tamil Nadu districts
-    districts = ['Chennai', 'Coimbatore', 'Madurai', 'Tiruchirappalli', 'Salem', 'Tirunelveli', 
-                'Erode', 'Vellore', 'Thoothukudi', 'Thanjavur', 'Dindigul', 'Cuddalore',
-                'Kanchipuram', 'Villupuram', 'Sivaganga', 'Ramanathapuram', 'Virudhunagar',
-                'Karur', 'Namakkal', 'Dharmapuri', 'Krishnagiri', 'Tiruvannamalai']
+    # Tamil Nadu districts with their taluks
+    district_taluks = {
+        'Chennai': ['Chennai North', 'Chennai South', 'Chennai Central', 'Ambattur', 'Sholinganallur'],
+        'Coimbatore': ['Coimbatore North', 'Coimbatore South', 'Pollachi', 'Mettupalayam', 'Sulur'],
+        'Madurai': ['Madurai North', 'Madurai South', 'Melur', 'Usilampatti', 'Thirumangalam'],
+        'Tiruchirappalli': ['Tiruchirappalli', 'Srirangam', 'Lalgudi', 'Musiri', 'Thuraiyur'],
+        'Salem': ['Salem', 'Mettur', 'Omalur', 'Sankagiri', 'Vazhapadi'],
+        'Tirunelveli': ['Tirunelveli', 'Ambasamudram', 'Nanguneri', 'Radhapuram', 'Palayamkottai'],
+        'Erode': ['Erode', 'Gobichettipalayam', 'Anthiyur', 'Bhavani', 'Modakurichi'],
+        'Vellore': ['Vellore', 'Arcot', 'Gudiyatham', 'Katpadi', 'Pernambut'],
+        'Thoothukudi': ['Thoothukudi', 'Kovilpatti', 'Ottapidaram', 'Vilathikulam', 'Srivaikuntam'],
+        'Thanjavur': ['Thanjavur', 'Kumbakonam', 'Papanasam', 'Pattukottai', 'Thiruvidaimarudur'],
+        'Dindigul': ['Dindigul', 'Kodaikanal', 'Natham', 'Nilakottai', 'Palani'],
+        'Cuddalore': ['Cuddalore', 'Chidambaram', 'Kattumannarkoil', 'Panruti', 'Vridhachalam'],
+        'Kanchipuram': ['Kanchipuram', 'Chengalpattu', 'Madurantakam', 'Sriperumbudur', 'Uthiramerur'],
+        'Villupuram': ['Villupuram', 'Gingee', 'Kallakurichi', 'Sankarapuram', 'Tindivanam'],
+        'Sivaganga': ['Sivaganga', 'Devakottai', 'Ilayangudi', 'Karaikudi', 'Manamadurai'],
+        'Ramanathapuram': ['Ramanathapuram', 'Kadaladi', 'Kamuthi', 'Mudukulathur', 'Paramakudi'],
+        'Virudhunagar': ['Virudhunagar', 'Aruppukkottai', 'Kariapatti', 'Rajapalayam', 'Sattur'],
+        'Karur': ['Karur', 'Aravakurichi', 'Kadavur', 'Krishnarayapuram', 'Kulithalai'],
+        'Namakkal': ['Namakkal', 'Kolli Hills', 'Kumarapalayam', 'Rasipuram', 'Tiruchengode'],
+        'Dharmapuri': ['Dharmapuri', 'Harur', 'Karimangalam', 'Nallampalli', 'Palacode'],
+        'Krishnagiri': ['Krishnagiri', 'Bargur', 'Denkanikottai', 'Hosur', 'Pochampalli'],
+        'Tiruvannamalai': ['Tiruvannamalai', 'Arani', 'Cheyyar', 'Polur', 'Vandavasi']
+    }
     
     crime_types = ['Theft', 'Cybercrime', 'Assault', 'Domestic Violence', 'Fraud', 'Burglary', 
                    'Drug Offense', 'Traffic Violation', 'Property Crime', 'Vandalism']
@@ -22,8 +42,9 @@ def generate_crime_dataset():
     
     data = []
     
-    for i in range(1000):
-        district = random.choice(districts)
+    for i in range(7000):
+        district = random.choice(list(district_taluks.keys()))
+        taluk = random.choice(district_taluks[district])
         
         # Urban districts have different crime patterns
         if district in ['Chennai', 'Coimbatore', 'Madurai']:
@@ -88,6 +109,7 @@ def generate_crime_dataset():
         
         data.append({
             'district': district,
+            'taluk': taluk,
             'area_type': area_type,
             'latitude': round(latitude, 4),
             'longitude': round(longitude, 4),

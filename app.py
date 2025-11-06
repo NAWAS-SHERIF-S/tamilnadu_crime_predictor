@@ -40,13 +40,18 @@ def home():
 @app.route('/predict')
 def predict_form():
     districts = sorted(df['district'].unique())
-    return render_template('index.html', districts=districts)
+    # Get taluks for each district
+    district_taluks = {}
+    for district in districts:
+        district_taluks[district] = sorted(df[df['district'] == district]['taluk'].unique())
+    return render_template('index.html', districts=districts, district_taluks=district_taluks)
 
 @app.route('/predict', methods=['POST'])
 def predict_crime():
     try:
         # Get form data
         district = request.form['district']
+        taluk = request.form['taluk']
         time_of_day = request.form['time_of_day']
         day_of_week = request.form['day_of_week']
         weather = request.form['weather']
@@ -56,6 +61,7 @@ def predict_crime():
         # Create feature vector with default values
         features = {
             'district_encoded': encoders['district'].transform([district])[0],
+            'taluk_encoded': encoders['taluk'].transform([taluk])[0],
             'area_type_encoded': encoders['area_type'].transform([area_type])[0],
             'latitude': 11.0,  # Default Tamil Nadu center
             'longitude': 78.0,
@@ -101,6 +107,7 @@ def predict_crime():
                              crime_type=crime_type,
                              confidence=f"{confidence:.1f}",
                              district=district,
+                             taluk=taluk,
                              time_of_day=time_of_day,
                              day_of_week=day_of_week,
                              weather=weather,

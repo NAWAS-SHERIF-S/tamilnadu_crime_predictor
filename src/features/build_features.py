@@ -16,6 +16,7 @@ def load_and_preprocess_data():
     
     # Encode categorical variables
     le_district = LabelEncoder()
+    le_taluk = LabelEncoder()
     le_area = LabelEncoder()
     le_crime = LabelEncoder()
     le_day = LabelEncoder()
@@ -24,6 +25,7 @@ def load_and_preprocess_data():
     le_age = LabelEncoder()
     
     df['district_encoded'] = le_district.fit_transform(df['district'])
+    df['taluk_encoded'] = le_taluk.fit_transform(df['taluk'])
     df['area_type_encoded'] = le_area.fit_transform(df['area_type'])
     df['crime_type_encoded'] = le_crime.fit_transform(df['crime_type'])
     df['day_of_week_encoded'] = le_day.fit_transform(df['day_of_week'])
@@ -34,6 +36,7 @@ def load_and_preprocess_data():
     # Save encoders
     encoders = {
         'district': le_district,
+        'taluk': le_taluk,
         'area_type': le_area,
         'crime_type': le_crime,
         'day_of_week': le_day,
@@ -45,7 +48,7 @@ def load_and_preprocess_data():
     
     # Select features for modeling
     feature_cols = [
-        'district_encoded', 'area_type_encoded', 'latitude', 'longitude',
+        'district_encoded', 'taluk_encoded', 'area_type_encoded', 'latitude', 'longitude',
         'month', 'day_of_week_encoded', 'time_of_day_encoded', 'population_density',
         'unemployment_rate', 'literacy_rate', 'poverty_index', 'police_station_count',
         'cctv_density', 'past_crime_rate', 'weather_encoded', 'festival_period',
