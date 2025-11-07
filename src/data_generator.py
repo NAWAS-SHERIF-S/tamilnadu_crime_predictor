@@ -91,7 +91,7 @@ def generate_crime_dataset():
         else:
             time_of_day = random.choice(['Morning', 'Afternoon', 'Evening', 'Night'])
         
-        weather = random.choice(weather_conditions)
+        # weather = random.choice(weather_conditions)  # Removed weather
         
         # Generate coordinates (approximate Tamil Nadu bounds)
         latitude = random.uniform(8.0, 13.5)
@@ -124,7 +124,7 @@ def generate_crime_dataset():
             'police_station_count': police_station_count,
             'cctv_density': cctv_density,
             'past_crime_rate': round(past_crime_rate, 2),
-            'weather': weather,
+            # 'weather': weather,  # Removed weather
             'festival_period': festival_period,
             'age_group': age_group,
             'gender_ratio': round(gender_ratio, 3),
@@ -140,6 +140,6 @@ def generate_crime_dataset():
 
 if __name__ == "__main__":
     df = generate_crime_dataset()
-    df.to_csv('data/raw/crime_tn_dataset.csv', index=False)
+    df.to_csv('data/raw/crime_tn_dataset_new.csv', index=False)
     print(f"Generated dataset with {len(df)} rows and {len(df.columns)} columns")
     print(df.head())

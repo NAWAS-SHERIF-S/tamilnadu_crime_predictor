@@ -5,70 +5,304 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tamil Nadu Crime Pattern Predictor</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
-        .hero-section {
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-            color: white;
-            padding: 100px 0;
-            text-align: center;
+        * {
+            font-family: 'Poppins', sans-serif;
         }
+        
+        body {
+            overflow-x: hidden;
+        }
+        
+        .hero-section {
+            background: #1a237e;
+            color: white;
+            padding: 120px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" fill="%23ffffff" opacity="0.1"><polygon points="1000,100 1000,0 0,100"/></svg>');
+            background-size: cover;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            animation: fadeInUp 1s ease-out;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.3rem;
+            font-weight: 300;
+            margin-bottom: 2.5rem;
+            animation: fadeInUp 1s ease-out 0.3s both;
+        }
+        
         .feature-card {
             background: white;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            padding: 30px;
-            margin: 20px 0;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            padding: 40px 30px;
+            margin: 30px 0;
             text-align: center;
+            transition: all 0.3s ease;
+            border: none;
+            position: relative;
+            overflow: hidden;
         }
+        
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+            transition: left 0.5s;
+        }
+        
+        .feature-card:hover::before {
+            left: 100%;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            color: #1a237e;
+        }
+        
         .about-section {
-            background: #f8f9fa;
-            padding: 80px 0;
+            background: white;
+            padding: 100px 0;
+            position: relative;
         }
+        
         .btn-custom {
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            background: #1a237e;
             border: none;
             color: white;
-            padding: 15px 40px;
+            padding: 18px 45px;
             font-size: 18px;
+            font-weight: 600;
             border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 25px rgba(26, 35, 126, 0.3);
         }
+        
         .btn-custom:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(102, 126, 234, 0.4);
             color: white;
+        }
+        
+        .btn-outline-custom {
+            border: 2px solid white;
+            color: white;
+            padding: 16px 43px;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            background: transparent;
+        }
+        
+        .btn-outline-custom:hover {
+            background: white;
+            color: #667eea;
+            transform: translateY(-3px);
+        }
+        
+        .floating-shapes {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 1;
+        }
+        
+        .shape {
+            position: absolute;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        .shape:nth-child(1) {
+            width: 80px;
+            height: 80px;
+            top: 20%;
+            left: 10%;
+            animation-delay: 0s;
+        }
+        
+        .shape:nth-child(2) {
+            width: 120px;
+            height: 120px;
+            top: 60%;
+            right: 10%;
+            animation-delay: 2s;
+        }
+        
+        .shape:nth-child(3) {
+            width: 60px;
+            height: 60px;
+            bottom: 20%;
+            left: 20%;
+            animation-delay: 4s;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+        
+        .stats-section {
+            background: #fff;
+            padding: 80px 0;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 30px;
+        }
+        
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #1a237e;
+        }
+        
+        .stat-label {
+            font-size: 1.1rem;
+            color: #666;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
     <!-- Hero Section -->
     <div class="hero-section">
+        <div class="floating-shapes">
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+        <div class="container hero-content">
+            <h1 class="hero-title">Tamil Nadu Crime Pattern Predictor</h1>
+            <p class="hero-subtitle">AI-powered crime prediction system for enhanced public safety and law enforcement</p>
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <a href="/predict" class="btn btn-custom btn-lg">
+                    <i class="fas fa-rocket me-2"></i>Get Started
+                </a>
+                <a href="#about" class="btn btn-outline-custom btn-lg">
+                    <i class="fas fa-info-circle me-2"></i>Learn More
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="stats-section">
         <div class="container">
-            <h1 class="display-3 mb-4">Tamil Nadu Crime Pattern Predictor</h1>
-            <p class="lead mb-5">AI-powered crime prediction system for enhanced public safety and law enforcement</p>
-            <a href="/predict" class="btn btn-custom btn-lg me-3">Get Started</a>
-            <a href="#about" class="btn btn-outline-light btn-lg">Learn More</a>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <div class="stat-number">7K+</div>
+                        <div class="stat-label">Data Records</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <div class="stat-number">22</div>
+                        <div class="stat-label">Districts Covered</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <div class="stat-number">110+</div>
+                        <div class="stat-label">Taluks Analyzed</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <div class="stat-number">10</div>
+                        <div class="stat-label">Crime Categories</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <!-- Features Section -->
     <div class="container my-5">
-        <div class="row">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold mb-3">Powerful Features</h2>
+            <p class="lead text-muted">Advanced AI technology for comprehensive crime analysis</p>
+        </div>
+        <div class="row justify-content-center">
             <div class="col-md-4">
                 <div class="feature-card">
-                    <h3 class="text-primary mb-3">🎯 Smart Prediction</h3>
-                    <p>Advanced ML algorithms analyze 25+ factors to predict crime patterns with high accuracy</p>
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="fw-bold mb-3">Smart Prediction</h3>
+                    <p class="text-muted">Advanced ML algorithms analyze 26+ factors to predict crime patterns with enhanced accuracy across Tamil Nadu</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="feature-card">
-                    <h3 class="text-success mb-3">📊 Real-time Analytics</h3>
-                    <p>Interactive dashboard with crime statistics and trend analysis across Tamil Nadu districts</p>
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="fw-bold mb-3">Real-time Analytics</h3>
+                    <p class="text-muted">Interactive dashboard with crime statistics and trend analysis across 22 districts and 110+ taluks</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="feature-card">
-                    <h3 class="text-warning mb-3">🛡️ Public Safety</h3>
-                    <p>Helps law enforcement agencies optimize resource allocation and prevent crimes</p>
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="fw-bold mb-3">Public Safety</h3>
+                    <p class="text-muted">Personalized safety recommendations and resource optimization for law enforcement agencies</p>
                 </div>
             </div>
         </div>
@@ -88,24 +322,28 @@
                 </div>
             </div>
             
-            <div class="row mt-5">
-                <div class="col-md-6">
-                    <h4 class="mb-3">🔍 How It Works</h4>
-                    <ul class="list-unstyled">
-                        <li class="mb-2">✓ Input location, time, and environmental factors</li>
-                        <li class="mb-2">✓ AI analyzes patterns from 1000+ crime records</li>
-                        <li class="mb-2">✓ Predicts most likely crime type with confidence score</li>
-                        <li class="mb-2">✓ Provides actionable insights for prevention</li>
-                    </ul>
+            <div class="row mt-5 justify-content-center">
+                <div class="col-md-5">
+                    <div class="text-center">
+                        <h4 class="mb-3">🔍 How It Works</h4>
+                        <ul class="list-unstyled text-start">
+                            <li class="mb-2">✓ Input location, time, and environmental factors</li>
+                            <li class="mb-2">✓ AI analyzes patterns from 1000+ crime records</li>
+                            <li class="mb-2">✓ Predicts most likely crime type with confidence score</li>
+                            <li class="mb-2">✓ Provides actionable insights for prevention</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <h4 class="mb-3">📈 Key Features</h4>
-                    <ul class="list-unstyled">
-                        <li class="mb-2">✓ 10 crime categories (Theft, Cybercrime, Assault, etc.)</li>
-                        <li class="mb-2">✓ 22 Tamil Nadu districts coverage</li>
-                        <li class="mb-2">✓ Weather and temporal pattern analysis</li>
-                        <li class="mb-2">✓ Interactive visualization dashboard</li>
-                    </ul>
+                <div class="col-md-5">
+                    <div class="text-center">
+                        <h4 class="mb-3">📈 Key Features</h4>
+                        <ul class="list-unstyled text-start">
+                            <li class="mb-2">✓ 10 crime categories (Theft, Cybercrime, Assault, etc.)</li>
+                            <li class="mb-2">✓ 22 Tamil Nadu districts coverage</li>
+                            <li class="mb-2">✓ Weather and temporal pattern analysis</li>
+                            <li class="mb-2">✓ Interactive visualization dashboard</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 

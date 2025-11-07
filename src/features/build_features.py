@@ -7,7 +7,7 @@ import joblib
 
 def load_and_preprocess_data():
     """Load and preprocess the crime dataset"""
-    df = pd.read_csv('data/raw/crime_tn_dataset.csv')
+    df = pd.read_csv('data/raw/crime_tn_dataset_new.csv')
     
     # Create additional features
     df['is_weekend'] = df['day_of_week'].isin(['Saturday', 'Sunday']).astype(int)
@@ -21,7 +21,7 @@ def load_and_preprocess_data():
     le_crime = LabelEncoder()
     le_day = LabelEncoder()
     le_time = LabelEncoder()
-    le_weather = LabelEncoder()
+    # le_weather = LabelEncoder()  # Removed weather
     le_age = LabelEncoder()
     
     df['district_encoded'] = le_district.fit_transform(df['district'])
@@ -30,7 +30,7 @@ def load_and_preprocess_data():
     df['crime_type_encoded'] = le_crime.fit_transform(df['crime_type'])
     df['day_of_week_encoded'] = le_day.fit_transform(df['day_of_week'])
     df['time_of_day_encoded'] = le_time.fit_transform(df['time_of_day'])
-    df['weather_encoded'] = le_weather.fit_transform(df['weather'])
+    # df['weather_encoded'] = le_weather.fit_transform(df['weather'])  # Removed weather
     df['age_group_encoded'] = le_age.fit_transform(df['age_group'])
     
     # Save encoders
@@ -41,7 +41,7 @@ def load_and_preprocess_data():
         'crime_type': le_crime,
         'day_of_week': le_day,
         'time_of_day': le_time,
-        'weather': le_weather,
+        # 'weather': le_weather,  # Removed weather
         'age_group': le_age
     }
     joblib.dump(encoders, 'models/encoders.pkl')
@@ -51,7 +51,7 @@ def load_and_preprocess_data():
         'district_encoded', 'taluk_encoded', 'area_type_encoded', 'latitude', 'longitude',
         'month', 'day_of_week_encoded', 'time_of_day_encoded', 'population_density',
         'unemployment_rate', 'literacy_rate', 'poverty_index', 'police_station_count',
-        'cctv_density', 'past_crime_rate', 'weather_encoded', 'festival_period',
+        'cctv_density', 'past_crime_rate', 'festival_period',
         'age_group_encoded', 'gender_ratio', 'road_density', 'education_index',
         'internet_penetration', 'alcohol_availability', 'transport_access',
         'public_event', 'is_weekend', 'crime_rate_index'

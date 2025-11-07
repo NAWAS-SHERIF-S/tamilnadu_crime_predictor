@@ -3,6 +3,8 @@ import joblib
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.metrics import confusion_matrix
 import io
 import base64
 from matplotlib.backends.backend_agg import FigureCanvasAgg
@@ -15,7 +17,7 @@ encoders = joblib.load('models/encoders.pkl')
 scaler = joblib.load('models/scaler.pkl')
 
 # Load original dataset for dashboard
-df = pd.read_csv('data/raw/crime_tn_dataset.csv')
+df = pd.read_csv('data/raw/crime_tn_dataset_new.csv')
 
 # Safety recommendations for each crime type
 def get_safety_message(crime_type):
@@ -43,7 +45,8 @@ def predict_form():
     # Get taluks for each district
     district_taluks = {}
     for district in districts:
-        district_taluks[district] = sorted(df[df['district'] == district]['taluk'].unique())
+        district_taluks[district] = sorted(df[df['district'] == district]['taluk'].unique().tolist())
+    print(f"Districts: {len(districts)}, Sample district_taluks: {list(district_taluks.items())[:2]}")
     return render_template('index.html', districts=districts, district_taluks=district_taluks)
 
 @app.route('/predict', methods=['POST'])
@@ -54,8 +57,10 @@ def predict_crime():
         taluk = request.form['taluk']
         time_of_day = request.form['time_of_day']
         day_of_week = request.form['day_of_week']
-        weather = request.form['weather']
+        # weather = 'Sunny'  # Removed weather
         area_type = request.form.get('area_type', 'Urban')
+        age_group = request.form.get('age_group', '26-35')
+        public_event = int(request.form.get('public_event', 0))
         month = int(request.form.get('month', 1))
         
         # Create feature vector with default values
@@ -75,16 +80,16 @@ def predict_crime():
             'police_station_count': 5,
             'cctv_density': 10,
             'past_crime_rate': 3.0,
-            'weather_encoded': encoders['weather'].transform([weather])[0],
+            # 'weather_encoded': encoders['weather'].transform([weather])[0],  # Removed weather
             'festival_period': 1 if month in [10, 11, 12, 4] else 0,
-            'age_group_encoded': 2,  # Default middle age
+            'age_group_encoded': encoders['age_group'].transform([age_group])[0],
             'gender_ratio': 1.0,
             'road_density': 2.0,
             'education_index': 0.75,
             'internet_penetration': 60.0,
             'alcohol_availability': 0.5,
             'transport_access': 0.7,
-            'public_event': 0,
+            'public_event': public_event,
             'is_weekend': 1 if day_of_week in ['Saturday', 'Sunday'] else 0,
             'crime_rate_index': 1.5
         }
@@ -110,7 +115,8 @@ def predict_crime():
                              taluk=taluk,
                              time_of_day=time_of_day,
                              day_of_week=day_of_week,
-                             weather=weather,
+                             age_group=age_group,
+                             public_event='Yes' if public_event else 'No',
                              safety_message=safety_message)
     
     except Exception as e:
@@ -160,6 +166,41 @@ def dashboard():
     img.seek(0)
     plots['time_pattern'] = base64.b64encode(img.getvalue()).decode()
     plt.close()
+    
+    # Confusion Matrix
+    try:
+        # Load test data
+        X_test = np.load('data/processed/X_test.npy')
+        y_test = np.load('data/processed/y_test.npy')
+        
+        # Generate predictions
+        y_pred = model.predict(X_test)
+        
+        # Get crime type labels
+        crime_labels = encoders['crime_type'].classes_
+        
+        # Create confusion matrix
+        cm = confusion_matrix(y_test, y_pred)
+        
+        plt.figure(figsize=(12, 10))
+        sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', 
+                   xticklabels=crime_labels, yticklabels=crime_labels)
+        plt.title('Model Performance - Confusion Matrix')
+        plt.xlabel('Predicted')
+        plt.ylabel('Actual')
+        plt.xticks(rotation=45)
+        plt.yticks(rotation=0)
+        plt.tight_layout()
+        
+        img = io.BytesIO()
+        plt.savefig(img, format='png', dpi=150)
+        img.seek(0)
+        plots['confusion_matrix'] = base64.b64encode(img.getvalue()).decode()
+        plt.close()
+        
+    except Exception as e:
+        print(f"Error generating confusion matrix: {e}")
+        plots['confusion_matrix'] = None
     
     # Statistics
     stats = {
