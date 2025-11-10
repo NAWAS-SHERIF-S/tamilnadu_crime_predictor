@@ -1,0 +1,18 @@
+Classification Report - Crime Type Prediction
+==================================================
+                   precision    recall  f1-score   support
+
+          Assault       0.13      0.09      0.10       679
+         Burglary       0.19      0.24      0.21       933
+       Cybercrime       0.18      0.27      0.22       689
+Domestic Violence       0.14      0.13      0.13       669
+     Drug Offense       0.11      0.03      0.04       508
+            Fraud       0.16      0.08      0.10       767
+   Property Crime       0.14      0.08      0.10       661
+            Theft       0.22      0.55      0.31      1033
+Traffic Violation       0.16      0.07      0.10       584
+        Vandalism       0.10      0.02      0.03       477
+
+         accuracy                           0.18      7000
+        macro avg       0.15      0.15      0.14      7000
+     weighted avg       0.16      0.18      0.15      7000

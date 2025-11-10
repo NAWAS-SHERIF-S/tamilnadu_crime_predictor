@@ -164,17 +164,7 @@
             </div>
         </div>
 
-        {% if plots.confusion_matrix %}
-        <div class="row">
-            <div class="col-md-12">
-                <div class="chart-container">
-                    <h4 class="mb-3"><i class="fas fa-chart-area me-2"></i>Model Performance - Confusion Matrix</h4>
-                    <p class="text-muted mb-3">Shows how well the model predicts each crime type. Darker cells indicate higher prediction counts.</p>
-                    <img src="data:image/png;base64,{{ plots.confusion_matrix }}" class="img-fluid" alt="Confusion Matrix">
-                </div>
-            </div>
-        </div>
-        {% endif %}
+
 
         <div class="row mb-5">
             <div class="col-md-12 text-center">

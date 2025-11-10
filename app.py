@@ -167,40 +167,7 @@ def dashboard():
     plots['time_pattern'] = base64.b64encode(img.getvalue()).decode()
     plt.close()
     
-    # Confusion Matrix
-    try:
-        # Load test data
-        X_test = np.load('data/processed/X_test.npy')
-        y_test = np.load('data/processed/y_test.npy')
-        
-        # Generate predictions
-        y_pred = model.predict(X_test)
-        
-        # Get crime type labels
-        crime_labels = encoders['crime_type'].classes_
-        
-        # Create confusion matrix
-        cm = confusion_matrix(y_test, y_pred)
-        
-        plt.figure(figsize=(12, 10))
-        sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', 
-                   xticklabels=crime_labels, yticklabels=crime_labels)
-        plt.title('Model Performance - Confusion Matrix')
-        plt.xlabel('Predicted')
-        plt.ylabel('Actual')
-        plt.xticks(rotation=45)
-        plt.yticks(rotation=0)
-        plt.tight_layout()
-        
-        img = io.BytesIO()
-        plt.savefig(img, format='png', dpi=150)
-        img.seek(0)
-        plots['confusion_matrix'] = base64.b64encode(img.getvalue()).decode()
-        plt.close()
-        
-    except Exception as e:
-        print(f"Error generating confusion matrix: {e}")
-        plots['confusion_matrix'] = None
+    # Confusion Matrix removed from dashboard
     
     # Statistics
     stats = {

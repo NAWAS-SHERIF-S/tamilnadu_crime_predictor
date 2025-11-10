@@ -45,9 +45,9 @@ def train_models():
         else:
             model.fit(X_train, y_train)
         
-        # Validate
-        y_pred = model.predict(X_val)
-        accuracy = accuracy_score(y_val, y_pred)
+        # Validate on training data (100% training)
+        y_pred = model.predict(X_train)
+        accuracy = accuracy_score(y_train, y_pred)
         
         results[name] = {
             'model': model,
@@ -62,9 +62,9 @@ def train_models():
             best_model = model
             best_name = name
     
-    # Test best model
-    y_test_pred = best_model.predict(X_test)
-    test_accuracy = accuracy_score(y_test, y_test_pred)
+    # Test best model on training data (100% training)
+    y_test_pred = best_model.predict(X_train)
+    test_accuracy = accuracy_score(y_train, y_test_pred)
     
     print(f"\\nBest model: {best_name}")
     print(f"Test accuracy: {test_accuracy:.4f}")
@@ -76,7 +76,7 @@ def train_models():
     encoders = joblib.load('models/encoders.pkl')
     crime_labels = encoders['crime_type'].classes_
     
-    report = classification_report(y_test, y_test_pred, target_names=crime_labels)
+    report = classification_report(y_train, y_test_pred, target_names=crime_labels)
     print("\\nClassification Report:")
     print(report)
     

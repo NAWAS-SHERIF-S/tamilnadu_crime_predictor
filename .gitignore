@@ -35,9 +35,12 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Logs
+# Project specific
+models/*.pkl
+models/*.joblib
 *.log
+.env
 
-# Temporary files
-*.tmp
-*.temp
+# Large files
+data/raw/*.csv
+reports/figures/*.png
